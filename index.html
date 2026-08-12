@@ -200,8 +200,13 @@
         <div class="hospital-layout">
             <div class="map-container">
                 <div class="map-wrapper" id="map-wrapper">
-                    <img class="china-map" src="assets/data/cn.svg" alt="China map">
-                    <div class="map-markers" id="map-markers"></div>
+                    <svg class="china-network-map" id="china-network-map" viewBox="0 0 1000 738" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="china-map-title china-map-desc">
+                        <title id="china-map-title">中国合作城市网络 / China partner city network</title>
+                        <desc id="china-map-desc">合作城市节点根据 WGS84 城市中心经纬度投影到中国地图。</desc>
+                        <image class="china-map" href="assets/data/cn.svg" x="0" y="0" width="1000" height="738" preserveAspectRatio="xMidYMid meet"></image>
+                        <g class="map-links" id="map-links" aria-hidden="true"></g>
+                        <g class="map-markers" id="map-markers"></g>
+                    </svg>
                 </div>
                 <div class="map-legend">
                     <span class="legend-item"><i class="legend-dot"></i><span data-i18n="hospitals.legendCity">合作城市</span></span>
