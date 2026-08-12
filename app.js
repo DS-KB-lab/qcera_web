@@ -2,6 +2,8 @@
     "use strict";
 
     var currentLang = "zh";
+    var DEBUG_MAP = false;
+    var debugMapEnabled = DEBUG_MAP || new URLSearchParams(window.location.search).get("debugMap") === "1";
 
     var i18n = {
         en: {
@@ -206,54 +208,83 @@
         { img: "pdf_images/p2_11_894x608.jpeg", zh: "空间转录组学分析数据", en: "Spatial Transcriptomics Analysis Data", wide: true }
     ];
 
+    /*
+     * WGS84 city centres from GeoNames cities15000. Coordinates are [longitude, latitude].
+     * Source: https://download.geonames.org/export/dump/cities15000.zip
+     */
+    var cityCoordinates = {
+        beijing: { lng: 116.39723, lat: 39.90750 },
+        changchun: { lng: 125.32278, lat: 43.88000 },
+        harbin: { lng: 126.65000, lat: 45.75000 },
+        shenyang: { lng: 123.43278, lat: 41.79222 },
+        shanghai: { lng: 121.45806, lat: 31.22222 },
+        jinan: { lng: 116.99722, lat: 36.66833 },
+        qingdao: { lng: 120.38042, lat: 36.06488 },
+        zibo: { lng: 118.06333, lat: 36.79056 },
+        nanjing: { lng: 118.77778, lat: 32.06167 },
+        suzhou: { lng: 120.59538, lat: 31.30408 },
+        hangzhou: { lng: 120.16142, lat: 30.29365 },
+        wenzhou: { lng: 120.66682, lat: 27.99942 },
+        ningbo: { lng: 121.54945, lat: 29.87819 },
+        fuzhou: { lng: 119.30611, lat: 26.06139 },
+        xiamen: { lng: 118.08187, lat: 24.47979 },
+        nanchang: { lng: 115.85306, lat: 28.68396 },
+        wuhan: { lng: 114.26667, lat: 30.58333 },
+        zhengzhou: { lng: 113.64861, lat: 34.75778 },
+        hengyang: { lng: 112.61888, lat: 26.88946 },
+        guangzhou: { lng: 113.25000, lat: 23.11667 },
+        chongqing: { lng: 106.55771, lat: 29.56026 },
+        xian: { lng: 108.92861, lat: 34.25833 }
+    };
+
     var hospitalsZH = [
-        { city: "北京", region: "华北", x: 73, y: 22, institutions: ["北京天坛医院", "301医院", "北京协和医院", "北京同仁医院", "北京大学第三医院", "广安门医院", "中科院生物物理所"] },
-        { city: "长春", region: "东北", x: 79, y: 21, institutions: ["吉林大学第一医院"] },
-        { city: "哈尔滨", region: "东北", x: 82, y: 16, institutions: ["黑龙江省肿瘤医院"] },
-        { city: "沈阳", region: "东北", x: 79, y: 25, institutions: ["盛京医院", "沈阳自动化所"] },
-        { city: "上海", region: "华东", x: 81, y: 45, institutions: ["中山医院", "瑞金医院", "上海市肺科医院", "华山医院", "仁济医院"] },
-        { city: "济南", region: "华东", x: 75, y: 34, institutions: ["山东大学齐鲁医院", "山东省立医院"] },
-        { city: "青岛", region: "华东", x: 79, y: 36, institutions: ["青岛大学附属医院"] },
-        { city: "淄博", region: "华东", x: 76, y: 35, institutions: ["淄博市中心医院"] },
-        { city: "南京", region: "华东", x: 77, y: 42, institutions: ["南京鼓楼医院"] },
-        { city: "苏州", region: "华东", x: 79, y: 44, institutions: ["苏州大学附属第一医院"] },
-        { city: "杭州", region: "华东", x: 79, y: 48, institutions: ["邵逸夫医院", "杭州市第一人民医院"] },
-        { city: "温州", region: "华东", x: 82, y: 54, institutions: ["温州医科大学附属第一医院", "温州医科大学附属第二医院"] },
-        { city: "宁波", region: "华东", x: 82, y: 50, institutions: ["宁波李惠利医院"] },
-        { city: "福州", region: "华东", x: 79, y: 61, institutions: ["福建省立医院"] },
-        { city: "厦门", region: "华东", x: 80, y: 66, institutions: ["厦门大学附属第一医院"] },
-        { city: "南昌", region: "华东", x: 71, y: 56, institutions: ["南昌大学第二附属医院"] },
-        { city: "武汉", region: "华中", x: 68, y: 48, institutions: ["同济医院", "协和医院"] },
-        { city: "郑州", region: "华中", x: 64, y: 43, institutions: ["郑州大学第一附属医院", "河南省人民医院"] },
-        { city: "衡阳", region: "华中", x: 67, y: 61, institutions: ["南华大学附属第一医院"] },
-        { city: "广州", region: "华南", x: 70, y: 73, institutions: ["广东省人民医院", "南方医院", "中山大学肿瘤防治中心"] },
-        { city: "重庆", region: "西南", x: 55, y: 58, institutions: ["重庆医科大学附属第一医院"] },
-        { city: "西安", region: "西北", x: 58, y: 46, institutions: ["西安交通大学第二附属医院", "陕西省人民医院"] }
+        { id: "beijing", city: "北京", region: "华北", institutions: ["北京天坛医院", "301医院", "北京协和医院", "北京同仁医院", "北京大学第三医院", "广安门医院", "中科院生物物理所"] },
+        { id: "changchun", city: "长春", region: "东北", institutions: ["吉林大学第一医院"] },
+        { id: "harbin", city: "哈尔滨", region: "东北", institutions: ["黑龙江省肿瘤医院"] },
+        { id: "shenyang", city: "沈阳", region: "东北", institutions: ["盛京医院", "沈阳自动化所"] },
+        { id: "shanghai", city: "上海", region: "华东", institutions: ["中山医院", "瑞金医院", "上海市肺科医院", "华山医院", "仁济医院"] },
+        { id: "jinan", city: "济南", region: "华东", institutions: ["山东大学齐鲁医院", "山东省立医院"] },
+        { id: "qingdao", city: "青岛", region: "华东", institutions: ["青岛大学附属医院"] },
+        { id: "zibo", city: "淄博", region: "华东", institutions: ["淄博市中心医院"] },
+        { id: "nanjing", city: "南京", region: "华东", institutions: ["南京鼓楼医院"] },
+        { id: "suzhou", city: "苏州", region: "华东", institutions: ["苏州大学附属第一医院"] },
+        { id: "hangzhou", city: "杭州", region: "华东", institutions: ["邵逸夫医院", "杭州市第一人民医院"] },
+        { id: "wenzhou", city: "温州", region: "华东", institutions: ["温州医科大学附属第一医院", "温州医科大学附属第二医院"] },
+        { id: "ningbo", city: "宁波", region: "华东", institutions: ["宁波李惠利医院"] },
+        { id: "fuzhou", city: "福州", region: "华东", institutions: ["福建省立医院"] },
+        { id: "xiamen", city: "厦门", region: "华东", institutions: ["厦门大学附属第一医院"] },
+        { id: "nanchang", city: "南昌", region: "华东", institutions: ["南昌大学第二附属医院"] },
+        { id: "wuhan", city: "武汉", region: "华中", institutions: ["同济医院", "协和医院"] },
+        { id: "zhengzhou", city: "郑州", region: "华中", institutions: ["郑州大学第一附属医院", "河南省人民医院"] },
+        { id: "hengyang", city: "衡阳", region: "华中", institutions: ["南华大学附属第一医院"] },
+        { id: "guangzhou", city: "广州", region: "华南", institutions: ["广东省人民医院", "南方医院", "中山大学肿瘤防治中心"] },
+        { id: "chongqing", city: "重庆", region: "西南", institutions: ["重庆医科大学附属第一医院"] },
+        { id: "xian", city: "西安", region: "西北", institutions: ["西安交通大学第二附属医院", "陕西省人民医院"] }
     ];
 
     var hospitalsEN = [
-        { city: "Beijing", region: "North China", x: 73, y: 22, institutions: ["Beijing Tiantan Hospital", "PLA General Hospital (301)", "Peking Union Medical College Hospital", "Beijing Tongren Hospital", "Peking University Third Hospital", "Guang'anmen Hospital", "Institute of Biophysics, CAS"] },
-        { city: "Changchun", region: "Northeast", x: 79, y: 21, institutions: ["The First Hospital of Jilin University"] },
-        { city: "Harbin", region: "Northeast", x: 82, y: 16, institutions: ["Heilongjiang Cancer Hospital"] },
-        { city: "Shenyang", region: "Northeast", x: 79, y: 25, institutions: ["Shengjing Hospital", "Shenyang Institute of Automation, CAS"] },
-        { city: "Shanghai", region: "East China", x: 81, y: 45, institutions: ["Zhongshan Hospital", "Ruijin Hospital", "Shanghai Pulmonary Hospital", "Huashan Hospital", "Renji Hospital"] },
-        { city: "Jinan", region: "East China", x: 75, y: 34, institutions: ["Qilu Hospital of Shandong University", "Shandong Provincial Hospital"] },
-        { city: "Qingdao", region: "East China", x: 79, y: 36, institutions: ["Qingdao University Affiliated Hospital"] },
-        { city: "Zibo", region: "East China", x: 76, y: 35, institutions: ["Zibo Central Hospital"] },
-        { city: "Nanjing", region: "East China", x: 77, y: 42, institutions: ["Nanjing Drum Tower Hospital"] },
-        { city: "Suzhou", region: "East China", x: 79, y: 44, institutions: ["The First Affiliated Hospital of Soochow University"] },
-        { city: "Hangzhou", region: "East China", x: 79, y: 48, institutions: ["Sir Run Run Shaw Hospital", "Hangzhou First People's Hospital"] },
-        { city: "Wenzhou", region: "East China", x: 82, y: 54, institutions: ["First Affiliated Hospital of Wenzhou Medical University", "Second Affiliated Hospital of Wenzhou Medical University"] },
-        { city: "Ningbo", region: "East China", x: 82, y: 50, institutions: ["Li Huili Hospital, Ningbo"] },
-        { city: "Fuzhou", region: "East China", x: 79, y: 61, institutions: ["Fujian Provincial Hospital"] },
-        { city: "Xiamen", region: "East China", x: 80, y: 66, institutions: ["First Affiliated Hospital of Xiamen University"] },
-        { city: "Nanchang", region: "East China", x: 71, y: 56, institutions: ["Second Affiliated Hospital of Nanchang University"] },
-        { city: "Wuhan", region: "Central China", x: 68, y: 48, institutions: ["Tongji Hospital", "Union Hospital"] },
-        { city: "Zhengzhou", region: "Central China", x: 64, y: 43, institutions: ["First Affiliated Hospital of Zhengzhou University", "Henan Provincial People's Hospital"] },
-        { city: "Hengyang", region: "Central China", x: 67, y: 61, institutions: ["First Affiliated Hospital of the University of South China"] },
-        { city: "Guangzhou", region: "South China", x: 70, y: 73, institutions: ["Guangdong Provincial People's Hospital", "Nanfang Hospital", "Sun Yat-sen University Cancer Center"] },
-        { city: "Chongqing", region: "Southwest", x: 55, y: 58, institutions: ["First Affiliated Hospital of Chongqing Medical University"] },
-        { city: "Xi'an", region: "Northwest", x: 58, y: 46, institutions: ["Second Affiliated Hospital of Xi'an Jiaotong University", "Shaanxi Provincial People's Hospital"] }
+        { id: "beijing", city: "Beijing", region: "North China", institutions: ["Beijing Tiantan Hospital", "PLA General Hospital (301)", "Peking Union Medical College Hospital", "Beijing Tongren Hospital", "Peking University Third Hospital", "Guang'anmen Hospital", "Institute of Biophysics, CAS"] },
+        { id: "changchun", city: "Changchun", region: "Northeast", institutions: ["The First Hospital of Jilin University"] },
+        { id: "harbin", city: "Harbin", region: "Northeast", institutions: ["Heilongjiang Cancer Hospital"] },
+        { id: "shenyang", city: "Shenyang", region: "Northeast", institutions: ["Shengjing Hospital", "Shenyang Institute of Automation, CAS"] },
+        { id: "shanghai", city: "Shanghai", region: "East China", institutions: ["Zhongshan Hospital", "Ruijin Hospital", "Shanghai Pulmonary Hospital", "Huashan Hospital", "Renji Hospital"] },
+        { id: "jinan", city: "Jinan", region: "East China", institutions: ["Qilu Hospital of Shandong University", "Shandong Provincial Hospital"] },
+        { id: "qingdao", city: "Qingdao", region: "East China", institutions: ["Qingdao University Affiliated Hospital"] },
+        { id: "zibo", city: "Zibo", region: "East China", institutions: ["Zibo Central Hospital"] },
+        { id: "nanjing", city: "Nanjing", region: "East China", institutions: ["Nanjing Drum Tower Hospital"] },
+        { id: "suzhou", city: "Suzhou", region: "East China", institutions: ["The First Affiliated Hospital of Soochow University"] },
+        { id: "hangzhou", city: "Hangzhou", region: "East China", institutions: ["Sir Run Run Shaw Hospital", "Hangzhou First People's Hospital"] },
+        { id: "wenzhou", city: "Wenzhou", region: "East China", institutions: ["First Affiliated Hospital of Wenzhou Medical University", "Second Affiliated Hospital of Wenzhou Medical University"] },
+        { id: "ningbo", city: "Ningbo", region: "East China", institutions: ["Li Huili Hospital, Ningbo"] },
+        { id: "fuzhou", city: "Fuzhou", region: "East China", institutions: ["Fujian Provincial Hospital"] },
+        { id: "xiamen", city: "Xiamen", region: "East China", institutions: ["First Affiliated Hospital of Xiamen University"] },
+        { id: "nanchang", city: "Nanchang", region: "East China", institutions: ["Second Affiliated Hospital of Nanchang University"] },
+        { id: "wuhan", city: "Wuhan", region: "Central China", institutions: ["Tongji Hospital", "Union Hospital"] },
+        { id: "zhengzhou", city: "Zhengzhou", region: "Central China", institutions: ["First Affiliated Hospital of Zhengzhou University", "Henan Provincial People's Hospital"] },
+        { id: "hengyang", city: "Hengyang", region: "Central China", institutions: ["First Affiliated Hospital of the University of South China"] },
+        { id: "guangzhou", city: "Guangzhou", region: "South China", institutions: ["Guangdong Provincial People's Hospital", "Nanfang Hospital", "Sun Yat-sen University Cancer Center"] },
+        { id: "chongqing", city: "Chongqing", region: "Southwest", institutions: ["First Affiliated Hospital of Chongqing Medical University"] },
+        { id: "xian", city: "Xi'an", region: "Northwest", institutions: ["Second Affiliated Hospital of Xi'an Jiaotong University", "Shaanxi Provincial People's Hospital"] }
     ];
 
     var datasetsZH = [
@@ -556,19 +587,137 @@
     /* ================================================ */
     /*  HOSPITAL MAP                                    */
     /* ================================================ */
+    var MAP_SVG_NS = "http://www.w3.org/2000/svg";
+    var MAP_VIEWBOX = { width: 1000, height: 738 };
+
+    /*
+     * cn.svg contains three latitude/longitude calibration anchors. A least-squares
+     * fit of those anchors yields this spherical Mercator projection in SVG units.
+     * Keeping projection and markers in the same viewBox makes resizing lossless.
+     */
+    var MAP_PROJECTION = {
+        xScale: 851.7922837322691,
+        xOffset: -1048.0940462637232,
+        yScale: -851.8097364908117,
+        yOffset: 979.3537761260916
+    };
+
+    var MAP_CALIBRATION_POINTS = [
+        { lng: 76.61527863994039, lat: 19.92982175903537, x: 90.9, y: 676.9 },
+        { lng: 107.19106542370625, lat: 34.077839393563956, x: 545.5, y: 439.9 },
+        { lng: 131.65169485071894, lat: 51.762861436724705, x: 909.1, y: 76.9 }
+    ];
+
+    function projectCityCoordinate(lng, lat) {
+        if (!Number.isFinite(lng) || !Number.isFinite(lat)) {
+            throw new TypeError("Map coordinates must be finite longitude/latitude values.");
+        }
+        if (lng < -180 || lng > 180 || lat <= -85 || lat >= 85) {
+            throw new RangeError("Map coordinates fall outside the supported Mercator range.");
+        }
+
+        var radians = Math.PI / 180;
+        var mercatorY = Math.log(Math.tan(Math.PI / 4 + lat * radians / 2));
+        return {
+            x: MAP_PROJECTION.xScale * lng * radians + MAP_PROJECTION.xOffset,
+            y: MAP_PROJECTION.yScale * mercatorY + MAP_PROJECTION.yOffset
+        };
+    }
+
+    function validateMapProjection() {
+        for (var i = 0; i < MAP_CALIBRATION_POINTS.length; i++) {
+            var anchor = MAP_CALIBRATION_POINTS[i];
+            var projected = projectCityCoordinate(anchor.lng, anchor.lat);
+            if (Math.abs(projected.x - anchor.x) > 0.05 || Math.abs(projected.y - anchor.y) > 0.05) {
+                console.error("China map projection calibration failed at anchor", anchor);
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function createMapSvgElement(tagName, className, attributes) {
+        var element = document.createElementNS(MAP_SVG_NS, tagName);
+        if (className) element.setAttribute("class", className);
+        if (attributes) {
+            var names = Object.keys(attributes);
+            for (var i = 0; i < names.length; i++) {
+                element.setAttribute(names[i], attributes[names[i]]);
+            }
+        }
+        return element;
+    }
+
     function renderHospitalMap() {
         var container = document.getElementById("map-markers");
         if (!container) return;
         var data = currentLang === "en" ? hospitalsEN : hospitalsZH;
-        var html = "";
+
+        container.textContent = "";
+        container.setAttribute("data-city-count", String(data.length));
+        if (!validateMapProjection()) return;
+
+        var mapDescription = document.getElementById("china-map-desc");
+        if (mapDescription) {
+            mapDescription.textContent = currentLang === "en"
+                ? "Partner city nodes projected from WGS84 city-centre coordinates onto the China map."
+                : "合作城市节点根据 WGS84 城市中心经纬度投影到中国地图。";
+        }
+
         for (var i = 0; i < data.length; i++) {
             var h = data[i];
-            html += '<div class="map-marker" style="left:' + h.x + '%;top:' + h.y + '%">';
-            html += '<div class="map-marker-dot"></div>';
-            html += '<div class="map-marker-label">' + h.city + ' (' + h.institutions.length + ')</div>';
-            html += '</div>';
+            var coordinate = cityCoordinates[h.id];
+            if (!coordinate) {
+                console.error("Missing city coordinate for", h.id);
+                continue;
+            }
+
+            var point = projectCityCoordinate(coordinate.lng, coordinate.lat);
+            if (point.x < 0 || point.x > MAP_VIEWBOX.width || point.y < 0 || point.y > MAP_VIEWBOX.height) {
+                console.error("Projected city falls outside the China map viewBox", h.id, point);
+                continue;
+            }
+            var institutionLabel = currentLang === "en"
+                ? h.institutions.length + (h.institutions.length === 1 ? " institution" : " institutions")
+                : h.institutions.length + " 家合作机构";
+            var markerLabel = h.city + " · " + institutionLabel;
+
+            var marker = createMapSvgElement("g", "map-marker", {
+                transform: "translate(" + point.x.toFixed(3) + " " + point.y.toFixed(3) + ")",
+                tabindex: "0",
+                role: "img",
+                "aria-label": markerLabel,
+                "data-city-id": h.id,
+                "data-lng": coordinate.lng,
+                "data-lat": coordinate.lat,
+                "data-svg-x": point.x.toFixed(3),
+                "data-svg-y": point.y.toFixed(3)
+            });
+
+            var title = createMapSvgElement("title");
+            title.textContent = markerLabel;
+            marker.appendChild(title);
+            marker.appendChild(createMapSvgElement("circle", "map-marker-hit", { r: "22" }));
+            marker.appendChild(createMapSvgElement("circle", "map-marker-pulse", { r: "10" }));
+            marker.appendChild(createMapSvgElement("circle", "map-marker-dot", { r: "10" }));
+
+            var label = createMapSvgElement("g", "map-marker-label");
+            label.appendChild(createMapSvgElement("rect", "map-marker-label-bg", {
+                x: "-88", y: "-51", width: "176", height: "32", rx: "16"
+            }));
+            var labelText = createMapSvgElement("text", "map-marker-label-text", { x: "0", y: "-35" });
+            labelText.textContent = markerLabel;
+            label.appendChild(labelText);
+            marker.appendChild(label);
+
+            if (debugMapEnabled) {
+                var debugLabel = createMapSvgElement("text", "map-debug-label", { x: "16", y: "5" });
+                debugLabel.textContent = h.city;
+                marker.appendChild(debugLabel);
+            }
+
+            container.appendChild(marker);
         }
-        container.innerHTML = html;
     }
 
     /* ================================================ */
