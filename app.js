@@ -134,13 +134,6 @@
                 subtitle: "Biomaterials Platform",
                 desc: "专注智能化材料设计、药物靶向递送与控制释放系统构建，覆盖纳米颗粒到水凝胶等多种递药体系。",
                 tags: ["纳米粒酶", "水凝胶", "细菌递送", "脂质纳米颗粒", "微流控合成", "靶向递药", "控制释放", "生物效应评价"]
-            },
-            {
-                icon: "📝",
-                name: "文章服务",
-                subtitle: "Manuscript Services",
-                desc: "提供从课题设计到文章发表的全链条支持，包括基金写作、投稿指导、润色与深度修改服务。",
-                tags: ["课题设计", "基金写作", "SCI投稿", "选刊推荐", "英文润色", "深度修改", "加速审稿", "数据作图"]
             }
         ],
         en: [
@@ -178,13 +171,6 @@
                 subtitle: "Biomaterials Platform",
                 desc: "Smart material design, targeted drug delivery, and controlled release systems spanning nanoparticles to hydrogels.",
                 tags: ["Nanozymes", "Hydrogels", "Bacterial Delivery", "Lipid Nanoparticles", "Microfluidic Synthesis", "Targeted Delivery", "Controlled Release", "Bio-efficacy Evaluation"]
-            },
-            {
-                icon: "📝",
-                name: "Manuscript Services",
-                subtitle: "Manuscript Services",
-                desc: "Full support from topic design to publication, including grant writing, journal selection, editing, and review acceleration.",
-                tags: ["Topic Design", "Grant Writing", "SCI Submission", "Journal Selection", "English Editing", "Deep Revision", "Review Acceleration", "Data Visualization"]
             }
         ]
     };

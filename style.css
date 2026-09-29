@@ -858,17 +858,9 @@ html[lang="en"] .hero-title {
     grid-column: span 4;
 }
 
-.platform-card:nth-child(6) {
-    grid-column: span 12;
-}
-
 .p-img-wrap {
     height: 230px;
     overflow: hidden;
-}
-
-.platform-card:nth-child(6) .p-img-wrap {
-    height: 280px;
 }
 
 .p-img-wrap img {
@@ -2125,8 +2117,7 @@ html[lang="en"] .hero-title {
         padding: 0;
     }
 
-    .p-img-wrap,
-    .platform-card:nth-child(6) .p-img-wrap {
+    .p-img-wrap {
         width: 100%;
         height: auto;
         min-height: 210px;
