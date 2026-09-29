@@ -14,7 +14,6 @@
             "nav.equipment": "Equipment",
             "nav.datasets": "Datasets",
             "nav.hospitals": "Hospitals",
-            "nav.pubs": "Publications",
             "hero.eyebrow": "Medical Biotech · Integrated Research Services",
             "hero.title": "Technology-Driven Medical Research<br>Innovation Leading Translational Impact",
             "hero.desc": "Composed of a master's and doctoral technical team, partnering with renowned universities, leveraging scientific and technological innovation to translate research outcomes. We are committed to meeting diverse needs in the research field through our integrated one-stop service model.",
@@ -62,11 +61,6 @@
             "hospitals.desc": "Spanning 7 major regions and 22 cities across China, with deep partnerships with over 41 renowned hospitals and research institutions.",
             "hospitals.legendCity": "Partner Cities",
             "hospitals.legendLink": "Collaboration Links",
-            "pubs.eyebrow": "Research Output",
-            "pubs.title": "Published Research Journals",
-            "pubs.desc": "Co-producing high-impact academic work with partner hospitals, published in top journals including Nature Medicine, Lancet Oncology, and more. Over 800 articles published.",
-            "pubs.rank": "#",
-            "pubs.journal": "Journal",
             "equip.eyebrow": "Laboratory Equipment",
             "equip.title": "Core Instrument Showcase",
             "equip.desc": "Equipped with world-class laboratory instruments spanning flow cytometry, confocal imaging, super-resolution microscopy, in vivo imaging, and nanoparticle synthesis.",
@@ -303,60 +297,6 @@
         { id: "ophthalmology", name: "Ophthalmology Multimodal Dataset", tagline: "1,221 demo samples; full program 10,000+ cases", summary: "Covering CRVO-ME, DME, Fuchs syndrome, ocular trauma, uveitis, high myopia, and macular hole. Full program exceeds 10,000 real-world cases.", stats: [{ v: "1,221", l: "Demo Samples" }, { v: "10,000+", l: "Full Scale" }, { v: "500K", l: "Clinical Validation" }, { v: "OCT/CT/MRI", l: "Core Modalities" }] }
     ];
 
-    var journals = [
-        { rank: 1, name: "Nature Medicine", if_: 50.0 },
-        { rank: 2, name: "Nature Materials", if_: 38.5 },
-        { rank: 3, name: "Lancet Oncology", if_: 35.9 },
-        { rank: 4, name: "Nature Nanotechnology", if_: 35.1 },
-        { rank: 5, name: "Molecular Cancer", if_: 33.9 },
-        { rank: 6, name: "Nature Cancer", if_: 28.5 },
-        { rank: 7, name: "Advanced Materials", if_: 26.8 },
-        { rank: 8, name: "Gastroenterology", if_: 25.9 },
-        { rank: 9, name: "Lancet Digital Health", if_: 24.1 },
-        { rank: 10, name: "Military Medical Research", if_: 22.9 },
-        { rank: 11, name: "Drug Resistance Updates", if_: 21.7 },
-        { rank: 12, name: "Nature Neuroscience", if_: 20.0 },
-        { rank: 13, name: "Cyborg and Bionic Systems", if_: 18.1 },
-        { rank: 14, name: "Cancer Research", if_: 16.6 },
-        { rank: 15, name: "ACS Nano", if_: 16.1 },
-        { rank: 16, name: "Nature Communications", if_: 15.7 },
-        { rank: 17, name: "Information Fusion", if_: 15.5 },
-        { rank: 18, name: "NPJ Flexible Electronics", if_: 15.5 },
-        { rank: 19, name: "NPJ Digital Medicine", if_: 15.1 },
-        { rank: 20, name: "Advanced Science", if_: 14.1 },
-        { rank: 21, name: "IEEE Trans. Image Processing", if_: 13.7 },
-        { rank: 22, name: "Theranostics", if_: 13.3 },
-        { rank: 23, name: "Chemical Engineering Journal", if_: 13.2 },
-        { rank: 24, name: "Journal of Advanced Research", if_: 13.0 },
-        { rank: 25, name: "Lancet Regional Health-Europe", if_: 13.0 },
-        { rank: 26, name: "Exp. & Molecular Medicine", if_: 12.9 },
-        { rank: 27, name: "J. Exp. & Clin. Cancer Research", if_: 12.8 },
-        { rank: 28, name: "Science Advances", if_: 12.5 },
-        { rank: 29, name: "Clin. Gastroenterology & Hepatology", if_: 12.2 },
-        { rank: 30, name: "Medical Image Analysis", if_: 11.8 },
-        { rank: 31, name: "Gut Microbes", if_: 11.0 },
-        { rank: 32, name: "Rare Metals", if_: 11.0 },
-        { rank: 33, name: "Research", if_: 10.9 },
-        { rank: 34, name: "IEEE Trans. Consumer Electronics", if_: 10.9 },
-        { rank: 35, name: "eBioMedicine", if_: 10.8 },
-        { rank: 36, name: "MedComm", if_: 10.7 },
-        { rank: 37, name: "Cell Reports Medicine", if_: 10.6 },
-        { rank: 38, name: "Cancer Letters", if_: 10.1 },
-        { rank: 39, name: "Int. J. Biological Sciences", if_: 10.0 },
-        { rank: 40, name: "Genes & Diseases", if_: 9.4 },
-        { rank: 41, name: "Nano Research", if_: 9.0 },
-        { rank: 42, name: "Int. J. Biological Macromolecules", if_: 8.5 },
-        { rank: 43, name: "IEEE Trans. Intelligent Transportation", if_: 8.4 },
-        { rank: 44, name: "BMC Medicine", if_: 8.3 },
-        { rank: 45, name: "NPJ Parkinson's Disease", if_: 8.2 },
-        { rank: 46, name: "NPJ Precision Oncology", if_: 8.0 },
-        { rank: 47, name: "Neoplasia", if_: 7.7 },
-        { rank: 48, name: "Pattern Recognition", if_: 7.6 },
-        { rank: 49, name: "Expert Systems with Applications", if_: 7.5 },
-        { rank: 50, name: "J. Biomedical & Health Informatics", if_: 6.8 },
-        { rank: 51, name: "Cancer", if_: 5.1 }
-    ];
-
     var universities = [
         { logo: "stanford.png", zh: "斯坦福大学", en: "Stanford University" },
         { logo: "berkeley.png", zh: "加州大学伯克利分校", en: "UC Berkeley" },
@@ -388,7 +328,6 @@
         renderDatasets();
         renderHospitalMap();
         renderHospitalSidebar();
-        renderPublications();
         renderPartnerMetrics();
         renderMarquee();
         setupLangToggle();
@@ -472,7 +411,6 @@
         renderDatasets();
         renderHospitalMap();
         renderHospitalSidebar();
-        renderPublications();
         renderPartnerMetrics();
         renderMarquee();
 
@@ -760,61 +698,6 @@
             html += '</div>';
         }
         container.innerHTML = html;
-    }
-
-    /* ================================================ */
-    /*  PUBLICATIONS                                    */
-    /* ================================================ */
-    function renderPublications() {
-        var highlights = document.getElementById("pub-highlights");
-        var tbody = document.getElementById("pub-tbody");
-
-        if (highlights) {
-            var above20 = 0;
-            var above10 = 0;
-            for (var s = 0; s < journals.length; s++) {
-                if (journals[s].if_ >= 20) above20++;
-                if (journals[s].if_ >= 10) above10++;
-            }
-
-            var hlData = currentLang === "en"
-                ? [
-                    { v: journals.length, l: "Total Journals" },
-                    { v: "800+", l: "Published Articles" },
-                    { v: above20, l: "IF ≥ 20" },
-                    { v: above10, l: "IF ≥ 10" }
-                ]
-                : [
-                    { v: journals.length, l: "发表期刊总数" },
-                    { v: "800+", l: "发布文章" },
-                    { v: above20, l: "IF ≥ 20 期刊" },
-                    { v: above10, l: "IF ≥ 10 期刊" }
-                ];
-
-            var hHtml = "";
-            for (var h = 0; h < hlData.length; h++) {
-                hHtml += '<div class="pub-highlight-card reveal">';
-                hHtml += '<div class="ph-meta">' + String(h + 1).padStart(2, "0") + '</div>';
-                hHtml += '<div class="ph-value">' + hlData[h].v + '</div>';
-                hHtml += '<div class="ph-label">' + hlData[h].l + '</div>';
-                hHtml += '</div>';
-            }
-            highlights.innerHTML = hHtml;
-        }
-
-        if (tbody) {
-            var tHtml = "";
-            for (var t = 0; t < journals.length; t++) {
-                var j = journals[t];
-                var tier = j.if_ >= 20 ? "if-tier-1" : (j.if_ >= 10 ? "if-tier-2" : "if-tier-3");
-                tHtml += '<tr>';
-                tHtml += '<td>' + j.rank + '</td>';
-                tHtml += '<td><span class="journal-name">' + j.name + '</span></td>';
-                tHtml += '<td><span class="if-badge ' + tier + '">' + j.if_.toFixed(1) + '</span></td>';
-                tHtml += '</tr>';
-            }
-            tbody.innerHTML = tHtml;
-        }
     }
 
     /* ================================================ */
