@@ -9,7 +9,7 @@
 - 国内地图展示 31 个城市（含香港）；吉隆坡另设海外合作卡片；大连理工大学附属医院按用户指定归入“东北”，仅按区域展示，不计作新增城市。
 - 新增 46 家合作单位及本地图标，共 63 家。滚动区之外增加“查看全部”列表。
 - 中英文同步，首页数量与地图简介由数据计算。点击地图城市或使用 Enter / 空格，可定位相应机构列表。
-- 页脚展示“合作请联系：cq.l@outlook.com”，点击邮箱可唤起邮件客户端；英文版同步显示合作联系提示。
+- 页脚展示“合作请联系：kangkang@qceratech.cn”，点击邮箱可唤起邮件客户端；英文版同步显示合作联系提示。
 
 完整医院逐项对应表见 [hospital-name-mapping.json](hospital-name-mapping.json)。新增图标的原始下载地址见 [university_logos/sources.json](university_logos/sources.json)。新增图标以机构官网为主；香港城市大学、新加坡国立大学使用 Wikimedia 的机构标识。
 
