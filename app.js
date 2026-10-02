@@ -76,6 +76,7 @@
             "partners.tag4": "AI + Data",
             "footer.name": "Beijing Qichuang Era Technology Co., Ltd",
             "footer.nameEn": "",
+            "footer.contact": "For collaboration:",
             "footer.copy": "&copy; 2026 Beijing Qichuang Era Technology Co., Ltd. All rights reserved."
         },
         zh: {}
@@ -260,7 +261,7 @@
         {"id":"luoyang","city":"洛阳","region":"华中","institutions":["河南科技大学附属医院"]},
         {"id":"xinxiang","city":"新乡","region":"华中","institutions":["新乡医学院附属医院"]},
         {"id":"qujing","city":"曲靖","region":"西南","institutions":["云南曲靖人民医院"]},
-        {"id":"unlocated","city":"其他合作机构","region":"其他合作机构","unlocated":true,"institutions":["大连理工大学附属医院"]}
+        {"id":"unlocated","city":"东北","region":"东北","unlocated":true,"institutions":["大连理工大学附属医院"]}
     ];
 
     var hospitalsEN = [
@@ -296,7 +297,7 @@
         {"id":"luoyang","city":"Luoyang","region":"Central China","institutions":["Affiliated Hospital of Henan University of Science and Technology"]},
         {"id":"xinxiang","city":"Xinxiang","region":"Central China","institutions":["Affiliated Hospital of Xinxiang Medical University"]},
         {"id":"qujing","city":"Qujing","region":"Southwest","institutions":["Qujing People’s Hospital, Yunnan"]},
-        {"id":"unlocated","city":"Other institutions","region":"Other institutions","unlocated":true,"institutions":["Affiliated Hospital of Dalian University of Technology"]}
+        {"id":"unlocated","city":"Northeast","region":"Northeast","unlocated":true,"institutions":["Affiliated Hospital of Dalian University of Technology"]}
     ];
 
     var datasetsZH = [
@@ -668,7 +669,7 @@
             }).join('');
             overseasContainer.innerHTML += unlocated.map(function (city) {
                 return '<button class="international-city unlocated-city" type="button" data-city-id="' + city.id + '"><span class="international-city-label">' +
-                    (currentLang === "en" ? 'Other partner institutions' : '其他合作机构') + '</span><strong>' + city.institutions.join(' / ') + '</strong></button>';
+                    city.region + '</span><strong>' + city.institutions.join(' / ') + '</strong></button>';
             }).join('');
             overseasContainer.querySelectorAll("button").forEach(function (button) {
                 button.addEventListener("click", function () { focusHospitalCity(button.dataset.cityId); });
@@ -788,11 +789,12 @@
             html += '<div class="hospital-region-card">';
             html += '<div class="hospital-region-head">';
             html += '<h4>' + rname + ' <span class="region-badge">' + total + (currentLang === "en" ? " inst." : " 家") + '</span></h4>';
-            if (!cities[0].unlocated) html += '<p>' + cities.length + (currentLang === "en" ? " linked cities" : " 个协作城市") + '</p>';
+            var locatedCities = cities.filter(function (city) { return !city.unlocated; }).length;
+            if (locatedCities) html += '<p>' + locatedCities + (currentLang === "en" ? " linked cities" : " 个协作城市") + '</p>';
             html += '</div>';
             for (var ci = 0; ci < cities.length; ci++) {
                 html += '<div class="hospital-city" id="hospital-city-' + cities[ci].id + '" tabindex="-1">';
-                html += '<div class="hospital-city-head"><span class="hospital-city-name">' + cities[ci].city + '</span><span class="hospital-city-count">' + cities[ci].institutions.length + '</span></div>';
+                if (!cities[ci].unlocated) html += '<div class="hospital-city-head"><span class="hospital-city-name">' + cities[ci].city + '</span><span class="hospital-city-count">' + cities[ci].institutions.length + '</span></div>';
                 html += '<ul>';
                 for (var ii = 0; ii < cities[ci].institutions.length; ii++) {
                     html += '<li>' + cities[ci].institutions[ii] + '</li>';
