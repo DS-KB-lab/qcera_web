@@ -1654,8 +1654,9 @@ html[lang="en"] .hero-title {
 }
 
 .marquee-track {
+    --marquee-gap: 24px;
     display: flex;
-    gap: 24px;
+    gap: var(--marquee-gap);
     width: max-content;
     animation: marqueeScroll 42s linear infinite;
 }
@@ -1669,7 +1670,7 @@ html[lang="en"] .hero-title {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(calc(-50% - var(--marquee-gap) / 2));
     }
 }
 
@@ -1710,7 +1711,26 @@ html[lang="en"] .hero-title {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    filter: grayscale(0.18);
+}
+
+.international-hospitals { margin-top: 20px; }
+.unlocated-city { margin-top: 12px; }
+.marquee-logo-wrap.logo-on-dark { background: #243a35; }
+.international-city {
+    display: grid; gap: 8px; width: 100%; padding: 18px 20px;
+    color: inherit; text-align: left; font: inherit; cursor: pointer;
+    background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.18); border-radius: 20px;
+}
+.international-city-label { font-size: 12px; opacity: .75; }
+.international-city:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.hospital-city.is-selected { background: rgba(175,125,69,.12); border-radius: 12px; outline: 2px solid #af7d45; outline-offset: 4px; }
+.partner-directory { margin-top: 32px; }
+.partner-directory summary { cursor: pointer; padding: 18px 22px; border: 1px solid rgba(23,36,29,.15); border-radius: 18px; color: var(--forest-soft); }
+.partner-directory-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 20px; padding-top: 24px; }
+.partner-directory-grid .marquee-item { width: 100%; min-width: 0; }
+@media (max-width: 480px) {
+    .partner-directory-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+    .partner-directory-grid .marquee-item { padding: 14px 8px; border-radius: 20px; }
 }
 
 .marquee-item span {
@@ -2283,7 +2303,7 @@ html[lang="en"] .hero-title {
     }
 
     .marquee-track {
-        gap: 14px;
+        --marquee-gap: 14px;
     }
 
     .marquee-item {

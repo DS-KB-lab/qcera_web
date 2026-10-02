@@ -193,13 +193,13 @@
     <div class="container">
         <div class="section-header">
             <span class="section-eyebrow" data-i18n="hospitals.eyebrow">Hospital Network</span>
-            <h2 class="section-title" data-i18n="hospitals.title">全国合作医院网络</h2>
-            <p class="section-desc" data-i18n="hospitals.desc">覆盖全国7大区域、22个城市，与41家以上知名医院及科研机构建立深度合作。</p>
+            <h2 class="section-title" data-i18n="hospitals.title">合作医院网络</h2>
+            <p class="section-desc" data-i18n="hospitals.desc">连接国内及海外合作医院与科研机构。</p>
         </div>
         <div class="hospital-layout">
             <div class="map-container">
                 <div class="map-wrapper" id="map-wrapper">
-                    <svg class="china-network-map" id="china-network-map" viewBox="0 0 1000 738" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="china-map-title china-map-desc">
+                    <svg class="china-network-map" id="china-network-map" viewBox="0 0 1000 738" preserveAspectRatio="xMidYMid meet" role="group" aria-labelledby="china-map-title china-map-desc">
                         <title id="china-map-title">中国合作城市网络 / China partner city network</title>
                         <desc id="china-map-desc">合作城市节点根据 WGS84 城市中心经纬度投影到中国地图。</desc>
                         <image class="china-map" href="assets/data/cn.svg" x="0" y="0" width="1000" height="738" preserveAspectRatio="xMidYMid meet"></image>
@@ -211,6 +211,7 @@
                     <span class="legend-item"><i class="legend-dot"></i><span data-i18n="hospitals.legendCity">合作城市</span></span>
                     <span class="legend-item"><i class="legend-line"></i><span data-i18n="hospitals.legendLink">协作链路</span></span>
                 </div>
+                <div id="international-hospitals" class="international-hospitals"></div>
             </div>
             <div class="hospital-sidebar" id="hospital-sidebar"></div>
         </div>
@@ -224,8 +225,8 @@
     <div class="container">
         <div class="section-header">
             <span class="section-eyebrow" data-i18n="partners.eyebrow">Research Partners</span>
-            <h2 class="section-title" data-i18n="partners.title">科研团队合作院校</h2>
-            <p class="section-desc" data-i18n="partners.desc">团队成员来自全球顶尖高校与科研机构，横跨美国、欧洲及亚洲。</p>
+            <h2 class="section-title" data-i18n="partners.title">科研团队合作单位</h2>
+            <p class="section-desc" data-i18n="partners.desc">团队成员来自全球高校与科研机构，横跨北美、欧洲及亚洲。</p>
         </div>
         <div class="partners-overview">
             <article class="partners-story reveal">
@@ -244,6 +245,12 @@
     </div>
     <div class="marquee" id="marquee">
         <div class="marquee-track" id="marquee-track"></div>
+    </div>
+    <div class="container">
+        <details class="partner-directory">
+            <summary id="partner-directory-summary">查看全部合作单位</summary>
+            <div class="partner-directory-grid" id="partner-directory-grid"></div>
+        </details>
     </div>
 </section>
 

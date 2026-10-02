@@ -57,8 +57,8 @@
             "datasets.cta": "<span>Visit Dataset Detail Platform →</span>",
             "datasets.ctaHint": "Jump to the full Medical Multimodal Dataset & Clinical Collaboration platform for detailed data, imaging previews, and collaboration networks.",
             "hospitals.eyebrow": "Hospital Network",
-            "hospitals.title": "National Hospital Collaboration Network",
-            "hospitals.desc": "Spanning 7 major regions and 22 cities across China, with deep partnerships with over 41 renowned hospitals and research institutions.",
+            "hospitals.title": "Hospital Collaboration Network",
+            "hospitals.desc": "Connecting hospitals and research institutions across China and overseas.",
             "hospitals.legendCity": "Partner Cities",
             "hospitals.legendLink": "Collaboration Links",
             "equip.eyebrow": "Laboratory Equipment",
@@ -66,7 +66,7 @@
             "equip.desc": "Equipped with world-class laboratory instruments spanning flow cytometry, confocal imaging, super-resolution microscopy, in vivo imaging, and nanoparticle synthesis.",
             "partners.eyebrow": "Research Partners",
             "partners.title": "Academic Partner Institutions",
-            "partners.desc": "Our team members come from top universities and research institutions worldwide, spanning the US, Europe, and Asia.",
+            "partners.desc": "Our team members come from universities and research institutions worldwide, spanning North America, Europe, and Asia.",
             "partners.panel.kicker": "Global Talent Matrix",
             "partners.panel.title": "Clinical questions, experimental systems, and international academic training converge within one partner network.",
             "partners.panel.desc": "This is more than a logo wall. It represents a collaboration surface that lets medicine, imaging, biomaterials, bioinformatics, and translational research move together across institutions.",
@@ -85,15 +85,15 @@
 
     var heroStats = {
         zh: [
-            { value: "41+", label: "合作医院及机构" },
+            { value: "", label: "合作医院及机构" },
             { value: "51", label: "发表学术期刊" },
-            { value: "18", label: "合作高校及研究所" },
+            { value: "", label: "合作高校及研究所" },
             { value: "5", label: "核心医疗数据集" }
         ],
         en: [
-            { value: "41+", label: "Partner Hospitals" },
+            { value: "", label: "Partner Hospitals & Institutions" },
             { value: "51", label: "Published Journals" },
-            { value: "18", label: "University Partners" },
+            { value: "", label: "Partner Institutions" },
             { value: "5", label: "Core Datasets" }
         ]
     };
@@ -193,78 +193,110 @@
      * Source: https://download.geonames.org/export/dump/cities15000.zip
      */
     var cityCoordinates = {
-        beijing: { lng: 116.39723, lat: 39.90750 },
-        changchun: { lng: 125.32278, lat: 43.88000 },
-        harbin: { lng: 126.65000, lat: 45.75000 },
-        shenyang: { lng: 123.43278, lat: 41.79222 },
-        shanghai: { lng: 121.45806, lat: 31.22222 },
-        jinan: { lng: 116.99722, lat: 36.66833 },
-        qingdao: { lng: 120.38042, lat: 36.06488 },
-        zibo: { lng: 118.06333, lat: 36.79056 },
-        nanjing: { lng: 118.77778, lat: 32.06167 },
-        suzhou: { lng: 120.59538, lat: 31.30408 },
-        hangzhou: { lng: 120.16142, lat: 30.29365 },
-        wenzhou: { lng: 120.66682, lat: 27.99942 },
-        ningbo: { lng: 121.54945, lat: 29.87819 },
-        fuzhou: { lng: 119.30611, lat: 26.06139 },
-        xiamen: { lng: 118.08187, lat: 24.47979 },
-        nanchang: { lng: 115.85306, lat: 28.68396 },
-        wuhan: { lng: 114.26667, lat: 30.58333 },
-        zhengzhou: { lng: 113.64861, lat: 34.75778 },
-        hengyang: { lng: 112.61888, lat: 26.88946 },
-        guangzhou: { lng: 113.25000, lat: 23.11667 },
-        chongqing: { lng: 106.55771, lat: 29.56026 },
-        xian: { lng: 108.92861, lat: 34.25833 }
+        "beijing": {"lng":116.39723,"lat":39.9075},
+        "changchun": {"lng":125.32278,"lat":43.88},
+        "harbin": {"lng":126.65,"lat":45.75},
+        "shenyang": {"lng":123.43278,"lat":41.79222},
+        "shanghai": {"lng":121.45806,"lat":31.22222},
+        "jinan": {"lng":116.99722,"lat":36.66833},
+        "qingdao": {"lng":120.38042,"lat":36.06488},
+        "zibo": {"lng":118.06333,"lat":36.79056},
+        "nanjing": {"lng":118.77778,"lat":32.06167},
+        "suzhou": {"lng":120.59538,"lat":31.30408},
+        "hangzhou": {"lng":120.16142,"lat":30.29365},
+        "wenzhou": {"lng":120.66682,"lat":27.99942},
+        "ningbo": {"lng":121.54945,"lat":29.87819},
+        "fuzhou": {"lng":119.30611,"lat":26.06139},
+        "xiamen": {"lng":118.08187,"lat":24.47979},
+        "nanchang": {"lng":115.85306,"lat":28.68396},
+        "wuhan": {"lng":114.26667,"lat":30.58333},
+        "zhengzhou": {"lng":113.64861,"lat":34.75778},
+        "hengyang": {"lng":112.61888,"lat":26.88946},
+        "guangzhou": {"lng":113.25,"lat":23.11667},
+        "chongqing": {"lng":106.55771,"lat":29.56026},
+        "xian": {"lng":108.92861,"lat":34.25833},
+        "chengdu": {"lng":104.06667,"lat":30.66667},
+        "hongkong": {"lng":114.16936,"lat":22.3193},
+        "kualalumpur": {"lng":101.68653,"lat":3.1412},
+        "nanchong": {"lng":106.08473,"lat":30.79508},
+        "wuxi": {"lng":120.28857,"lat":31.56887},
+        "jiujiang": {"lng":115.99976,"lat":29.70475},
+        "ganzhou": {"lng":114.93333,"lat":25.83333},
+        "luoyang": {"lng":112.45361,"lat":34.68361},
+        "xinxiang": {"lng":113.86722,"lat":35.30889},
+        "qujing": {"lng":103.79778,"lat":25.48333}
     };
 
     var hospitalsZH = [
-        { id: "beijing", city: "北京", region: "华北", institutions: ["北京天坛医院", "301医院", "北京协和医院", "北京同仁医院", "北京大学第三医院", "广安门医院", "中科院生物物理所"] },
-        { id: "changchun", city: "长春", region: "东北", institutions: ["吉林大学第一医院"] },
-        { id: "harbin", city: "哈尔滨", region: "东北", institutions: ["黑龙江省肿瘤医院"] },
-        { id: "shenyang", city: "沈阳", region: "东北", institutions: ["盛京医院", "沈阳自动化所"] },
-        { id: "shanghai", city: "上海", region: "华东", institutions: ["中山医院", "瑞金医院", "上海市肺科医院", "华山医院", "仁济医院"] },
-        { id: "jinan", city: "济南", region: "华东", institutions: ["山东大学齐鲁医院", "山东省立医院"] },
-        { id: "qingdao", city: "青岛", region: "华东", institutions: ["青岛大学附属医院"] },
-        { id: "zibo", city: "淄博", region: "华东", institutions: ["淄博市中心医院"] },
-        { id: "nanjing", city: "南京", region: "华东", institutions: ["南京鼓楼医院"] },
-        { id: "suzhou", city: "苏州", region: "华东", institutions: ["苏州大学附属第一医院"] },
-        { id: "hangzhou", city: "杭州", region: "华东", institutions: ["邵逸夫医院", "杭州市第一人民医院"] },
-        { id: "wenzhou", city: "温州", region: "华东", institutions: ["温州医科大学附属第一医院", "温州医科大学附属第二医院"] },
-        { id: "ningbo", city: "宁波", region: "华东", institutions: ["宁波李惠利医院"] },
-        { id: "fuzhou", city: "福州", region: "华东", institutions: ["福建省立医院"] },
-        { id: "xiamen", city: "厦门", region: "华东", institutions: ["厦门大学附属第一医院"] },
-        { id: "nanchang", city: "南昌", region: "华东", institutions: ["南昌大学第二附属医院"] },
-        { id: "wuhan", city: "武汉", region: "华中", institutions: ["同济医院", "协和医院"] },
-        { id: "zhengzhou", city: "郑州", region: "华中", institutions: ["郑州大学第一附属医院", "河南省人民医院"] },
-        { id: "hengyang", city: "衡阳", region: "华中", institutions: ["南华大学附属第一医院"] },
-        { id: "guangzhou", city: "广州", region: "华南", institutions: ["广东省人民医院", "南方医院", "中山大学肿瘤防治中心"] },
-        { id: "chongqing", city: "重庆", region: "西南", institutions: ["重庆医科大学附属第一医院"] },
-        { id: "xian", city: "西安", region: "西北", institutions: ["西安交通大学第二附属医院", "陕西省人民医院"] }
+        {"id":"beijing","city":"北京","region":"华北","institutions":["北京天坛医院","301医院","北京协和医院","北京同仁医院","北京大学第三医院","广安门医院","中科院生物物理所","北京大学第一医院","北京大学人民医院","北京清华长庚医院","清华大学医学院","首都医科大学宣武医院"]},
+        {"id":"changchun","city":"长春","region":"东北","institutions":["吉林大学第一医院"]},
+        {"id":"harbin","city":"哈尔滨","region":"东北","institutions":["黑龙江省肿瘤医院","哈尔滨医科大学附属第一医院","哈尔滨医科大学附属第二医院"]},
+        {"id":"shenyang","city":"沈阳","region":"东北","institutions":["盛京医院","沈阳自动化所","中国医科大学附属第一医院"]},
+        {"id":"shanghai","city":"上海","region":"华东","institutions":["中山医院","瑞金医院","上海市肺科医院","华山医院","仁济医院","长海医院","上海市第一人民医院","上海市第七人民医院","复旦大学附属妇产科医院","东方肝胆外科医院","上海市浦东医院","复旦大学附属肿瘤医院"]},
+        {"id":"jinan","city":"济南","region":"华东","institutions":["山东大学齐鲁医院","山东省立医院","山东省肿瘤防治研究院"]},
+        {"id":"qingdao","city":"青岛","region":"华东","institutions":["青岛大学附属医院"]},
+        {"id":"zibo","city":"淄博","region":"华东","institutions":["淄博市中心医院"]},
+        {"id":"nanjing","city":"南京","region":"华东","institutions":["南京鼓楼医院","江苏省人民医院","南京脑科研究所"]},
+        {"id":"suzhou","city":"苏州","region":"华东","institutions":["苏州大学附属第一医院"]},
+        {"id":"hangzhou","city":"杭州","region":"华东","institutions":["邵逸夫医院","杭州市第一人民医院","浙江大学医学院附属第一医院","浙江大学医学院附属第二医院"]},
+        {"id":"wenzhou","city":"温州","region":"华东","institutions":["温州医科大学附属第一医院","温州医科大学附属第二医院"]},
+        {"id":"ningbo","city":"宁波","region":"华东","institutions":["宁波李惠利医院","宁波大学附属第一医院","东方理工大学","宁波大学附属第二医院"]},
+        {"id":"fuzhou","city":"福州","region":"华东","institutions":["福建省立医院","福建医科大学附属第一医院"]},
+        {"id":"xiamen","city":"厦门","region":"华东","institutions":["厦门大学附属第一医院"]},
+        {"id":"nanchang","city":"南昌","region":"华东","institutions":["南昌大学第二附属医院","南昌大学第一附属医院"]},
+        {"id":"wuhan","city":"武汉","region":"华中","institutions":["同济医院","协和医院"]},
+        {"id":"zhengzhou","city":"郑州","region":"华中","institutions":["郑州大学第一附属医院","河南省人民医院"]},
+        {"id":"hengyang","city":"衡阳","region":"华中","institutions":["南华大学附属第一医院"]},
+        {"id":"guangzhou","city":"广州","region":"华南","institutions":["广东省人民医院","南方医院","中山大学肿瘤防治中心","中山大学附属第一医院","暨南大学附属医院"]},
+        {"id":"chongqing","city":"重庆","region":"西南","institutions":["重庆医科大学附属第一医院","西南医院"]},
+        {"id":"xian","city":"西安","region":"西北","institutions":["西安交通大学第二附属医院","陕西省人民医院","西安交通大学第一附属医院","西京医院","西安市中心医院","长安医院"]},
+        {"id":"chengdu","city":"成都","region":"西南","institutions":["四川大学华西医院","四川省肿瘤医院"]},
+        {"id":"hongkong","city":"香港","region":"华南","institutions":["玛丽医院"]},
+        {"id":"kualalumpur","city":"吉隆坡","region":"海外","institutions":["马来亚大学医学中心"],"international":true},
+        {"id":"nanchong","city":"南充","region":"西南","institutions":["川北医学院"]},
+        {"id":"wuxi","city":"无锡","region":"华东","institutions":["江南大学附属医院"]},
+        {"id":"jiujiang","city":"九江","region":"华东","institutions":["九江市人民医院"]},
+        {"id":"ganzhou","city":"赣州","region":"华东","institutions":["赣南医科大学附属医院"]},
+        {"id":"luoyang","city":"洛阳","region":"华中","institutions":["河南科技大学附属医院"]},
+        {"id":"xinxiang","city":"新乡","region":"华中","institutions":["新乡医学院附属医院"]},
+        {"id":"qujing","city":"曲靖","region":"西南","institutions":["云南曲靖人民医院"]},
+        {"id":"unlocated","city":"其他合作机构","region":"其他合作机构","unlocated":true,"institutions":["大连理工大学附属医院"]}
     ];
 
     var hospitalsEN = [
-        { id: "beijing", city: "Beijing", region: "North China", institutions: ["Beijing Tiantan Hospital", "PLA General Hospital (301)", "Peking Union Medical College Hospital", "Beijing Tongren Hospital", "Peking University Third Hospital", "Guang'anmen Hospital", "Institute of Biophysics, CAS"] },
-        { id: "changchun", city: "Changchun", region: "Northeast", institutions: ["The First Hospital of Jilin University"] },
-        { id: "harbin", city: "Harbin", region: "Northeast", institutions: ["Heilongjiang Cancer Hospital"] },
-        { id: "shenyang", city: "Shenyang", region: "Northeast", institutions: ["Shengjing Hospital", "Shenyang Institute of Automation, CAS"] },
-        { id: "shanghai", city: "Shanghai", region: "East China", institutions: ["Zhongshan Hospital", "Ruijin Hospital", "Shanghai Pulmonary Hospital", "Huashan Hospital", "Renji Hospital"] },
-        { id: "jinan", city: "Jinan", region: "East China", institutions: ["Qilu Hospital of Shandong University", "Shandong Provincial Hospital"] },
-        { id: "qingdao", city: "Qingdao", region: "East China", institutions: ["Qingdao University Affiliated Hospital"] },
-        { id: "zibo", city: "Zibo", region: "East China", institutions: ["Zibo Central Hospital"] },
-        { id: "nanjing", city: "Nanjing", region: "East China", institutions: ["Nanjing Drum Tower Hospital"] },
-        { id: "suzhou", city: "Suzhou", region: "East China", institutions: ["The First Affiliated Hospital of Soochow University"] },
-        { id: "hangzhou", city: "Hangzhou", region: "East China", institutions: ["Sir Run Run Shaw Hospital", "Hangzhou First People's Hospital"] },
-        { id: "wenzhou", city: "Wenzhou", region: "East China", institutions: ["First Affiliated Hospital of Wenzhou Medical University", "Second Affiliated Hospital of Wenzhou Medical University"] },
-        { id: "ningbo", city: "Ningbo", region: "East China", institutions: ["Li Huili Hospital, Ningbo"] },
-        { id: "fuzhou", city: "Fuzhou", region: "East China", institutions: ["Fujian Provincial Hospital"] },
-        { id: "xiamen", city: "Xiamen", region: "East China", institutions: ["First Affiliated Hospital of Xiamen University"] },
-        { id: "nanchang", city: "Nanchang", region: "East China", institutions: ["Second Affiliated Hospital of Nanchang University"] },
-        { id: "wuhan", city: "Wuhan", region: "Central China", institutions: ["Tongji Hospital", "Union Hospital"] },
-        { id: "zhengzhou", city: "Zhengzhou", region: "Central China", institutions: ["First Affiliated Hospital of Zhengzhou University", "Henan Provincial People's Hospital"] },
-        { id: "hengyang", city: "Hengyang", region: "Central China", institutions: ["First Affiliated Hospital of the University of South China"] },
-        { id: "guangzhou", city: "Guangzhou", region: "South China", institutions: ["Guangdong Provincial People's Hospital", "Nanfang Hospital", "Sun Yat-sen University Cancer Center"] },
-        { id: "chongqing", city: "Chongqing", region: "Southwest", institutions: ["First Affiliated Hospital of Chongqing Medical University"] },
-        { id: "xian", city: "Xi'an", region: "Northwest", institutions: ["Second Affiliated Hospital of Xi'an Jiaotong University", "Shaanxi Provincial People's Hospital"] }
+        {"id":"beijing","city":"Beijing","region":"North China","institutions":["Beijing Tiantan Hospital","PLA General Hospital (301)","Peking Union Medical College Hospital","Beijing Tongren Hospital","Peking University Third Hospital","Guang'anmen Hospital","Institute of Biophysics, CAS","Peking University First Hospital","Peking University People's Hospital","Beijing Tsinghua Changgung Hospital","Tsinghua University School of Medicine","Xuanwu Hospital, Capital Medical University"]},
+        {"id":"changchun","city":"Changchun","region":"Northeast","institutions":["The First Hospital of Jilin University"]},
+        {"id":"harbin","city":"Harbin","region":"Northeast","institutions":["Heilongjiang Cancer Hospital","The First Affiliated Hospital of Harbin Medical University","The Second Affiliated Hospital of Harbin Medical University"]},
+        {"id":"shenyang","city":"Shenyang","region":"Northeast","institutions":["Shengjing Hospital","Shenyang Institute of Automation, CAS","The First Hospital of China Medical University"]},
+        {"id":"shanghai","city":"Shanghai","region":"East China","institutions":["Zhongshan Hospital","Ruijin Hospital","Shanghai Pulmonary Hospital","Huashan Hospital","Renji Hospital","Changhai Hospital","Shanghai General Hospital","Shanghai Seventh People's Hospital","Obstetrics and Gynecology Hospital of Fudan University","Eastern Hepatobiliary Surgery Hospital","Shanghai Pudong Hospital","Fudan University Shanghai Cancer Center"]},
+        {"id":"jinan","city":"Jinan","region":"East China","institutions":["Qilu Hospital of Shandong University","Shandong Provincial Hospital","Shandong Cancer Hospital and Institute"]},
+        {"id":"qingdao","city":"Qingdao","region":"East China","institutions":["Qingdao University Affiliated Hospital"]},
+        {"id":"zibo","city":"Zibo","region":"East China","institutions":["Zibo Central Hospital"]},
+        {"id":"nanjing","city":"Nanjing","region":"East China","institutions":["Nanjing Drum Tower Hospital","Jiangsu Province Hospital","Nanjing Brain Research Institute"]},
+        {"id":"suzhou","city":"Suzhou","region":"East China","institutions":["The First Affiliated Hospital of Soochow University"]},
+        {"id":"hangzhou","city":"Hangzhou","region":"East China","institutions":["Sir Run Run Shaw Hospital","Hangzhou First People's Hospital","The First Affiliated Hospital, Zhejiang University School of Medicine","The Second Affiliated Hospital, Zhejiang University School of Medicine"]},
+        {"id":"wenzhou","city":"Wenzhou","region":"East China","institutions":["First Affiliated Hospital of Wenzhou Medical University","Second Affiliated Hospital of Wenzhou Medical University"]},
+        {"id":"ningbo","city":"Ningbo","region":"East China","institutions":["Li Huili Hospital, Ningbo","The First Affiliated Hospital of Ningbo University","Eastern Institute of Technology, Ningbo","Second Affiliated Hospital of Ningbo University"]},
+        {"id":"fuzhou","city":"Fuzhou","region":"East China","institutions":["Fujian Provincial Hospital","The First Affiliated Hospital of Fujian Medical University"]},
+        {"id":"xiamen","city":"Xiamen","region":"East China","institutions":["First Affiliated Hospital of Xiamen University"]},
+        {"id":"nanchang","city":"Nanchang","region":"East China","institutions":["Second Affiliated Hospital of Nanchang University","The First Affiliated Hospital of Nanchang University"]},
+        {"id":"wuhan","city":"Wuhan","region":"Central China","institutions":["Tongji Hospital","Union Hospital"]},
+        {"id":"zhengzhou","city":"Zhengzhou","region":"Central China","institutions":["First Affiliated Hospital of Zhengzhou University","Henan Provincial People's Hospital"]},
+        {"id":"hengyang","city":"Hengyang","region":"Central China","institutions":["First Affiliated Hospital of the University of South China"]},
+        {"id":"guangzhou","city":"Guangzhou","region":"South China","institutions":["Guangdong Provincial People's Hospital","Nanfang Hospital","Sun Yat-sen University Cancer Center","The First Affiliated Hospital of Sun Yat-sen University","Affiliated Hospital of Jinan University"]},
+        {"id":"chongqing","city":"Chongqing","region":"Southwest","institutions":["First Affiliated Hospital of Chongqing Medical University","Southwest Hospital"]},
+        {"id":"xian","city":"Xi'an","region":"Northwest","institutions":["Second Affiliated Hospital of Xi'an Jiaotong University","Shaanxi Provincial People's Hospital","The First Affiliated Hospital of Xi'an Jiaotong University","Xijing Hospital","Xi'an Central Hospital","Chang'an Hospital"]},
+        {"id":"chengdu","city":"Chengdu","region":"Southwest","institutions":["West China Hospital, Sichuan University","Sichuan Cancer Hospital"]},
+        {"id":"hongkong","city":"Hong Kong","region":"South China","institutions":["Queen Mary Hospital"]},
+        {"id":"kualalumpur","city":"Kuala Lumpur","region":"International","institutions":["Universiti Malaya Medical Centre"],"international":true},
+        {"id":"nanchong","city":"Nanchong","region":"Southwest","institutions":["North Sichuan Medical College"]},
+        {"id":"wuxi","city":"Wuxi","region":"East China","institutions":["Affiliated Hospital of Jiangnan University"]},
+        {"id":"jiujiang","city":"Jiujiang","region":"East China","institutions":["Jiujiang People’s Hospital"]},
+        {"id":"ganzhou","city":"Ganzhou","region":"East China","institutions":["Affiliated Hospital of Gannan Medical University"]},
+        {"id":"luoyang","city":"Luoyang","region":"Central China","institutions":["Affiliated Hospital of Henan University of Science and Technology"]},
+        {"id":"xinxiang","city":"Xinxiang","region":"Central China","institutions":["Affiliated Hospital of Xinxiang Medical University"]},
+        {"id":"qujing","city":"Qujing","region":"Southwest","institutions":["Qujing People’s Hospital, Yunnan"]},
+        {"id":"unlocated","city":"Other institutions","region":"Other institutions","unlocated":true,"institutions":["Affiliated Hospital of Dalian University of Technology"]}
     ];
 
     var datasetsZH = [
@@ -284,23 +316,69 @@
     ];
 
     var universities = [
-        { logo: "stanford.png", zh: "斯坦福大学", en: "Stanford University" },
-        { logo: "berkeley.png", zh: "加州大学伯克利分校", en: "UC Berkeley" },
-        { logo: "yale.png", zh: "耶鲁大学", en: "Yale University" },
-        { logo: "harvard.png", zh: "哈佛大学", en: "Harvard University" },
-        { logo: "cmu.png", zh: "卡耐基梅隆大学", en: "Carnegie Mellon" },
-        { logo: "max_planck.png", zh: "马克斯普朗克研究院", en: "Max Planck Institute" },
-        { logo: "tum.png", zh: "慕尼黑工业大学", en: "TU Munich" },
-        { logo: "eth_zurich.png", zh: "苏黎世联邦理工", en: "ETH Zurich" },
-        { logo: "pku.png", zh: "北京大学", en: "Peking University" },
-        { logo: "tsinghua.png", zh: "清华大学", en: "Tsinghua University" },
-        { logo: "fudan.png", zh: "复旦大学", en: "Fudan University" },
-        { logo: "sjtu.png", zh: "上海交通大学", en: "Shanghai Jiao Tong" },
-        { logo: "zju.png", zh: "浙江大学", en: "Zhejiang University" },
-        { logo: "cuhk.png", zh: "香港中文大学", en: "CUHK" },
-        { logo: "toronto.png", zh: "多伦多大学", en: "University of Toronto" },
-        { logo: "snu.png", zh: "首尔国立大学", en: "Seoul National University" },
-        { logo: "kaist.png", zh: "韩国科学技术院", en: "KAIST" }
+        {"logo":"stanford.png","zh":"斯坦福大学","en":"Stanford University"},
+        {"logo":"berkeley.png","zh":"加州大学伯克利分校","en":"UC Berkeley"},
+        {"logo":"yale.png","zh":"耶鲁大学","en":"Yale University"},
+        {"logo":"harvard.png","zh":"哈佛大学","en":"Harvard University"},
+        {"logo":"cmu.png","zh":"卡耐基梅隆大学","en":"Carnegie Mellon"},
+        {"logo":"max_planck.png","zh":"马克斯普朗克研究院","en":"Max Planck Institute"},
+        {"logo":"tum.png","zh":"慕尼黑工业大学","en":"TU Munich"},
+        {"logo":"eth_zurich.png","zh":"苏黎世联邦理工","en":"ETH Zurich"},
+        {"logo":"pku.png","zh":"北京大学","en":"Peking University"},
+        {"logo":"tsinghua.png","zh":"清华大学","en":"Tsinghua University"},
+        {"logo":"fudan.png","zh":"复旦大学","en":"Fudan University"},
+        {"logo":"sjtu.png","zh":"上海交通大学","en":"Shanghai Jiao Tong"},
+        {"logo":"zju.png","zh":"浙江大学","en":"Zhejiang University"},
+        {"logo":"cuhk.png","zh":"香港中文大学","en":"CUHK"},
+        {"logo":"toronto.png","zh":"多伦多大学","en":"University of Toronto"},
+        {"logo":"snu.png","zh":"首尔国立大学","en":"Seoul National University"},
+        {"logo":"kaist.png","zh":"韩国科学技术院","en":"KAIST"},
+        {"logo":"hms.png","zh":"哈佛大学医学院","en":"Harvard Medical School"},
+        {"logo":"utrecht.svg","zh":"乌特勒支大学","en":"Utrecht University"},
+        {"logo":"umcutrecht.svg","zh":"乌特勒支大学附属医院","en":"UMC Utrecht"},
+        {"logo":"uva.png","zh":"阿姆斯特丹大学","en":"University of Amsterdam"},
+        {"logo":"amsterdamumc.svg","zh":"阿姆斯特丹大学附属医院","en":"Amsterdam UMC"},
+        {"logo":"nki.png","zh":"荷兰癌症研究所","en":"Netherlands Cancer Institute"},
+        {"logo":"uzh.png","zh":"苏黎世大学","en":"University of Zurich"},
+        {"logo":"usz.png","zh":"苏黎世大学附属医院","en":"University Hospital Zurich"},
+        {"logo":"hku.svg","zh":"香港大学","en":"The University of Hong Kong"},
+        {"logo":"mcgill.svg","dark":true,"zh":"麦吉尔大学","en":"McGill University"},
+        {"logo":"nankai.png","zh":"南开大学","en":"Nankai University"},
+        {"logo":"xmu.png","zh":"厦门大学","en":"Xiamen University"},
+        {"logo":"hust.png","dark":true,"zh":"华中科技大学","en":"Huazhong University of Science and Technology"},
+        {"logo":"whu.png","zh":"武汉大学","en":"Wuhan University"},
+        {"logo":"dlut.svg","dark":true,"zh":"大连理工大学","en":"Dalian University of Technology"},
+        {"logo":"mpu.png","zh":"澳门理工大学","en":"Macao Polytechnic University"},
+        {"logo":"ornl.svg","zh":"美国橡树岭国家实验室","en":"Oak Ridge National Laboratory"},
+        {"logo":"tongji.png","dark":true,"zh":"同济大学","en":"Tongji University"},
+        {"logo":"buaa.png","dark":true,"zh":"北京航空航天大学","en":"Beihang University"},
+        {"logo":"hit.png","dark":true,"zh":"哈尔滨工业大学","en":"Harbin Institute of Technology"},
+        {"logo":"nju.png","zh":"南京大学","en":"Nanjing University"},
+        {"logo":"bit.png","dark":true,"zh":"北京理工大学","en":"Beijing Institute of Technology"},
+        {"logo":"um.png","zh":"马来亚大学","en":"Universiti Malaya"},
+        {"logo":"washington.svg","dark":true,"zh":"华盛顿大学","en":"University of Washington"},
+        {"logo":"heidelberg.svg","zh":"海德堡大学","en":"Heidelberg University"},
+        {"logo":"ntu.png","zh":"新加坡南洋理工大学","en":"Nanyang Technological University"},
+        {"logo":"nus.svg","zh":"新加坡国立大学","en":"National University of Singapore"},
+        {"logo":"bern.png","zh":"伯尔尼大学","en":"University of Bern"},
+        {"logo":"scu.png","zh":"四川大学","en":"Sichuan University"},
+        {"logo":"cornell.png","zh":"康奈尔大学","en":"Cornell University"},
+        {"logo":"hznu.png","dark":true,"zh":"杭州师范大学","en":"Hangzhou Normal University"},
+        {"logo":"sdu.svg","dark":true,"zh":"山东大学","en":"Shandong University"},
+        {"logo":"manchester.png","zh":"曼彻斯特大学","en":"The University of Manchester"},
+        {"logo":"hkust.svg","zh":"香港科技大学","en":"The Hong Kong University of Science and Technology"},
+        {"logo":"sia.png","zh":"沈阳自动化所","en":"Shenyang Institute of Automation, CAS"},
+        {"logo":"ia.png","dark":true,"zh":"中科院自动化所","en":"Institute of Automation, CAS"},
+        {"logo":"tju.png","dark":true,"zh":"天津大学","en":"Tianjin University"},
+        {"logo":"cityu.svg","zh":"香港城市大学","en":"City University of Hong Kong"},
+        {"logo":"kth.png","zh":"瑞典皇家理工学院","en":"KTH Royal Institute of Technology"},
+        {"logo":"ki.svg","zh":"卡罗琳斯卡医学院","en":"Karolinska Institutet"},
+        {"logo":"ubc.png","zh":"英属哥伦比亚大学","en":"The University of British Columbia"},
+        {"logo":"ustc.svg","dark":true,"zh":"中国科学技术大学","en":"University of Science and Technology of China"},
+        {"logo":"whut.svg","dark":true,"zh":"武汉理工大学","en":"Wuhan University of Technology"},
+        {"logo":"unimap.png","zh":"马来西亚玻璃市大学","en":"Universiti Malaysia Perlis"},
+        {"logo":"buffalo.png","dark":true,"zh":"纽约州立大学布法罗分校","en":"University at Buffalo, SUNY"},
+        {"logo":"utsw.svg","dark":true,"zh":"德克萨斯大学西南医学中心","en":"UT Southwestern Medical Center"}
     ];
 
     /* ================================================ */
@@ -412,6 +490,8 @@
         var container = document.getElementById("hero-stats");
         if (!container) return;
         var data = heroStats[currentLang];
+        data[0].value = String(hospitalsZH.reduce(function (total, city) { return total + city.institutions.length; }, 0));
+        data[2].value = String(universities.length);
         var html = "";
         for (var i = 0; i < data.length; i++) {
             html += '<div class="hero-stat reveal">';
@@ -575,7 +655,29 @@
     function renderHospitalMap() {
         var container = document.getElementById("map-markers");
         if (!container) return;
-        var data = currentLang === "en" ? hospitalsEN : hospitalsZH;
+        var allCities = currentLang === "en" ? hospitalsEN : hospitalsZH;
+        var data = allCities.filter(function (city) { return !city.international && !city.unlocated; });
+        var overseas = allCities.filter(function (city) { return city.international; });
+        var unlocated = allCities.filter(function (city) { return city.unlocated; });
+        var overseasContainer = document.getElementById("international-hospitals");
+        if (overseasContainer) {
+            overseasContainer.innerHTML = overseas.map(function (city) {
+                return '<button class="international-city" type="button" data-city-id="' + city.id + '"><span class="international-city-label">' +
+                    (currentLang === "en" ? 'International · Malaysia' : '海外合作 · 马来西亚') + '</span><strong>● ' + city.city +
+                    '</strong><span>' + city.institutions.join(' / ') + '</span></button>';
+            }).join('');
+            overseasContainer.innerHTML += unlocated.map(function (city) {
+                return '<button class="international-city unlocated-city" type="button" data-city-id="' + city.id + '"><span class="international-city-label">' +
+                    (currentLang === "en" ? 'Other partner institutions' : '其他合作机构') + '</span><strong>' + city.institutions.join(' / ') + '</strong></button>';
+            }).join('');
+            overseasContainer.querySelectorAll("button").forEach(function (button) {
+                button.addEventListener("click", function () { focusHospitalCity(button.dataset.cityId); });
+            });
+        }
+        var total = allCities.reduce(function (count, city) { return count + city.institutions.length; }, 0);
+        document.querySelector('[data-i18n="hospitals.desc"]').textContent = currentLang === "en"
+            ? 'Connecting ' + total + ' hospitals and research institutions across ' + data.length + ' cities in China (including Hong Kong) and ' + overseas.length + ' overseas city.'
+            : '覆盖国内（含香港）' + data.length + '个城市及' + overseas.length + '个海外城市，与' + total + '家医院及科研机构开展合作。';
 
         container.textContent = "";
         container.setAttribute("data-city-count", String(data.length));
@@ -609,7 +711,7 @@
             var marker = createMapSvgElement("g", "map-marker", {
                 transform: "translate(" + point.x.toFixed(3) + " " + point.y.toFixed(3) + ")",
                 tabindex: "0",
-                role: "img",
+                role: "button",
                 "aria-label": markerLabel,
                 "data-city-id": h.id,
                 "data-lng": coordinate.lng,
@@ -633,6 +735,13 @@
             labelText.textContent = markerLabel;
             label.appendChild(labelText);
             marker.appendChild(label);
+            marker.addEventListener("click", function () { focusHospitalCity(this.getAttribute("data-city-id")); });
+            marker.addEventListener("keydown", function (event) {
+                if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    focusHospitalCity(this.getAttribute("data-city-id"));
+                }
+            });
 
             if (debugMapEnabled) {
                 var debugLabel = createMapSvgElement("text", "map-debug-label", { x: "16", y: "5" });
@@ -642,6 +751,15 @@
 
             container.appendChild(marker);
         }
+    }
+
+    function focusHospitalCity(id) {
+        var city = document.getElementById("hospital-city-" + id);
+        if (!city) return;
+        document.querySelectorAll(".hospital-city.is-selected").forEach(function (node) { node.classList.remove("is-selected"); });
+        city.classList.add("is-selected");
+        city.scrollIntoView({ block: "nearest", behavior: "auto" });
+        city.focus({ preventScroll: true });
     }
 
     /* ================================================ */
@@ -670,10 +788,10 @@
             html += '<div class="hospital-region-card">';
             html += '<div class="hospital-region-head">';
             html += '<h4>' + rname + ' <span class="region-badge">' + total + (currentLang === "en" ? " inst." : " 家") + '</span></h4>';
-            html += '<p>' + cities.length + (currentLang === "en" ? " linked cities" : " 个协作城市") + '</p>';
+            if (!cities[0].unlocated) html += '<p>' + cities.length + (currentLang === "en" ? " linked cities" : " 个协作城市") + '</p>';
             html += '</div>';
             for (var ci = 0; ci < cities.length; ci++) {
-                html += '<div class="hospital-city">';
+                html += '<div class="hospital-city" id="hospital-city-' + cities[ci].id + '" tabindex="-1">';
                 html += '<div class="hospital-city-head"><span class="hospital-city-name">' + cities[ci].city + '</span><span class="hospital-city-count">' + cities[ci].institutions.length + '</span></div>';
                 html += '<ul>';
                 for (var ii = 0; ii < cities[ci].institutions.length; ii++) {
@@ -726,13 +844,21 @@
             for (var i = 0; i < universities.length; i++) {
                 var u = universities[i];
                 var label = currentLang === "en" ? u.en : u.zh;
-                html += '<div class="marquee-item">';
-                html += '<div class="marquee-logo-wrap"><img src="university_logos/' + u.logo + '" alt="' + label + '" loading="lazy"></div>';
+                html += '<div class="marquee-item"' + (dup ? ' aria-hidden="true"' : '') + '>';
+                html += '<div class="marquee-logo-wrap' + (u.dark ? ' logo-on-dark' : '') + '"><img src="university_logos/' + u.logo + '" alt="' + label + '" loading="lazy"></div>';
                 html += '<span>' + label + '</span>';
                 html += '</div>';
             }
         }
         track.innerHTML = html;
+        track.style.animationDuration = (universities.length * 2.5) + "s";
+        var grid = document.getElementById("partner-directory-grid");
+        if (grid) grid.innerHTML = universities.map(function (u) {
+            var label = currentLang === "en" ? u.en : u.zh;
+            return '<div class="marquee-item"><div class="marquee-logo-wrap' + (u.dark ? ' logo-on-dark' : '') + '"><img src="university_logos/' + u.logo + '" alt="' + label + '" loading="lazy"></div><span>' + label + '</span></div>';
+        }).join('');
+        var summary = document.getElementById("partner-directory-summary");
+        if (summary) summary.textContent = currentLang === "en" ? 'View all ' + universities.length + ' institutions' : '查看全部 ' + universities.length + ' 家合作单位';
     }
 
     /* ================================================ */

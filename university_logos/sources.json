@@ -1,0 +1,390 @@
+{
+  "checked": "2026-10-02",
+  "note": "Existing 17 logos preserved. Official-site assets except CityU and NUS from Wikimedia; original download URLs are recorded.",
+  "added": [
+    {
+      "id": "hms",
+      "zh": "哈佛大学医学院",
+      "en": "Harvard Medical School",
+      "logo": "hms.png",
+      "website": "https://hms.harvard.edu/",
+      "source": "https://identityguide.hms.harvard.edu/sites/default/files/assets/logo_page/framed_hms_logo.png"
+    },
+    {
+      "id": "utrecht",
+      "zh": "乌特勒支大学",
+      "en": "Utrecht University",
+      "logo": "utrecht.svg",
+      "website": "https://www.uu.nl/en",
+      "source": "https://www.uu.nl/themes/custom/corp/src/images/uu-logo-en.svg"
+    },
+    {
+      "id": "umcutrecht",
+      "zh": "乌特勒支大学附属医院",
+      "en": "UMC Utrecht",
+      "logo": "umcutrecht.svg",
+      "website": "https://www.umcutrecht.nl/en",
+      "source": "https://www.umcutrecht.nl/images/UMCU_2019_logo_liggend_rgb.svg"
+    },
+    {
+      "id": "uva",
+      "zh": "阿姆斯特丹大学",
+      "en": "University of Amsterdam",
+      "logo": "uva.png",
+      "website": "https://www.uva.nl/en",
+      "source": "https://www.uva.nl/webfiles/1779862044326/_favicon/apple-touch-icon-180x180.png"
+    },
+    {
+      "id": "amsterdamumc",
+      "zh": "阿姆斯特丹大学附属医院",
+      "en": "Amsterdam UMC",
+      "logo": "amsterdamumc.svg",
+      "website": "https://www.amsterdamumc.org/en.htm",
+      "source": "https://www.amsterdamumc.org/static/researchpresentation/images/logo-amsterdamumc.svg"
+    },
+    {
+      "id": "nki",
+      "zh": "荷兰癌症研究所",
+      "en": "Netherlands Cancer Institute",
+      "logo": "nki.png",
+      "website": "https://www.nki.nl/",
+      "source": "https://www.nki.nl/favicons/apple-touch-icon.png"
+    },
+    {
+      "id": "uzh",
+      "zh": "苏黎世大学",
+      "en": "University of Zurich",
+      "logo": "uzh.png",
+      "website": "https://www.uzh.ch/en.html",
+      "source": "https://www.uzh.ch/docroot/favicons/apple-touch-icon.png"
+    },
+    {
+      "id": "usz",
+      "zh": "苏黎世大学附属医院",
+      "en": "University Hospital Zurich",
+      "logo": "usz.png",
+      "website": "https://www.usz.ch/en/",
+      "source": "https://www.usz.ch/app/uploads/2025/04/cropped-usz-192x192.png"
+    },
+    {
+      "id": "hku",
+      "zh": "香港大学",
+      "en": "The University of Hong Kong",
+      "logo": "hku.svg",
+      "website": "https://www.hku.hk/",
+      "source": "https://www.hku.hk/adobe/dynamicmedia/deliver/dm-aid--afc8d43c-587a-43f0-b93c-26f8bd397e0e/logo-hku.svg.webp?preferwebp=true&width=208"
+    },
+    {
+      "id": "mcgill",
+      "zh": "麦吉尔大学",
+      "en": "McGill University",
+      "logo": "mcgill.svg",
+      "website": "https://www.mcgill.ca/",
+      "source": "https://www.mcgill.ca/sites/all/themes/coltrane19/dist/mcgill-logo-red-reverse.db74b099.svg",
+      "dark": true
+    },
+    {
+      "id": "nankai",
+      "zh": "南开大学",
+      "en": "Nankai University",
+      "logo": "nankai.png",
+      "website": "https://www.nankai.edu.cn/",
+      "source": "https://en.nankai.edu.cn/_upload/tpl/02/df/735/template735/images/logo.png"
+    },
+    {
+      "id": "xmu",
+      "zh": "厦门大学",
+      "en": "Xiamen University",
+      "logo": "xmu.png",
+      "website": "https://www.xmu.edu.cn/",
+      "source": "https://www.xmu.edu.cn/images/logo2.png"
+    },
+    {
+      "id": "hust",
+      "zh": "华中科技大学",
+      "en": "Huazhong University of Science and Technology",
+      "logo": "hust.png",
+      "website": "https://www.hust.edu.cn/",
+      "source": "https://www.hust.edu.cn/images/logo20240628.png",
+      "dark": true
+    },
+    {
+      "id": "whu",
+      "zh": "武汉大学",
+      "en": "Wuhan University",
+      "logo": "whu.png",
+      "website": "https://www.whu.edu.cn/",
+      "source": "https://www.whu.edu.cn/new2024/images/favicon.png"
+    },
+    {
+      "id": "dlut",
+      "zh": "大连理工大学",
+      "en": "Dalian University of Technology",
+      "logo": "dlut.svg",
+      "website": "https://www.dlut.edu.cn/",
+      "source": "https://www.dlut.edu.cn/images/logo.svg",
+      "dark": true
+    },
+    {
+      "id": "mpu",
+      "zh": "澳门理工大学",
+      "en": "Macao Polytechnic University",
+      "logo": "mpu.png",
+      "website": "https://www.mpu.edu.mo/zh/index.php",
+      "source": "https://www.mpu.edu.mo/favicon/android-chrome-512x512.png"
+    },
+    {
+      "id": "ornl",
+      "zh": "美国橡树岭国家实验室",
+      "en": "Oak Ridge National Laboratory",
+      "logo": "ornl.svg",
+      "website": "https://www.ornl.gov/",
+      "source": "https://www.ornl.gov/themes/custom/ornl/images/ornl-logo-green.svg"
+    },
+    {
+      "id": "tongji",
+      "zh": "同济大学",
+      "en": "Tongji University",
+      "logo": "tongji.png",
+      "website": "https://www.tongji.edu.cn/",
+      "source": "https://www.tongji.edu.cn/images/smalllogo.png",
+      "dark": true
+    },
+    {
+      "id": "buaa",
+      "zh": "北京航空航天大学",
+      "en": "Beihang University",
+      "logo": "buaa.png",
+      "website": "https://www.buaa.edu.cn/",
+      "source": "https://www.buaa.edu.cn/images/logo.png",
+      "dark": true
+    },
+    {
+      "id": "hit",
+      "zh": "哈尔滨工业大学",
+      "en": "Harbin Institute of Technology",
+      "logo": "hit.png",
+      "website": "https://www.hit.edu.cn/",
+      "source": "https://www.hit.edu.cn/_upload/site/00/ee/238/logo.png",
+      "dark": true
+    },
+    {
+      "id": "nju",
+      "zh": "南京大学",
+      "en": "Nanjing University",
+      "logo": "nju.png",
+      "website": "https://www.nju.edu.cn/",
+      "source": "https://www.nju.edu.cn/images/favicon.png"
+    },
+    {
+      "id": "bit",
+      "zh": "北京理工大学",
+      "en": "Beijing Institute of Technology",
+      "logo": "bit.png",
+      "website": "https://www.bit.edu.cn/",
+      "source": "https://www.bit.edu.cn/images/gb20190805/footer_logo.png",
+      "dark": true
+    },
+    {
+      "id": "um",
+      "zh": "马来亚大学",
+      "en": "Universiti Malaya",
+      "logo": "um.png",
+      "website": "https://www.um.edu.my/",
+      "source": "https://www.um.edu.my/images/img-logo-UM.png"
+    },
+    {
+      "id": "washington",
+      "zh": "华盛顿大学",
+      "en": "University of Washington",
+      "logo": "washington.svg",
+      "website": "https://www.washington.edu/",
+      "source": "https://uw.edu/static/hometemp/wp-content/themes/uw_home_theme/assets/svg/logo-lockup.svg",
+      "dark": true
+    },
+    {
+      "id": "heidelberg",
+      "zh": "海德堡大学",
+      "en": "Heidelberg University",
+      "logo": "heidelberg.svg",
+      "website": "https://www.uni-heidelberg.de/en",
+      "source": "https://backend.uni-heidelberg.de/sites/default/files/site_logo/icon-symbol-uh-logo-black_1_0.svg"
+    },
+    {
+      "id": "ntu",
+      "zh": "新加坡南洋理工大学",
+      "en": "Nanyang Technological University",
+      "logo": "ntu.png",
+      "website": "https://www.ntu.edu.sg/",
+      "source": "https://www.ntu.edu.sg/ResourcePackages/NTU/assets/images/NTU_Logo.png"
+    },
+    {
+      "id": "nus",
+      "zh": "新加坡国立大学",
+      "en": "National University of Singapore",
+      "logo": "nus.svg",
+      "website": "https://www.nus.edu.sg/",
+      "source": "https://upload.wikimedia.org/wikipedia/en/b/b9/NUS_coat_of_arms.svg"
+    },
+    {
+      "id": "bern",
+      "zh": "伯尔尼大学",
+      "en": "University of Bern",
+      "logo": "bern.png",
+      "website": "https://www.unibe.ch/index_eng.html",
+      "source": "https://www.unibe.ch/assets/media/image/logo_unibern@2x.png"
+    },
+    {
+      "id": "scu",
+      "zh": "四川大学",
+      "en": "Sichuan University",
+      "logo": "scu.png",
+      "website": "https://www.scu.edu.cn/",
+      "source": "https://www.scu.edu.cn/images/favicon.png"
+    },
+    {
+      "id": "cornell",
+      "zh": "康奈尔大学",
+      "en": "Cornell University",
+      "logo": "cornell.png",
+      "website": "https://www.cornell.edu/",
+      "source": "https://www.cornell.edu/apple-touch-icon.png"
+    },
+    {
+      "id": "hznu",
+      "zh": "杭州师范大学",
+      "en": "Hangzhou Normal University",
+      "logo": "hznu.png",
+      "website": "https://www.hznu.edu.cn/",
+      "source": "https://www.hznu.edu.cn/template/images/logo2.png",
+      "dark": true
+    },
+    {
+      "id": "sdu",
+      "zh": "山东大学",
+      "en": "Shandong University",
+      "logo": "sdu.svg",
+      "website": "https://www.sdu.edu.cn/",
+      "source": "https://www.sdu.edu.cn/images/logo.svg",
+      "dark": true
+    },
+    {
+      "id": "manchester",
+      "zh": "曼彻斯特大学",
+      "en": "The University of Manchester",
+      "logo": "manchester.png",
+      "website": "https://www.manchester.ac.uk/",
+      "source": "https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png"
+    },
+    {
+      "id": "hkust",
+      "zh": "香港科技大学",
+      "en": "The Hong Kong University of Science and Technology",
+      "logo": "hkust.svg",
+      "website": "https://hkust.edu.hk/",
+      "source": "https://hkust.edu.hk/sites/default/files/2024-03/HKUST_logo_1.svg"
+    },
+    {
+      "id": "sia",
+      "zh": "沈阳自动化所",
+      "en": "Shenyang Institute of Automation, CAS",
+      "logo": "sia.png",
+      "website": "https://www.sia.cas.cn/",
+      "source": "https://sia.cas.cn/images/2022-logo.png"
+    },
+    {
+      "id": "ia",
+      "zh": "中科院自动化所",
+      "en": "Institute of Automation, CAS",
+      "logo": "ia.png",
+      "website": "https://www.ia.cas.cn/",
+      "source": "https://ia.cas.cn/images/ia_logo.png",
+      "dark": true
+    },
+    {
+      "id": "tju",
+      "zh": "天津大学",
+      "en": "Tianjin University",
+      "logo": "tju.png",
+      "website": "https://www.tju.edu.cn/",
+      "source": "https://www.tju.edu.cn/images/tjulogo.png",
+      "dark": true
+    },
+    {
+      "id": "cityu",
+      "zh": "香港城市大学",
+      "en": "City University of Hong Kong",
+      "logo": "cityu.svg",
+      "website": "https://www.cityu.edu.hk/",
+      "source": "https://upload.wikimedia.org/wikipedia/en/4/4a/CityU_logo.svg"
+    },
+    {
+      "id": "kth",
+      "zh": "瑞典皇家理工学院",
+      "en": "KTH Royal Institute of Technology",
+      "logo": "kth.png",
+      "website": "https://www.kth.se/en",
+      "source": "https://www.kth.se/polopoly_fs/1.1273722.1692876353!/image/apple-touch-icon-KTH-logo-180x180.png"
+    },
+    {
+      "id": "ki",
+      "zh": "卡罗琳斯卡医学院",
+      "en": "Karolinska Institutet",
+      "logo": "ki.svg",
+      "website": "https://ki.se/en",
+      "source": "https://ki.se/themes/custom/theorell/dist/images/ki-logo-header.svg"
+    },
+    {
+      "id": "ubc",
+      "zh": "英属哥伦比亚大学",
+      "en": "The University of British Columbia",
+      "logo": "ubc.png",
+      "website": "https://www.ubc.ca/",
+      "source": "https://cdn.ubc.ca/clf/7.0.5/img/touch-icon-ipad-retina.png"
+    },
+    {
+      "id": "ustc",
+      "zh": "中国科学技术大学",
+      "en": "University of Science and Technology of China",
+      "logo": "ustc.svg",
+      "website": "https://www.ustc.edu.cn/",
+      "source": "https://www.ustc.edu.cn/news/images/logo.svg",
+      "dark": true
+    },
+    {
+      "id": "whut",
+      "zh": "武汉理工大学",
+      "en": "Wuhan University of Technology",
+      "logo": "whut.svg",
+      "website": "https://www.whut.edu.cn/",
+      "source": "https://www.whut.edu.cn/material/images/logo.svg",
+      "dark": true
+    },
+    {
+      "id": "unimap",
+      "zh": "马来西亚玻璃市大学",
+      "en": "Universiti Malaysia Perlis",
+      "logo": "unimap.png",
+      "website": "https://www.unimap.edu.my/index.php/en/",
+      "source": "https://www.unimap.edu.my/images/logoRasmi/unimap_logo_2025.png"
+    },
+    {
+      "id": "buffalo",
+      "zh": "纽约州立大学布法罗分校",
+      "en": "University at Buffalo, SUNY",
+      "logo": "buffalo.png",
+      "website": "https://www.buffalo.edu/",
+      "source": "https://www.buffalo.edu/v-e541efb31faa2518c910054a542e1234/etc.clientlibs/wci/components/block/fatfooter/clientlibs/resources/ub-logo-two-line.png",
+      "dark": true
+    },
+    {
+      "id": "utsw",
+      "zh": "德克萨斯大学西南医学中心",
+      "en": "UT Southwestern Medical Center",
+      "logo": "utsw.svg",
+      "website": "https://www.utsw.edu/",
+      "source": "https://www.utsw.edu/img/branding/utsw-edu-logo.svg",
+      "dark": true
+    }
+  ]
+}
