@@ -138,7 +138,7 @@ window.QCERA = {
         ["shot-10", "收拾好的前厅猫咖", "The front-room café, all fixed up"],
         ["shot-11", "猫咖夜景", "The café at night"],
         ["shot-12", "后院修整完成：月季、水缸和晒鱼干的竹架", "The back yard, restored: roses, a water vat and a rack for drying fish"],
-        ["shot-13", "我的猫：亲密度、健康、喜好、故事和关卡技能", "My cats: affection, health, likes, stories and level skill"],
+        ["shot-13", "我的猫：五只店猫，各有亲密度、健康、喜好、故事和关卡技能", "My cats: all five shop cats, each with affection, health, likes, stories and a level skill"],
         ["shot-14", "救猫簿：救下的每只小猫都记在这里", "The rescue book: every kitten you save is recorded here"],
         ["shot-15", "每日挑战「今日死结」：不用帮手谁也解不开，看你最少用几次", "Daily challenge, “Today’s knot”: nobody can untie it without help, so how few rescues do you need?"],
         ["shot-16", "门口：放一碗吃的，等猫来做客", "The doorstep: leave out a bowl and wait for visiting cats"],
