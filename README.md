@@ -15,12 +15,14 @@
 | `/datasets/` | 核心医疗数据集 |
 | `/followup/` | 患者随访管理系统（规划总览图仍是根目录的 `follow-up.html`） |
 | `/hospitals/` | 合作医院地图与名单 |
-| `/partners/` | 合作高校与研究机构 |
+| `/partners/` | 合作高校与研究机构（2026-10-30 起暂时隐藏，见下） |
 | `/contact/` | 联系我们 |
 | `/games/` | 游戏分布：公司出品的游戏，可在网页上直接试玩 |
 | `/game/` | 跳转到 `/games/` |
 
 旧地址里的 `#about`、`#hospitals` 等锚点会自动跳到对应的新页面。
+
+合作单位页目前暂时隐藏：网站上没有它的页面和入口，`/partners/` 显示 404。名单和 logo 仍保留在 `data.js` 的 `universities` 和 `university_logos/` 里。恢复方法：把页面生成脚本 `build.py`（备份在项目共享文件夹 `qcera-redesign/source/`）里的 `HIDE_PARTNERS` 改成 `False`，重新生成页面后提交，导航、页脚、首页和关于页的入口会一起回来。
 
 ## 改内容
 
