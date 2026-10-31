@@ -43,7 +43,6 @@
     cities: located.length,
     overseas: overseas.length,
     partners: (Q.universities || []).length,
-    journals: Q.journals || 0,
     datasets: (Q.datasets || []).length,
     platforms: (Q.platforms || []).length,
     equipment: (Q.equipment || []).filter(function (e) { return !e.data; }).length,
