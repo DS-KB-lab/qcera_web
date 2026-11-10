@@ -1,0 +1,253 @@
+{
+ "frames": {
+  "boss_spider_sil_idle_00.png": {
+   "frame": {
+    "x": 1,
+    "y": 1,
+    "w": 128,
+    "h": 128
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 128
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 128
+   }
+  },
+  "boss_spider_sil_idle_01.png": {
+   "frame": {
+    "x": 130,
+    "y": 1,
+    "w": 128,
+    "h": 128
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 128
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 128
+   }
+  },
+  "boss_spider_sil_move_00.png": {
+   "frame": {
+    "x": 259,
+    "y": 1,
+    "w": 128,
+    "h": 128
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 128
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 128
+   }
+  },
+  "boss_spider_sil_move_01.png": {
+   "frame": {
+    "x": 388,
+    "y": 1,
+    "w": 128,
+    "h": 128
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 128
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 128
+   }
+  },
+  "boss_tree_sil_idle_00.png": {
+   "frame": {
+    "x": 1,
+    "y": 130,
+    "w": 192,
+    "h": 192
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 192
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 192
+   }
+  },
+  "boss_tree_sil_idle_01.png": {
+   "frame": {
+    "x": 194,
+    "y": 130,
+    "w": 192,
+    "h": 192
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 192
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 192
+   }
+  },
+  "boss_tree_sil_move_00.png": {
+   "frame": {
+    "x": 387,
+    "y": 130,
+    "w": 192,
+    "h": 192
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 192
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 192
+   }
+  },
+  "boss_tree_sil_move_01.png": {
+   "frame": {
+    "x": 580,
+    "y": 130,
+    "w": 192,
+    "h": 192
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 192
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 192
+   }
+  },
+  "boss_king_sil_idle_00.png": {
+   "frame": {
+    "x": 1,
+    "y": 323,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   }
+  },
+  "boss_king_sil_idle_01.png": {
+   "frame": {
+    "x": 226,
+    "y": 323,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   }
+  },
+  "boss_king_sil_move_00.png": {
+   "frame": {
+    "x": 451,
+    "y": 323,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   }
+  },
+  "boss_king_sil_move_01.png": {
+   "frame": {
+    "x": 676,
+    "y": 323,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   }
+  }
+ },
+ "meta": {
+  "image": "atlas_main_boss_sil.png",
+  "size": {
+   "w": 901,
+   "h": 548
+  },
+  "scale": "1",
+  "filter": "nearest"
+ }
+}

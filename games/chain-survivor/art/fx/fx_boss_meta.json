@@ -1,0 +1,2532 @@
+{
+ "note": "Boss 技能特效补交 v2（特效助理 11-01）：C-55 定稿 + 总负责人 14:37 正圆裁定，全部正圆；temporary 已去除；未打图集（资源制作助理负责）。减速区提示 fx_tree_slow_warn_00–03（194×194 淡紫虚线圈，半径 3 身位，生效前 1.0s，不造成伤害）。",
+ "unit_px": 32,
+ "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）",
+ "entries": {
+  "fx_spider_burrow_warn_00.png": {
+   "phase": "warn",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    77,
+    160,
+    128,
+    77
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "shape": "矩形",
+   "pivot": [
+    0,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "range": {
+    "len_u": 8,
+    "len_px": 256,
+    "w_u": 3.0,
+    "w_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；全宽=2×(hit_r_u 1.1+0.4)=3.0 身位=96px（美术部定数，BossSkills.ts:78 判定=身体半径+hit_w_u/2+玩家半径），长 len_u 8"
+   },
+   "note": "钻地冲锋路径预警，朝右，pivot=起点，代码只旋转不缩放",
+   "boss": "spider",
+   "skill": "burrow",
+   "size": [
+    256,
+    96
+   ],
+   "path": "art/fx/boss_frames/spider/fx_spider_burrow_warn_00.png"
+  },
+  "fx_spider_burrow_warn_01.png": {
+   "phase": "warn",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    77,
+    160,
+    128,
+    77
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "shape": "矩形",
+   "pivot": [
+    0,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "range": {
+    "len_u": 8,
+    "len_px": 256,
+    "w_u": 3.0,
+    "w_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；全宽=2×(hit_r_u 1.1+0.4)=3.0 身位=96px（美术部定数，BossSkills.ts:78 判定=身体半径+hit_w_u/2+玩家半径），长 len_u 8"
+   },
+   "note": "钻地冲锋路径预警，朝右，pivot=起点，代码只旋转不缩放",
+   "boss": "spider",
+   "skill": "burrow",
+   "size": [
+    256,
+    96
+   ],
+   "path": "art/fx/boss_frames/spider/fx_spider_burrow_warn_01.png"
+  },
+  "fx_spider_burrow_warn_02.png": {
+   "phase": "warn",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    77,
+    160,
+    128,
+    77
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "shape": "矩形",
+   "pivot": [
+    0,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "range": {
+    "len_u": 8,
+    "len_px": 256,
+    "w_u": 3.0,
+    "w_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；全宽=2×(hit_r_u 1.1+0.4)=3.0 身位=96px（美术部定数，BossSkills.ts:78 判定=身体半径+hit_w_u/2+玩家半径），长 len_u 8"
+   },
+   "note": "钻地冲锋路径预警，朝右，pivot=起点，代码只旋转不缩放",
+   "boss": "spider",
+   "skill": "burrow",
+   "size": [
+    256,
+    96
+   ],
+   "path": "art/fx/boss_frames/spider/fx_spider_burrow_warn_02.png"
+  },
+  "fx_spider_burrow_warn_03.png": {
+   "phase": "warn",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    77,
+    160,
+    128,
+    77
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "shape": "矩形",
+   "pivot": [
+    0,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "range": {
+    "len_u": 8,
+    "len_px": 256,
+    "w_u": 3.0,
+    "w_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；全宽=2×(hit_r_u 1.1+0.4)=3.0 身位=96px（美术部定数，BossSkills.ts:78 判定=身体半径+hit_w_u/2+玩家半径），长 len_u 8"
+   },
+   "note": "钻地冲锋路径预警，朝右，pivot=起点，代码只旋转不缩放",
+   "boss": "spider",
+   "skill": "burrow",
+   "size": [
+    256,
+    96
+   ],
+   "path": "art/fx/boss_frames/spider/fx_spider_burrow_warn_03.png"
+  },
+  "fx_spider_gear_warn_00.png": {
+   "phase": "warn",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    77,
+    160,
+    128,
+    77
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "range": {
+    "orbit_r_u": 2.5,
+    "gear_r_u": 0.5,
+    "outer_r_u": 3.0,
+    "outer_r_px": 96,
+    "inner_r_u": 2.0,
+    "inner_r_px": 64,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；外缘=轨道 2.5+齿轮半径 0.5=3.0，内缘 2.0"
+   },
+   "note": "<50% 血齿轮环绕环形预警，194=192+2px 外描边余量；_candidates/gear_ell 椭圆稿作废",
+   "boss": "spider",
+   "skill": "gear",
+   "size": [
+    194,
+    194
+   ],
+   "path": "art/fx/boss_frames/spider/fx_spider_gear_warn_00.png"
+  },
+  "fx_spider_gear_warn_01.png": {
+   "phase": "warn",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    77,
+    160,
+    128,
+    77
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "range": {
+    "orbit_r_u": 2.5,
+    "gear_r_u": 0.5,
+    "outer_r_u": 3.0,
+    "outer_r_px": 96,
+    "inner_r_u": 2.0,
+    "inner_r_px": 64,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；外缘=轨道 2.5+齿轮半径 0.5=3.0，内缘 2.0"
+   },
+   "note": "<50% 血齿轮环绕环形预警，194=192+2px 外描边余量；_candidates/gear_ell 椭圆稿作废",
+   "boss": "spider",
+   "skill": "gear",
+   "size": [
+    194,
+    194
+   ],
+   "path": "art/fx/boss_frames/spider/fx_spider_gear_warn_01.png"
+  },
+  "fx_spider_gear_warn_02.png": {
+   "phase": "warn",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    77,
+    160,
+    128,
+    77
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "range": {
+    "orbit_r_u": 2.5,
+    "gear_r_u": 0.5,
+    "outer_r_u": 3.0,
+    "outer_r_px": 96,
+    "inner_r_u": 2.0,
+    "inner_r_px": 64,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；外缘=轨道 2.5+齿轮半径 0.5=3.0，内缘 2.0"
+   },
+   "note": "<50% 血齿轮环绕环形预警，194=192+2px 外描边余量；_candidates/gear_ell 椭圆稿作废",
+   "boss": "spider",
+   "skill": "gear",
+   "size": [
+    194,
+    194
+   ],
+   "path": "art/fx/boss_frames/spider/fx_spider_gear_warn_02.png"
+  },
+  "fx_spider_gear_warn_03.png": {
+   "phase": "warn",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    77,
+    160,
+    128,
+    77
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "range": {
+    "orbit_r_u": 2.5,
+    "gear_r_u": 0.5,
+    "outer_r_u": 3.0,
+    "outer_r_px": 96,
+    "inner_r_u": 2.0,
+    "inner_r_px": 64,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；外缘=轨道 2.5+齿轮半径 0.5=3.0，内缘 2.0"
+   },
+   "note": "<50% 血齿轮环绕环形预警，194=192+2px 外描边余量；_candidates/gear_ell 椭圆稿作废",
+   "boss": "spider",
+   "skill": "gear",
+   "size": [
+    194,
+    194
+   ],
+   "path": "art/fx/boss_frames/spider/fx_spider_gear_warn_03.png"
+  },
+  "fx_tree_rootspike_warn_00.png": {
+   "phase": "warn",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    77,
+    160,
+    128,
+    77
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "range": {
+    "r_u": 1,
+    "r_px": 32,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；spawn_duo.json tree_boss.skills.root_spike r_u=1、warn_s=1"
+   },
+   "note": "根刺落点预警 ×3 处，66=64+2px 外描边余量",
+   "boss": "tree",
+   "skill": "rootspike",
+   "size": [
+    66,
+    66
+   ],
+   "path": "art/fx/boss_frames/tree/fx_tree_rootspike_warn_00.png"
+  },
+  "fx_tree_rootspike_warn_01.png": {
+   "phase": "warn",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    77,
+    160,
+    128,
+    77
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "range": {
+    "r_u": 1,
+    "r_px": 32,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；spawn_duo.json tree_boss.skills.root_spike r_u=1、warn_s=1"
+   },
+   "note": "根刺落点预警 ×3 处，66=64+2px 外描边余量",
+   "boss": "tree",
+   "skill": "rootspike",
+   "size": [
+    66,
+    66
+   ],
+   "path": "art/fx/boss_frames/tree/fx_tree_rootspike_warn_01.png"
+  },
+  "fx_tree_rootspike_warn_02.png": {
+   "phase": "warn",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    77,
+    160,
+    128,
+    77
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "range": {
+    "r_u": 1,
+    "r_px": 32,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；spawn_duo.json tree_boss.skills.root_spike r_u=1、warn_s=1"
+   },
+   "note": "根刺落点预警 ×3 处，66=64+2px 外描边余量",
+   "boss": "tree",
+   "skill": "rootspike",
+   "size": [
+    66,
+    66
+   ],
+   "path": "art/fx/boss_frames/tree/fx_tree_rootspike_warn_02.png"
+  },
+  "fx_tree_rootspike_warn_03.png": {
+   "phase": "warn",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    77,
+    160,
+    128,
+    77
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "range": {
+    "r_u": 1,
+    "r_px": 32,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；spawn_duo.json tree_boss.skills.root_spike r_u=1、warn_s=1"
+   },
+   "note": "根刺落点预警 ×3 处，66=64+2px 外描边余量",
+   "boss": "tree",
+   "skill": "rootspike",
+   "size": [
+    66,
+    66
+   ],
+   "path": "art/fx/boss_frames/tree/fx_tree_rootspike_warn_03.png"
+  },
+  "fx_king_slam_00.png": {
+   "phase": "active",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "fps": 15,
+   "loop": false,
+   "damage_frame": 1,
+   "range": {
+    "r_u": 3,
+    "r_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；final_boss.slam r_u=3（KingSkills.ts:77 正圆）"
+   },
+   "note": "砸地冲击帧（非预警），原 192×96 椭圆按 y×2 重画为 192×192 正圆，节奏/配色/随机种子不变；预警仍用 fx_warn_circle_192（不新做）；旧版备份 fx/_bak_king_slam_ell/",
+   "boss": "king",
+   "skill": "slam",
+   "size": [
+    192,
+    192
+   ],
+   "path": "art/fx/fx_king_slam_00.png"
+  },
+  "fx_king_slam_01.png": {
+   "phase": "active",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "fps": 15,
+   "loop": false,
+   "damage_frame": 1,
+   "range": {
+    "r_u": 3,
+    "r_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；final_boss.slam r_u=3（KingSkills.ts:77 正圆）"
+   },
+   "note": "砸地冲击帧（非预警），原 192×96 椭圆按 y×2 重画为 192×192 正圆，节奏/配色/随机种子不变；预警仍用 fx_warn_circle_192（不新做）；旧版备份 fx/_bak_king_slam_ell/",
+   "boss": "king",
+   "skill": "slam",
+   "size": [
+    192,
+    192
+   ],
+   "path": "art/fx/fx_king_slam_01.png"
+  },
+  "fx_king_slam_02.png": {
+   "phase": "active",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "fps": 15,
+   "loop": false,
+   "damage_frame": 1,
+   "range": {
+    "r_u": 3,
+    "r_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；final_boss.slam r_u=3（KingSkills.ts:77 正圆）"
+   },
+   "note": "砸地冲击帧（非预警），原 192×96 椭圆按 y×2 重画为 192×192 正圆，节奏/配色/随机种子不变；预警仍用 fx_warn_circle_192（不新做）；旧版备份 fx/_bak_king_slam_ell/",
+   "boss": "king",
+   "skill": "slam",
+   "size": [
+    192,
+    192
+   ],
+   "path": "art/fx/fx_king_slam_02.png"
+  },
+  "fx_king_slam_03.png": {
+   "phase": "active",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "fps": 15,
+   "loop": false,
+   "damage_frame": 1,
+   "range": {
+    "r_u": 3,
+    "r_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；final_boss.slam r_u=3（KingSkills.ts:77 正圆）"
+   },
+   "note": "砸地冲击帧（非预警），原 192×96 椭圆按 y×2 重画为 192×192 正圆，节奏/配色/随机种子不变；预警仍用 fx_warn_circle_192（不新做）；旧版备份 fx/_bak_king_slam_ell/",
+   "boss": "king",
+   "skill": "slam",
+   "size": [
+    192,
+    192
+   ],
+   "path": "art/fx/fx_king_slam_03.png"
+  },
+  "fx_king_slam_04.png": {
+   "phase": "active",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "fps": 15,
+   "loop": false,
+   "damage_frame": 1,
+   "range": {
+    "r_u": 3,
+    "r_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；final_boss.slam r_u=3（KingSkills.ts:77 正圆）"
+   },
+   "note": "砸地冲击帧（非预警），原 192×96 椭圆按 y×2 重画为 192×192 正圆，节奏/配色/随机种子不变；预警仍用 fx_warn_circle_192（不新做）；旧版备份 fx/_bak_king_slam_ell/",
+   "boss": "king",
+   "skill": "slam",
+   "size": [
+    192,
+    192
+   ],
+   "path": "art/fx/fx_king_slam_04.png"
+  },
+  "fx_king_slam_05.png": {
+   "phase": "active",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "fps": 15,
+   "loop": false,
+   "damage_frame": 1,
+   "range": {
+    "r_u": 3,
+    "r_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；final_boss.slam r_u=3（KingSkills.ts:77 正圆）"
+   },
+   "note": "砸地冲击帧（非预警），原 192×96 椭圆按 y×2 重画为 192×192 正圆，节奏/配色/随机种子不变；预警仍用 fx_warn_circle_192（不新做）；旧版备份 fx/_bak_king_slam_ell/",
+   "boss": "king",
+   "skill": "slam",
+   "size": [
+    192,
+    192
+   ],
+   "path": "art/fx/fx_king_slam_05.png"
+  },
+  "fx_tree_fruitmark_00.png": {
+   "phase": "mark",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 0.8,
+   "loop": true,
+   "range": {
+    "r_u": 1,
+    "r_px": 32,
+    "canvas_margin_px": 1,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；tree_boss.skills.fruit mark_r_u=1、land_s=0.8"
+   },
+   "note": "果实落点标记（沿用旧名，旧版 32×16 椭圆备份 fx/_bak_tree_fruitmark_ell/）；外缘 LV2 实线 R=32，+1px 半透明淡紫外沿凑 66×66；内圈 LV1 脉冲 00 常态/01 最亮/02 次亮/03 常态；land_dmg=0 → 按 C-27 淡紫不用红",
+   "boss": "tree",
+   "skill": "fruitmark",
+   "size": [
+    66,
+    66
+   ],
+   "path": "art/fx/fx_tree_fruitmark_00.png"
+  },
+  "fx_tree_fruitmark_01.png": {
+   "phase": "mark",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 0.8,
+   "loop": true,
+   "range": {
+    "r_u": 1,
+    "r_px": 32,
+    "canvas_margin_px": 1,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；tree_boss.skills.fruit mark_r_u=1、land_s=0.8"
+   },
+   "note": "果实落点标记（沿用旧名，旧版 32×16 椭圆备份 fx/_bak_tree_fruitmark_ell/）；外缘 LV2 实线 R=32，+1px 半透明淡紫外沿凑 66×66；内圈 LV1 脉冲 00 常态/01 最亮/02 次亮/03 常态；land_dmg=0 → 按 C-27 淡紫不用红",
+   "boss": "tree",
+   "skill": "fruitmark",
+   "size": [
+    66,
+    66
+   ],
+   "path": "art/fx/fx_tree_fruitmark_01.png"
+  },
+  "fx_tree_fruitmark_02.png": {
+   "phase": "mark",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 0.8,
+   "loop": true,
+   "range": {
+    "r_u": 1,
+    "r_px": 32,
+    "canvas_margin_px": 1,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；tree_boss.skills.fruit mark_r_u=1、land_s=0.8"
+   },
+   "note": "果实落点标记（沿用旧名，旧版 32×16 椭圆备份 fx/_bak_tree_fruitmark_ell/）；外缘 LV2 实线 R=32，+1px 半透明淡紫外沿凑 66×66；内圈 LV1 脉冲 00 常态/01 最亮/02 次亮/03 常态；land_dmg=0 → 按 C-27 淡紫不用红",
+   "boss": "tree",
+   "skill": "fruitmark",
+   "size": [
+    66,
+    66
+   ],
+   "path": "art/fx/fx_tree_fruitmark_02.png"
+  },
+  "fx_tree_fruitmark_03.png": {
+   "phase": "mark",
+   "shape": "正圆",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 0.8,
+   "loop": true,
+   "range": {
+    "r_u": 1,
+    "r_px": 32,
+    "canvas_margin_px": 1,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；tree_boss.skills.fruit mark_r_u=1、land_s=0.8"
+   },
+   "note": "果实落点标记（沿用旧名，旧版 32×16 椭圆备份 fx/_bak_tree_fruitmark_ell/）；外缘 LV2 实线 R=32，+1px 半透明淡紫外沿凑 66×66；内圈 LV1 脉冲 00 常态/01 最亮/02 次亮/03 常态；land_dmg=0 → 按 C-27 淡紫不用红",
+   "boss": "tree",
+   "skill": "fruitmark",
+   "size": [
+    66,
+    66
+   ],
+   "path": "art/fx/fx_tree_fruitmark_03.png"
+  },
+  "fx_tree_slow_warn_00.png": {
+   "phase": "warn",
+   "shape": "正圆",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    64,
+    110,
+    90,
+    64
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "damage": false,
+   "range": {
+    "r_u": 3,
+    "r_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；tree_boss.skills.leaf_zone r_u=3、warn_s=1.0（提示期间不减速）"
+   },
+   "note": "古树减速区生效前 1.0s 提示，半径 3 身位（194=192+2px 余量），不造成伤害→淡紫虚线圈（配色同 fx_tree_slowzone_96_00，样稿已获美术部确认），不用红",
+   "boss": "tree",
+   "skill": "slow_warn",
+   "size": [
+    194,
+    194
+   ],
+   "path": "art/fx/boss_frames/tree/fx_tree_slow_warn_00.png"
+  },
+  "fx_tree_slow_warn_01.png": {
+   "phase": "warn",
+   "shape": "正圆",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    64,
+    110,
+    90,
+    64
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "damage": false,
+   "range": {
+    "r_u": 3,
+    "r_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；tree_boss.skills.leaf_zone r_u=3、warn_s=1.0（提示期间不减速）"
+   },
+   "note": "古树减速区生效前 1.0s 提示，半径 3 身位（194=192+2px 余量），不造成伤害→淡紫虚线圈（配色同 fx_tree_slowzone_96_00，样稿已获美术部确认），不用红",
+   "boss": "tree",
+   "skill": "slow_warn",
+   "size": [
+    194,
+    194
+   ],
+   "path": "art/fx/boss_frames/tree/fx_tree_slow_warn_01.png"
+  },
+  "fx_tree_slow_warn_02.png": {
+   "phase": "warn",
+   "shape": "正圆",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    64,
+    110,
+    90,
+    64
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "damage": false,
+   "range": {
+    "r_u": 3,
+    "r_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；tree_boss.skills.leaf_zone r_u=3、warn_s=1.0（提示期间不减速）"
+   },
+   "note": "古树减速区生效前 1.0s 提示，半径 3 身位（194=192+2px 余量），不造成伤害→淡紫虚线圈（配色同 fx_tree_slowzone_96_00，样稿已获美术部确认），不用红",
+   "boss": "tree",
+   "skill": "slow_warn",
+   "size": [
+    194,
+    194
+   ],
+   "path": "art/fx/boss_frames/tree/fx_tree_slow_warn_02.png"
+  },
+  "fx_tree_slow_warn_03.png": {
+   "phase": "warn",
+   "shape": "正圆",
+   "key_flash_frame": 1,
+   "alpha_seq": [
+    64,
+    110,
+    90,
+    64
+   ],
+   "playback": "不写死时长/fps：由代码按实际预警时长缩放播放速度（4 帧均分预警时长，关键闪帧 01 位于 25–50%）",
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "warn_s": 1.0,
+   "damage": false,
+   "range": {
+    "r_u": 3,
+    "r_px": 96,
+    "src": "gdd/变更清单.md C-55（定稿，已验收）+ 总负责人 14:37 正圆裁定（main.ts:294 sx/sy 同乘 PX，无 2:1 投影，判定为世界坐标正圆）；tree_boss.skills.leaf_zone r_u=3、warn_s=1.0（提示期间不减速）"
+   },
+   "note": "古树减速区生效前 1.0s 提示，半径 3 身位（194=192+2px 余量），不造成伤害→淡紫虚线圈（配色同 fx_tree_slowzone_96_00，样稿已获美术部确认），不用红",
+   "boss": "tree",
+   "skill": "slow_warn",
+   "size": [
+    194,
+    194
+   ],
+   "path": "art/fx/boss_frames/tree/fx_tree_slow_warn_03.png"
+  },
+  "fx_spider_intro_land_00.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "吊丝从天上落地：蛛丝垂下→着地（02）→淡紫冲击环+灰紫扬尘；本体下落由代码做；pivot=脚底（落点）",
+   "boss": "spider",
+   "skill": "intro_land",
+   "size": [
+    102,
+    95
+   ],
+   "canvas_before_crop": [
+    128,
+    96
+   ],
+   "pivot": [
+    0.5,
+    0.1579
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_intro_land_00.png"
+  },
+  "fx_spider_intro_land_01.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "吊丝从天上落地：蛛丝垂下→着地（02）→淡紫冲击环+灰紫扬尘；本体下落由代码做；pivot=脚底（落点）",
+   "boss": "spider",
+   "skill": "intro_land",
+   "size": [
+    102,
+    95
+   ],
+   "canvas_before_crop": [
+    128,
+    96
+   ],
+   "pivot": [
+    0.5,
+    0.1579
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_intro_land_01.png"
+  },
+  "fx_spider_intro_land_02.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "吊丝从天上落地：蛛丝垂下→着地（02）→淡紫冲击环+灰紫扬尘；本体下落由代码做；pivot=脚底（落点）",
+   "boss": "spider",
+   "skill": "intro_land",
+   "size": [
+    102,
+    95
+   ],
+   "canvas_before_crop": [
+    128,
+    96
+   ],
+   "pivot": [
+    0.5,
+    0.1579
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_intro_land_02.png"
+  },
+  "fx_spider_intro_land_03.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "吊丝从天上落地：蛛丝垂下→着地（02）→淡紫冲击环+灰紫扬尘；本体下落由代码做；pivot=脚底（落点）",
+   "boss": "spider",
+   "skill": "intro_land",
+   "size": [
+    102,
+    95
+   ],
+   "canvas_before_crop": [
+    128,
+    96
+   ],
+   "pivot": [
+    0.5,
+    0.1579
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_intro_land_03.png"
+  },
+  "fx_spider_intro_land_04.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "吊丝从天上落地：蛛丝垂下→着地（02）→淡紫冲击环+灰紫扬尘；本体下落由代码做；pivot=脚底（落点）",
+   "boss": "spider",
+   "skill": "intro_land",
+   "size": [
+    102,
+    95
+   ],
+   "canvas_before_crop": [
+    128,
+    96
+   ],
+   "pivot": [
+    0.5,
+    0.1579
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_intro_land_04.png"
+  },
+  "fx_spider_intro_land_05.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "吊丝从天上落地：蛛丝垂下→着地（02）→淡紫冲击环+灰紫扬尘；本体下落由代码做；pivot=脚底（落点）",
+   "boss": "spider",
+   "skill": "intro_land",
+   "size": [
+    102,
+    95
+   ],
+   "canvas_before_crop": [
+    128,
+    96
+   ],
+   "pivot": [
+    0.5,
+    0.1579
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_intro_land_05.png"
+  },
+  "fx_spider_death_burst_00.png": {
+   "phase": "death",
+   "fps": 10,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散：白闪→淡紫冲击环→粉铜碎甲飞散+烟尘；中心对齐蛛后身体中心（C-29 基准 64,74 由代码换算）",
+   "boss": "spider",
+   "skill": "death_burst",
+   "size": [
+    122,
+    99
+   ],
+   "canvas_before_crop": [
+    128,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.4848
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_burst_00.png"
+  },
+  "fx_spider_death_burst_01.png": {
+   "phase": "death",
+   "fps": 10,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散：白闪→淡紫冲击环→粉铜碎甲飞散+烟尘；中心对齐蛛后身体中心（C-29 基准 64,74 由代码换算）",
+   "boss": "spider",
+   "skill": "death_burst",
+   "size": [
+    122,
+    99
+   ],
+   "canvas_before_crop": [
+    128,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.4848
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_burst_01.png"
+  },
+  "fx_spider_death_burst_02.png": {
+   "phase": "death",
+   "fps": 10,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散：白闪→淡紫冲击环→粉铜碎甲飞散+烟尘；中心对齐蛛后身体中心（C-29 基准 64,74 由代码换算）",
+   "boss": "spider",
+   "skill": "death_burst",
+   "size": [
+    122,
+    99
+   ],
+   "canvas_before_crop": [
+    128,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.4848
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_burst_02.png"
+  },
+  "fx_spider_death_burst_03.png": {
+   "phase": "death",
+   "fps": 10,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散：白闪→淡紫冲击环→粉铜碎甲飞散+烟尘；中心对齐蛛后身体中心（C-29 基准 64,74 由代码换算）",
+   "boss": "spider",
+   "skill": "death_burst",
+   "size": [
+    122,
+    99
+   ],
+   "canvas_before_crop": [
+    128,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.4848
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_burst_03.png"
+  },
+  "fx_spider_death_burst_04.png": {
+   "phase": "death",
+   "fps": 10,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散：白闪→淡紫冲击环→粉铜碎甲飞散+烟尘；中心对齐蛛后身体中心（C-29 基准 64,74 由代码换算）",
+   "boss": "spider",
+   "skill": "death_burst",
+   "size": [
+    122,
+    99
+   ],
+   "canvas_before_crop": [
+    128,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.4848
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_burst_04.png"
+  },
+  "fx_spider_death_burst_05.png": {
+   "phase": "death",
+   "fps": 10,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散：白闪→淡紫冲击环→粉铜碎甲飞散+烟尘；中心对齐蛛后身体中心（C-29 基准 64,74 由代码换算）",
+   "boss": "spider",
+   "skill": "death_burst",
+   "size": [
+    122,
+    99
+   ],
+   "canvas_before_crop": [
+    128,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.4848
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_burst_05.png"
+  },
+  "fx_spider_death_fade_00.png": {
+   "phase": "death",
+   "fps": 8,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "最后消散：灰紫烟收缩+淡紫光点上飘至无；接在 death_burst 之后；pivot=脚底",
+   "boss": "spider",
+   "skill": "death_fade",
+   "size": [
+    84,
+    43
+   ],
+   "canvas_before_crop": [
+    128,
+    64
+   ],
+   "pivot": [
+    0.5,
+    0.3721
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_fade_00.png"
+  },
+  "fx_spider_death_fade_01.png": {
+   "phase": "death",
+   "fps": 8,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "最后消散：灰紫烟收缩+淡紫光点上飘至无；接在 death_burst 之后；pivot=脚底",
+   "boss": "spider",
+   "skill": "death_fade",
+   "size": [
+    84,
+    43
+   ],
+   "canvas_before_crop": [
+    128,
+    64
+   ],
+   "pivot": [
+    0.5,
+    0.3721
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_fade_01.png"
+  },
+  "fx_spider_death_fade_02.png": {
+   "phase": "death",
+   "fps": 8,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "最后消散：灰紫烟收缩+淡紫光点上飘至无；接在 death_burst 之后；pivot=脚底",
+   "boss": "spider",
+   "skill": "death_fade",
+   "size": [
+    84,
+    43
+   ],
+   "canvas_before_crop": [
+    128,
+    64
+   ],
+   "pivot": [
+    0.5,
+    0.3721
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_fade_02.png"
+  },
+  "fx_spider_death_fade_03.png": {
+   "phase": "death",
+   "fps": 8,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "最后消散：灰紫烟收缩+淡紫光点上飘至无；接在 death_burst 之后；pivot=脚底",
+   "boss": "spider",
+   "skill": "death_fade",
+   "size": [
+    84,
+    43
+   ],
+   "canvas_before_crop": [
+    128,
+    64
+   ],
+   "pivot": [
+    0.5,
+    0.3721
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_fade_03.png"
+  },
+  "fx_spider_death_gear_00.png": {
+   "phase": "death_particle",
+   "fps": 12,
+   "dur_s": 0.33,
+   "loop": true,
+   "note": "齿轮碎片粒子，每帧转 22.5°；代码散射 6–8 个、抛物线落地，随 death_burst 播",
+   "boss": "spider",
+   "skill": "death_gear",
+   "size": [
+    18,
+    18
+   ],
+   "canvas_before_crop": [
+    20,
+    20
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_gear_00.png"
+  },
+  "fx_spider_death_gear_01.png": {
+   "phase": "death_particle",
+   "fps": 12,
+   "dur_s": 0.33,
+   "loop": true,
+   "note": "齿轮碎片粒子，每帧转 22.5°；代码散射 6–8 个、抛物线落地，随 death_burst 播",
+   "boss": "spider",
+   "skill": "death_gear",
+   "size": [
+    18,
+    18
+   ],
+   "canvas_before_crop": [
+    20,
+    20
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_gear_01.png"
+  },
+  "fx_spider_death_gear_02.png": {
+   "phase": "death_particle",
+   "fps": 12,
+   "dur_s": 0.33,
+   "loop": true,
+   "note": "齿轮碎片粒子，每帧转 22.5°；代码散射 6–8 个、抛物线落地，随 death_burst 播",
+   "boss": "spider",
+   "skill": "death_gear",
+   "size": [
+    18,
+    18
+   ],
+   "canvas_before_crop": [
+    20,
+    20
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_gear_02.png"
+  },
+  "fx_spider_death_gear_03.png": {
+   "phase": "death_particle",
+   "fps": 12,
+   "dur_s": 0.33,
+   "loop": true,
+   "note": "齿轮碎片粒子，每帧转 22.5°；代码散射 6–8 个、抛物线落地，随 death_burst 播",
+   "boss": "spider",
+   "skill": "death_gear",
+   "size": [
+    18,
+    18
+   ],
+   "canvas_before_crop": [
+    20,
+    20
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_death_gear_03.png"
+  },
+  "fx_spider_retreat_00.png": {
+   "phase": "retreat",
+   "fps": 8,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "钻地撤退尘土：配色同冲锋组粉铜（无红），地洞+土块+粉铜尘；对应 MIDBOSS_RETREAT；pivot=脚底",
+   "boss": "spider",
+   "skill": "retreat",
+   "size": [
+    90,
+    43
+   ],
+   "canvas_before_crop": [
+    128,
+    72
+   ],
+   "pivot": [
+    0.5,
+    0.3256
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_retreat_00.png"
+  },
+  "fx_spider_retreat_01.png": {
+   "phase": "retreat",
+   "fps": 8,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "钻地撤退尘土：配色同冲锋组粉铜（无红），地洞+土块+粉铜尘；对应 MIDBOSS_RETREAT；pivot=脚底",
+   "boss": "spider",
+   "skill": "retreat",
+   "size": [
+    90,
+    43
+   ],
+   "canvas_before_crop": [
+    128,
+    72
+   ],
+   "pivot": [
+    0.5,
+    0.3256
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_retreat_01.png"
+  },
+  "fx_spider_retreat_02.png": {
+   "phase": "retreat",
+   "fps": 8,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "钻地撤退尘土：配色同冲锋组粉铜（无红），地洞+土块+粉铜尘；对应 MIDBOSS_RETREAT；pivot=脚底",
+   "boss": "spider",
+   "skill": "retreat",
+   "size": [
+    90,
+    43
+   ],
+   "canvas_before_crop": [
+    128,
+    72
+   ],
+   "pivot": [
+    0.5,
+    0.3256
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_retreat_02.png"
+  },
+  "fx_spider_retreat_03.png": {
+   "phase": "retreat",
+   "fps": 8,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "钻地撤退尘土：配色同冲锋组粉铜（无红），地洞+土块+粉铜尘；对应 MIDBOSS_RETREAT；pivot=脚底",
+   "boss": "spider",
+   "skill": "retreat",
+   "size": [
+    90,
+    43
+   ],
+   "canvas_before_crop": [
+    128,
+    72
+   ],
+   "pivot": [
+    0.5,
+    0.3256
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/spider/fx_spider_retreat_03.png"
+  },
+  "fx_tree_intro_emerge_00.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "从地里钻出：地裂→土块翻起+去饱和根须上冲→灰紫尘；本体上升由代码裁剪剪影（同 retreat 反向）；pivot=脚底（帧内地面线）",
+   "boss": "tree",
+   "skill": "intro_emerge",
+   "size": [
+    171,
+    95
+   ],
+   "canvas_before_crop": [
+    192,
+    128
+   ],
+   "pivot": [
+    0.5029,
+    0.2526
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_intro_emerge_00.png"
+  },
+  "fx_tree_intro_emerge_01.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "从地里钻出：地裂→土块翻起+去饱和根须上冲→灰紫尘；本体上升由代码裁剪剪影（同 retreat 反向）；pivot=脚底（帧内地面线）",
+   "boss": "tree",
+   "skill": "intro_emerge",
+   "size": [
+    171,
+    95
+   ],
+   "canvas_before_crop": [
+    192,
+    128
+   ],
+   "pivot": [
+    0.5029,
+    0.2526
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_intro_emerge_01.png"
+  },
+  "fx_tree_intro_emerge_02.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "从地里钻出：地裂→土块翻起+去饱和根须上冲→灰紫尘；本体上升由代码裁剪剪影（同 retreat 反向）；pivot=脚底（帧内地面线）",
+   "boss": "tree",
+   "skill": "intro_emerge",
+   "size": [
+    171,
+    95
+   ],
+   "canvas_before_crop": [
+    192,
+    128
+   ],
+   "pivot": [
+    0.5029,
+    0.2526
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_intro_emerge_02.png"
+  },
+  "fx_tree_intro_emerge_03.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "从地里钻出：地裂→土块翻起+去饱和根须上冲→灰紫尘；本体上升由代码裁剪剪影（同 retreat 反向）；pivot=脚底（帧内地面线）",
+   "boss": "tree",
+   "skill": "intro_emerge",
+   "size": [
+    171,
+    95
+   ],
+   "canvas_before_crop": [
+    192,
+    128
+   ],
+   "pivot": [
+    0.5029,
+    0.2526
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_intro_emerge_03.png"
+  },
+  "fx_tree_intro_emerge_04.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "从地里钻出：地裂→土块翻起+去饱和根须上冲→灰紫尘；本体上升由代码裁剪剪影（同 retreat 反向）；pivot=脚底（帧内地面线）",
+   "boss": "tree",
+   "skill": "intro_emerge",
+   "size": [
+    171,
+    95
+   ],
+   "canvas_before_crop": [
+    192,
+    128
+   ],
+   "pivot": [
+    0.5029,
+    0.2526
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_intro_emerge_04.png"
+  },
+  "fx_tree_intro_emerge_05.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "从地里钻出：地裂→土块翻起+去饱和根须上冲→灰紫尘；本体上升由代码裁剪剪影（同 retreat 反向）；pivot=脚底（帧内地面线）",
+   "boss": "tree",
+   "skill": "intro_emerge",
+   "size": [
+    171,
+    95
+   ],
+   "canvas_before_crop": [
+    192,
+    128
+   ],
+   "pivot": [
+    0.5029,
+    0.2526
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_intro_emerge_05.png"
+  },
+  "fx_tree_death_burst_00.png": {
+   "phase": "death",
+   "fps": 10,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散：白闪→淡紫冲击环→腐木碎块+淡紫孢子飞散+灰紫尘；中心对齐古树身体（foot 上方 ~91px，按挂点由代码换算）",
+   "boss": "tree",
+   "skill": "death_burst",
+   "size": [
+    166,
+    142
+   ],
+   "canvas_before_crop": [
+    192,
+    176
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_burst_00.png"
+  },
+  "fx_tree_death_burst_01.png": {
+   "phase": "death",
+   "fps": 10,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散：白闪→淡紫冲击环→腐木碎块+淡紫孢子飞散+灰紫尘；中心对齐古树身体（foot 上方 ~91px，按挂点由代码换算）",
+   "boss": "tree",
+   "skill": "death_burst",
+   "size": [
+    166,
+    142
+   ],
+   "canvas_before_crop": [
+    192,
+    176
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_burst_01.png"
+  },
+  "fx_tree_death_burst_02.png": {
+   "phase": "death",
+   "fps": 10,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散：白闪→淡紫冲击环→腐木碎块+淡紫孢子飞散+灰紫尘；中心对齐古树身体（foot 上方 ~91px，按挂点由代码换算）",
+   "boss": "tree",
+   "skill": "death_burst",
+   "size": [
+    166,
+    142
+   ],
+   "canvas_before_crop": [
+    192,
+    176
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_burst_02.png"
+  },
+  "fx_tree_death_burst_03.png": {
+   "phase": "death",
+   "fps": 10,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散：白闪→淡紫冲击环→腐木碎块+淡紫孢子飞散+灰紫尘；中心对齐古树身体（foot 上方 ~91px，按挂点由代码换算）",
+   "boss": "tree",
+   "skill": "death_burst",
+   "size": [
+    166,
+    142
+   ],
+   "canvas_before_crop": [
+    192,
+    176
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_burst_03.png"
+  },
+  "fx_tree_death_burst_04.png": {
+   "phase": "death",
+   "fps": 10,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散：白闪→淡紫冲击环→腐木碎块+淡紫孢子飞散+灰紫尘；中心对齐古树身体（foot 上方 ~91px，按挂点由代码换算）",
+   "boss": "tree",
+   "skill": "death_burst",
+   "size": [
+    166,
+    142
+   ],
+   "canvas_before_crop": [
+    192,
+    176
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_burst_04.png"
+  },
+  "fx_tree_death_burst_05.png": {
+   "phase": "death",
+   "fps": 10,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散：白闪→淡紫冲击环→腐木碎块+淡紫孢子飞散+灰紫尘；中心对齐古树身体（foot 上方 ~91px，按挂点由代码换算）",
+   "boss": "tree",
+   "skill": "death_burst",
+   "size": [
+    166,
+    142
+   ],
+   "canvas_before_crop": [
+    192,
+    176
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_burst_05.png"
+  },
+  "fx_tree_death_fade_00.png": {
+   "phase": "death",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "最后消散：灰紫尘收缩+淡紫孢子雾上飘至无；pivot=脚底",
+   "boss": "tree",
+   "skill": "death_fade",
+   "size": [
+    146,
+    78
+   ],
+   "canvas_before_crop": [
+    192,
+    96
+   ],
+   "pivot": [
+    0.5,
+    0.2692
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_fade_00.png"
+  },
+  "fx_tree_death_fade_01.png": {
+   "phase": "death",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "最后消散：灰紫尘收缩+淡紫孢子雾上飘至无；pivot=脚底",
+   "boss": "tree",
+   "skill": "death_fade",
+   "size": [
+    146,
+    78
+   ],
+   "canvas_before_crop": [
+    192,
+    96
+   ],
+   "pivot": [
+    0.5,
+    0.2692
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_fade_01.png"
+  },
+  "fx_tree_death_fade_02.png": {
+   "phase": "death",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "最后消散：灰紫尘收缩+淡紫孢子雾上飘至无；pivot=脚底",
+   "boss": "tree",
+   "skill": "death_fade",
+   "size": [
+    146,
+    78
+   ],
+   "canvas_before_crop": [
+    192,
+    96
+   ],
+   "pivot": [
+    0.5,
+    0.2692
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_fade_02.png"
+  },
+  "fx_tree_death_fade_03.png": {
+   "phase": "death",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "最后消散：灰紫尘收缩+淡紫孢子雾上飘至无；pivot=脚底",
+   "boss": "tree",
+   "skill": "death_fade",
+   "size": [
+    146,
+    78
+   ],
+   "canvas_before_crop": [
+    192,
+    96
+   ],
+   "pivot": [
+    0.5,
+    0.2692
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_fade_03.png"
+  },
+  "fx_tree_death_fade_04.png": {
+   "phase": "death",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "最后消散：灰紫尘收缩+淡紫孢子雾上飘至无；pivot=脚底",
+   "boss": "tree",
+   "skill": "death_fade",
+   "size": [
+    146,
+    78
+   ],
+   "canvas_before_crop": [
+    192,
+    96
+   ],
+   "pivot": [
+    0.5,
+    0.2692
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_fade_04.png"
+  },
+  "fx_tree_death_fade_05.png": {
+   "phase": "death",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "最后消散：灰紫尘收缩+淡紫孢子雾上飘至无；pivot=脚底",
+   "boss": "tree",
+   "skill": "death_fade",
+   "size": [
+    146,
+    78
+   ],
+   "canvas_before_crop": [
+    192,
+    96
+   ],
+   "pivot": [
+    0.5,
+    0.2692
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_fade_05.png"
+  },
+  "fx_tree_death_chip_00.png": {
+   "phase": "death_particle",
+   "fps": 12,
+   "dur_s": 0.33,
+   "loop": true,
+   "note": "木屑粒子（去饱和腐木），每帧转 45°；代码散射 8–10 个",
+   "boss": "tree",
+   "skill": "death_chip",
+   "size": [
+    11,
+    9
+   ],
+   "canvas_before_crop": [
+    12,
+    12
+   ],
+   "pivot": [
+    0.4545,
+    0.5556
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_chip_00.png"
+  },
+  "fx_tree_death_chip_01.png": {
+   "phase": "death_particle",
+   "fps": 12,
+   "dur_s": 0.33,
+   "loop": true,
+   "note": "木屑粒子（去饱和腐木），每帧转 45°；代码散射 8–10 个",
+   "boss": "tree",
+   "skill": "death_chip",
+   "size": [
+    11,
+    9
+   ],
+   "canvas_before_crop": [
+    12,
+    12
+   ],
+   "pivot": [
+    0.4545,
+    0.5556
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_chip_01.png"
+  },
+  "fx_tree_death_chip_02.png": {
+   "phase": "death_particle",
+   "fps": 12,
+   "dur_s": 0.33,
+   "loop": true,
+   "note": "木屑粒子（去饱和腐木），每帧转 45°；代码散射 8–10 个",
+   "boss": "tree",
+   "skill": "death_chip",
+   "size": [
+    11,
+    9
+   ],
+   "canvas_before_crop": [
+    12,
+    12
+   ],
+   "pivot": [
+    0.4545,
+    0.5556
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_chip_02.png"
+  },
+  "fx_tree_death_chip_03.png": {
+   "phase": "death_particle",
+   "fps": 12,
+   "dur_s": 0.33,
+   "loop": true,
+   "note": "木屑粒子（去饱和腐木），每帧转 45°；代码散射 8–10 个",
+   "boss": "tree",
+   "skill": "death_chip",
+   "size": [
+    11,
+    9
+   ],
+   "canvas_before_crop": [
+    12,
+    12
+   ],
+   "pivot": [
+    0.4545,
+    0.5556
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_chip_03.png"
+  },
+  "fx_tree_death_spore_00.png": {
+   "phase": "death_particle",
+   "fps": 8,
+   "dur_s": 0.5,
+   "loop": true,
+   "note": "淡紫孢子粒子，呼吸闪（02 最亮）；代码上飘 10–14 个",
+   "boss": "tree",
+   "skill": "death_spore",
+   "size": [
+    8,
+    8
+   ],
+   "canvas_before_crop": [
+    10,
+    10
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_spore_00.png"
+  },
+  "fx_tree_death_spore_01.png": {
+   "phase": "death_particle",
+   "fps": 8,
+   "dur_s": 0.5,
+   "loop": true,
+   "note": "淡紫孢子粒子，呼吸闪（02 最亮）；代码上飘 10–14 个",
+   "boss": "tree",
+   "skill": "death_spore",
+   "size": [
+    8,
+    8
+   ],
+   "canvas_before_crop": [
+    10,
+    10
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_spore_01.png"
+  },
+  "fx_tree_death_spore_02.png": {
+   "phase": "death_particle",
+   "fps": 8,
+   "dur_s": 0.5,
+   "loop": true,
+   "note": "淡紫孢子粒子，呼吸闪（02 最亮）；代码上飘 10–14 个",
+   "boss": "tree",
+   "skill": "death_spore",
+   "size": [
+    8,
+    8
+   ],
+   "canvas_before_crop": [
+    10,
+    10
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_spore_02.png"
+  },
+  "fx_tree_death_spore_03.png": {
+   "phase": "death_particle",
+   "fps": 8,
+   "dur_s": 0.5,
+   "loop": true,
+   "note": "淡紫孢子粒子，呼吸闪（02 最亮）；代码上飘 10–14 个",
+   "boss": "tree",
+   "skill": "death_spore",
+   "size": [
+    8,
+    8
+   ],
+   "canvas_before_crop": [
+    10,
+    10
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/tree/fx_tree_death_spore_03.png"
+  },
+  "fx_king_intro_land_00.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "从天上砸下：魂火光柱定落点→着地白闪（01，与 BOSS_SPAWN/入场冲击波同帧）→灰紫扬尘+铁灰碎铁；pivot=脚底",
+   "boss": "king",
+   "skill": "intro_land",
+   "size": [
+    191,
+    128
+   ],
+   "canvas_before_crop": [
+    224,
+    128
+   ],
+   "pivot": [
+    0.4817,
+    0.1875
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_intro_land_00.png"
+  },
+  "fx_king_intro_land_01.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "从天上砸下：魂火光柱定落点→着地白闪（01，与 BOSS_SPAWN/入场冲击波同帧）→灰紫扬尘+铁灰碎铁；pivot=脚底",
+   "boss": "king",
+   "skill": "intro_land",
+   "size": [
+    191,
+    128
+   ],
+   "canvas_before_crop": [
+    224,
+    128
+   ],
+   "pivot": [
+    0.4817,
+    0.1875
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_intro_land_01.png"
+  },
+  "fx_king_intro_land_02.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "从天上砸下：魂火光柱定落点→着地白闪（01，与 BOSS_SPAWN/入场冲击波同帧）→灰紫扬尘+铁灰碎铁；pivot=脚底",
+   "boss": "king",
+   "skill": "intro_land",
+   "size": [
+    191,
+    128
+   ],
+   "canvas_before_crop": [
+    224,
+    128
+   ],
+   "pivot": [
+    0.4817,
+    0.1875
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_intro_land_02.png"
+  },
+  "fx_king_intro_land_03.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "从天上砸下：魂火光柱定落点→着地白闪（01，与 BOSS_SPAWN/入场冲击波同帧）→灰紫扬尘+铁灰碎铁；pivot=脚底",
+   "boss": "king",
+   "skill": "intro_land",
+   "size": [
+    191,
+    128
+   ],
+   "canvas_before_crop": [
+    224,
+    128
+   ],
+   "pivot": [
+    0.4817,
+    0.1875
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_intro_land_03.png"
+  },
+  "fx_king_intro_land_04.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "从天上砸下：魂火光柱定落点→着地白闪（01，与 BOSS_SPAWN/入场冲击波同帧）→灰紫扬尘+铁灰碎铁；pivot=脚底",
+   "boss": "king",
+   "skill": "intro_land",
+   "size": [
+    191,
+    128
+   ],
+   "canvas_before_crop": [
+    224,
+    128
+   ],
+   "pivot": [
+    0.4817,
+    0.1875
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_intro_land_04.png"
+  },
+  "fx_king_intro_land_05.png": {
+   "phase": "intro",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "从天上砸下：魂火光柱定落点→着地白闪（01，与 BOSS_SPAWN/入场冲击波同帧）→灰紫扬尘+铁灰碎铁；pivot=脚底",
+   "boss": "king",
+   "skill": "intro_land",
+   "size": [
+    191,
+    128
+   ],
+   "canvas_before_crop": [
+    224,
+    128
+   ],
+   "pivot": [
+    0.4817,
+    0.1875
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_intro_land_05.png"
+  },
+  "fx_king_death_burst_00.png": {
+   "phase": "death",
+   "fps": 13,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散 8 帧（13fps≈0.6s）：魂火白闪→蓝紫冲击环→铁灰碎甲+银灰皇冠碎片+灰紫尘；中心对齐魂火挂点 soul (112,88)（C-29），pivot 已换算到该点",
+   "boss": "king",
+   "skill": "death_burst",
+   "size": [
+    202,
+    200
+   ],
+   "canvas_before_crop": [
+    224,
+    208
+   ],
+   "pivot": [
+    0.5,
+    0.555
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_burst_00.png"
+  },
+  "fx_king_death_burst_01.png": {
+   "phase": "death",
+   "fps": 13,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散 8 帧（13fps≈0.6s）：魂火白闪→蓝紫冲击环→铁灰碎甲+银灰皇冠碎片+灰紫尘；中心对齐魂火挂点 soul (112,88)（C-29），pivot 已换算到该点",
+   "boss": "king",
+   "skill": "death_burst",
+   "size": [
+    202,
+    200
+   ],
+   "canvas_before_crop": [
+    224,
+    208
+   ],
+   "pivot": [
+    0.5,
+    0.555
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_burst_01.png"
+  },
+  "fx_king_death_burst_02.png": {
+   "phase": "death",
+   "fps": 13,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散 8 帧（13fps≈0.6s）：魂火白闪→蓝紫冲击环→铁灰碎甲+银灰皇冠碎片+灰紫尘；中心对齐魂火挂点 soul (112,88)（C-29），pivot 已换算到该点",
+   "boss": "king",
+   "skill": "death_burst",
+   "size": [
+    202,
+    200
+   ],
+   "canvas_before_crop": [
+    224,
+    208
+   ],
+   "pivot": [
+    0.5,
+    0.555
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_burst_02.png"
+  },
+  "fx_king_death_burst_03.png": {
+   "phase": "death",
+   "fps": 13,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散 8 帧（13fps≈0.6s）：魂火白闪→蓝紫冲击环→铁灰碎甲+银灰皇冠碎片+灰紫尘；中心对齐魂火挂点 soul (112,88)（C-29），pivot 已换算到该点",
+   "boss": "king",
+   "skill": "death_burst",
+   "size": [
+    202,
+    200
+   ],
+   "canvas_before_crop": [
+    224,
+    208
+   ],
+   "pivot": [
+    0.5,
+    0.555
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_burst_03.png"
+  },
+  "fx_king_death_burst_04.png": {
+   "phase": "death",
+   "fps": 13,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散 8 帧（13fps≈0.6s）：魂火白闪→蓝紫冲击环→铁灰碎甲+银灰皇冠碎片+灰紫尘；中心对齐魂火挂点 soul (112,88)（C-29），pivot 已换算到该点",
+   "boss": "king",
+   "skill": "death_burst",
+   "size": [
+    202,
+    200
+   ],
+   "canvas_before_crop": [
+    224,
+    208
+   ],
+   "pivot": [
+    0.5,
+    0.555
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_burst_04.png"
+  },
+  "fx_king_death_burst_05.png": {
+   "phase": "death",
+   "fps": 13,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散 8 帧（13fps≈0.6s）：魂火白闪→蓝紫冲击环→铁灰碎甲+银灰皇冠碎片+灰紫尘；中心对齐魂火挂点 soul (112,88)（C-29），pivot 已换算到该点",
+   "boss": "king",
+   "skill": "death_burst",
+   "size": [
+    202,
+    200
+   ],
+   "canvas_before_crop": [
+    224,
+    208
+   ],
+   "pivot": [
+    0.5,
+    0.555
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_burst_05.png"
+  },
+  "fx_king_death_burst_06.png": {
+   "phase": "death",
+   "fps": 13,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散 8 帧（13fps≈0.6s）：魂火白闪→蓝紫冲击环→铁灰碎甲+银灰皇冠碎片+灰紫尘；中心对齐魂火挂点 soul (112,88)（C-29），pivot 已换算到该点",
+   "boss": "king",
+   "skill": "death_burst",
+   "size": [
+    202,
+    200
+   ],
+   "canvas_before_crop": [
+    224,
+    208
+   ],
+   "pivot": [
+    0.5,
+    0.555
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_burst_06.png"
+  },
+  "fx_king_death_burst_07.png": {
+   "phase": "death",
+   "fps": 13,
+   "dur_s": 0.6,
+   "loop": false,
+   "note": "爆散 8 帧（13fps≈0.6s）：魂火白闪→蓝紫冲击环→铁灰碎甲+银灰皇冠碎片+灰紫尘；中心对齐魂火挂点 soul (112,88)（C-29），pivot 已换算到该点",
+   "boss": "king",
+   "skill": "death_burst",
+   "size": [
+    202,
+    200
+   ],
+   "canvas_before_crop": [
+    224,
+    208
+   ],
+   "pivot": [
+    0.5,
+    0.555
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_burst_07.png"
+  },
+  "fx_king_death_chain_00.png": {
+   "phase": "death_particle",
+   "fps": 12,
+   "dur_s": 0.33,
+   "loop": true,
+   "note": "断链粒子：3 节铁灰链环（不用链子黄），每帧转 22.5°；代码散射 6 个",
+   "boss": "king",
+   "skill": "death_chain",
+   "size": [
+    26,
+    16
+   ],
+   "canvas_before_crop": [
+    28,
+    16
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_chain_00.png"
+  },
+  "fx_king_death_chain_01.png": {
+   "phase": "death_particle",
+   "fps": 12,
+   "dur_s": 0.33,
+   "loop": true,
+   "note": "断链粒子：3 节铁灰链环（不用链子黄），每帧转 22.5°；代码散射 6 个",
+   "boss": "king",
+   "skill": "death_chain",
+   "size": [
+    26,
+    16
+   ],
+   "canvas_before_crop": [
+    28,
+    16
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_chain_01.png"
+  },
+  "fx_king_death_chain_02.png": {
+   "phase": "death_particle",
+   "fps": 12,
+   "dur_s": 0.33,
+   "loop": true,
+   "note": "断链粒子：3 节铁灰链环（不用链子黄），每帧转 22.5°；代码散射 6 个",
+   "boss": "king",
+   "skill": "death_chain",
+   "size": [
+    26,
+    16
+   ],
+   "canvas_before_crop": [
+    28,
+    16
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_chain_02.png"
+  },
+  "fx_king_death_chain_03.png": {
+   "phase": "death_particle",
+   "fps": 12,
+   "dur_s": 0.33,
+   "loop": true,
+   "note": "断链粒子：3 节铁灰链环（不用链子黄），每帧转 22.5°；代码散射 6 个",
+   "boss": "king",
+   "skill": "death_chain",
+   "size": [
+    26,
+    16
+   ],
+   "canvas_before_crop": [
+    28,
+    16
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_chain_03.png"
+  },
+  "fx_king_death_soulout_00.png": {
+   "phase": "death",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "魂火熄灭：蓝紫火苗缩小变暗→一缕灰紫烟；对齐魂火挂点 soul（C-29）；pivot=火苗根部",
+   "boss": "king",
+   "skill": "death_soulout",
+   "size": [
+    23,
+    28
+   ],
+   "canvas_before_crop": [
+    40,
+    48
+   ],
+   "pivot": [
+    0.4783,
+    0.0714
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_soulout_00.png"
+  },
+  "fx_king_death_soulout_01.png": {
+   "phase": "death",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "魂火熄灭：蓝紫火苗缩小变暗→一缕灰紫烟；对齐魂火挂点 soul（C-29）；pivot=火苗根部",
+   "boss": "king",
+   "skill": "death_soulout",
+   "size": [
+    23,
+    28
+   ],
+   "canvas_before_crop": [
+    40,
+    48
+   ],
+   "pivot": [
+    0.4783,
+    0.0714
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_soulout_01.png"
+  },
+  "fx_king_death_soulout_02.png": {
+   "phase": "death",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "魂火熄灭：蓝紫火苗缩小变暗→一缕灰紫烟；对齐魂火挂点 soul（C-29）；pivot=火苗根部",
+   "boss": "king",
+   "skill": "death_soulout",
+   "size": [
+    23,
+    28
+   ],
+   "canvas_before_crop": [
+    40,
+    48
+   ],
+   "pivot": [
+    0.4783,
+    0.0714
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_soulout_02.png"
+  },
+  "fx_king_death_soulout_03.png": {
+   "phase": "death",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "魂火熄灭：蓝紫火苗缩小变暗→一缕灰紫烟；对齐魂火挂点 soul（C-29）；pivot=火苗根部",
+   "boss": "king",
+   "skill": "death_soulout",
+   "size": [
+    23,
+    28
+   ],
+   "canvas_before_crop": [
+    40,
+    48
+   ],
+   "pivot": [
+    0.4783,
+    0.0714
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_soulout_03.png"
+  },
+  "fx_king_death_soulout_04.png": {
+   "phase": "death",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "魂火熄灭：蓝紫火苗缩小变暗→一缕灰紫烟；对齐魂火挂点 soul（C-29）；pivot=火苗根部",
+   "boss": "king",
+   "skill": "death_soulout",
+   "size": [
+    23,
+    28
+   ],
+   "canvas_before_crop": [
+    40,
+    48
+   ],
+   "pivot": [
+    0.4783,
+    0.0714
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_soulout_04.png"
+  },
+  "fx_king_death_soulout_05.png": {
+   "phase": "death",
+   "fps": 12,
+   "dur_s": 0.5,
+   "loop": false,
+   "note": "魂火熄灭：蓝紫火苗缩小变暗→一缕灰紫烟；对齐魂火挂点 soul（C-29）；pivot=火苗根部",
+   "boss": "king",
+   "skill": "death_soulout",
+   "size": [
+    23,
+    28
+   ],
+   "canvas_before_crop": [
+    40,
+    48
+   ],
+   "pivot": [
+    0.4783,
+    0.0714
+   ],
+   "damage": false,
+   "src": "C-60（美术部批 11-01 15:29；v2 返工 15:32）",
+   "path": "art/fx/boss_frames/king/fx_king_death_soulout_05.png"
+  }
+ },
+ "note_c60": "C-60 Boss 出场/死亡特效（特效助理 11-01）：damage=false；出场 0.5s、爆散 0.6s、消散 0.5s；每组统一画布已按全组包围盒紧贴裁剪；pivot 为 Cocos 口径（y 向上）；未打图集"
+}

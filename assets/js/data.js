@@ -204,6 +204,55 @@ window.QCERA = {
         platform: "Web version: plays in any phone or desktop browser, no download needed. A Douyin mini-game version is in preparation.",
         note: "The game is in Simplified Chinese. Progress is saved in this browser and starts over on another device or after clearing browser data."
       }
+    },
+    {
+      /* 《链子幸存者》浏览器测试版：games/chain-survivor/ 是 chain-survivor 仓库 release/web 的整份拷贝（去掉本地试玩用的 .bat/.command/说明）。
+         现在的图片都是 README 里的概念美术，换上正式版后请改成游戏截图，并去掉说明里“测试版”的字样。 */
+      id: "chain-survivor", play: "games/chain-survivor/", logo: "assets/img/games/chain-survivor/logo.svg",
+      poster: "assets/img/games/chain-survivor/shot-01-s.webp",
+      facts: [["2", "位角色：骑士与枪手", "Heroes: the Knight and the Gunner"], ["1–2", "人同屏：单人开局，或两人被一根链子绑在一起", "Players on one screen: go solo, or chain two players together"], ["3", "张卡选 1 张：每次升级决定这一局往哪长", "Cards to pick from at every level-up"], ["3", "种初始武器：左轮手枪、长剑、法杖", "Starting weapons: revolver, longsword and staff"], ["6", "名精英怪", "Elite enemies"], ["3", "场首领战，最后是镣王", "Boss fights, ending with the Shackle King"]],
+      shots: [
+        ["shot-01", "概念美术：两人被链子连在一起，困在怪潮正中", "Concept art: two players chained together in the middle of the horde"],
+        ["shot-02", "概念美术：机械废墟", "Concept art: the Machine Ruins"],
+        ["shot-03", "概念美术：腐林", "Concept art: the Rotwood"],
+        ["shot-04", "概念美术：监牢", "Concept art: the Prison"],
+        ["shot-05", "概念美术：左轮手枪", "Concept art: the revolver"],
+        ["shot-06", "概念美术：长剑", "Concept art: the longsword"],
+        ["shot-07", "概念美术：法杖", "Concept art: the staff"],
+        ["shot-08", "概念美术：精英怪巨墩屠夫、铁壁将军", "Concept art: elites, the Butcher and the Iron General"],
+        ["shot-09", "概念美术：精英怪骷髅队长、蜂后", "Concept art: elites, the Skeleton Captain and the Queen Bee"],
+        ["shot-10", "概念美术：精英怪狼王、熔岩傀儡", "Concept art: elites, the Wolf King and the Lava Golem"]
+      ],
+      zh: {
+        name: "链子幸存者", kind: "动作 · 割草生存", tagline: "怪潮之中，你的下一步，牵着另一个人的命运",
+        desc: "你刚找到一条突围路线，转头却发现，队友还在怪群的另一侧。《链子幸存者》是明亮像素风的俯视竖屏割草生存游戏：骑士和枪手可以由两名玩家被一根链子绑在一起迎战怪潮，也可以单人开局。距离拉开，链子随之伸长；拉到极限，链子绷紧。往前冲还是回身接应，下一步往哪走成了两个人的事。",
+        genres: ["俯视竖屏", "像素风", "双人同屏", "割草生存", "升级选卡"],
+        rules: ["WASD 或方向键移动，武器会自动攻击；手机和触屏用浮动摇杆。", "升级时三张卡选一张：按 1 / 2 / 3，或直接点卡片。", "想两人同机玩，在全屏打开的地址后面加上 ?duo=1：左边玩家用 WASD，右边玩家用方向键。", "想选角色，地址后面加上 ?char=knight（骑士）或 ?char=gunner（枪手）。"],
+        features: [
+          ["一根链子连着两个人", "盯着自己脚下的空地还不够，队友的位置、你们之间的距离同样决定下一步往哪走。链子绷紧时，两人可以打出需要配合的链子攻击。"],
+          ["倒地也不松手", "队友倒地后，你能拖着倒地的队友继续移动，在拥挤的战场上找下一处空隙。"],
+          ["捡武器、三选一", "左轮手枪、长剑、法杖是三种初始武器。每次升级三张卡选一张，部分武器还能进化。"],
+          ["六名精英", "巨墩屠夫、骷髅队长、狼王、铁壁将军、蜂后、熔岩傀儡，各有一副让人记住的模样。"],
+          ["三场首领战", "一局里先后遇到齿轮蛛后和腐根古树，最后是最终首领镣王。时间耗尽前没打倒镣王，这一局就算失败。"]
+        ],
+        platform: "网页版：电脑浏览器用键盘玩，手机和平板用触屏摇杆，无需下载。",
+        note: "现在上线的是浏览器测试版，部分怪物和界面美术还没换上正式版本，上方图片均为概念美术。游戏为简体中文。"
+      },
+      en: {
+        name: "Chain Survivor", kind: "Action · horde survival", tagline: "In the middle of the horde, your next step decides someone else’s fate too",
+        desc: "You’ve just found a way out, then you turn and see your partner is still on the other side of the horde. Chain Survivor is a bright pixel-art, top-down, portrait-screen horde survival game. Two players can take the Knight and the Gunner into battle tied together by a chain, or you can start alone. The further apart you move, the longer the chain stretches, until it pulls tight. Charge ahead or turn back to help? Every step is a decision for two.",
+        genres: ["Top-down portrait", "Pixel art", "Two players, one screen", "Horde survival", "Level-up cards"],
+        rules: ["Move with WASD or the arrow keys and your weapons attack on their own. On phones and touch screens, use the floating joystick.", "At each level-up, pick one of three cards: press 1 / 2 / 3 or tap the card.", "For two players on one machine, add ?duo=1 to the full-screen address. The left player uses WASD and the right player uses the arrow keys.", "To choose a hero, add ?char=knight (Knight) or ?char=gunner (Gunner) to the address."],
+        features: [
+          ["One chain, two players", "Watching the ground under your own feet isn’t enough. Where your partner is, and how far apart you are, decide where you go next. When the chain pulls tight, the two of you can land chain attacks that take teamwork."],
+          ["Never let go", "When your partner goes down, you can drag them along and keep looking for the next gap in the crowd."],
+          ["Pick up weapons, pick one of three", "The revolver, longsword and staff are the three starting weapons. Each level-up offers three cards to choose from, and some weapons can evolve."],
+          ["Six elites", "The Butcher, the Skeleton Captain, the Wolf King, the Iron General, the Queen Bee and the Lava Golem each have a look you won’t forget."],
+          ["Three boss fights", "Each run brings the Gear Spider Queen, then the Rotroot Elder Tree, and finally the Shackle King. If the Shackle King is still standing when time runs out, the run is lost."]
+        ],
+        platform: "Web version: play with a keyboard in a desktop browser, or with the touch joystick on phones and tablets. No download needed.",
+        note: "This is the browser test build: some enemy and interface art hasn’t been swapped for the final versions yet, and the images above are concept art. The game is in Simplified Chinese."
+      }
     }
   ],
 

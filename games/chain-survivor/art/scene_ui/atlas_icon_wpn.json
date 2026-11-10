@@ -1,0 +1,503 @@
+{
+ "frames": {
+  "icon_wpn_pistol.png": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "src": "#ff96d2/#ffd6f0 ← fx_wpn_pistol_*",
+   "placeholder": false,
+   "weapon": "pistol",
+   "evo": false
+  },
+  "icon_evo_pistol.png": {
+   "frame": {
+    "x": 32,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "src": "#ff78c8/#d63c9c ← fx_evo_pistol_*",
+   "placeholder": false,
+   "weapon": "pistol",
+   "evo": true
+  },
+  "icon_wpn_sword.png": {
+   "frame": {
+    "x": 64,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "src": "淡紫 #dbd2e6/#b09ed6 ← fx_wpn_sword_*",
+   "placeholder": false,
+   "weapon": "sword",
+   "evo": false
+  },
+  "icon_evo_sword_holy.png": {
+   "frame": {
+    "x": 96,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "src": "#ffd6f0+品红宝石 ← fx_evo_sword_holy_*",
+   "placeholder": false,
+   "weapon": "sword",
+   "evo": true
+  },
+  "icon_wpn_staff.png": {
+   "frame": {
+    "x": 128,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "src": "#b09ed6/#785caa ← fx_wpn_staff_orb",
+   "placeholder": false,
+   "weapon": "staff",
+   "evo": false
+  },
+  "icon_evo_staff_fire.png": {
+   "frame": {
+    "x": 160,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "src": "品红焰 ← fx_evo_staff_fire_*",
+   "placeholder": false,
+   "weapon": "staff",
+   "evo": true
+  },
+  "icon_evo_staff_ice.png": {
+   "frame": {
+    "x": 192,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "src": "霜白 ← fx_evo_staff_ice_*",
+   "placeholder": false,
+   "weapon": "staff",
+   "evo": true
+  },
+  "icon_evo_staff_thunder.png": {
+   "frame": {
+    "x": 224,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "src": "白+雷紫 ← fx_evo_staff_thunder_*",
+   "placeholder": false,
+   "weapon": "staff",
+   "evo": true
+  },
+  "icon_wpn_gatling.png": {
+   "frame": {
+    "x": 0,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "src": "#ff78c8+灰 ← fx_wpn_gatling_*",
+   "placeholder": false,
+   "weapon": "gatling",
+   "evo": false
+  },
+  "icon_evo_gatling_perpetual.png": {
+   "frame": {
+    "x": 32,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "src": "灰/淡紫+∞ ← fx_evo_gatling_perpetual_*",
+   "placeholder": false,
+   "weapon": "gatling",
+   "evo": true
+  },
+  "icon_evo_gatling_molten.png": {
+   "frame": {
+    "x": 64,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "src": "#ff78c8/#d63c9c/#ffd6f0 ← fx_evo_gatling_molten_cone",
+   "placeholder": false,
+   "weapon": "gatling",
+   "evo": true
+  },
+  "icon_wpn_sniper.png": {
+   "frame": {
+    "x": 96,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "src": "白/淡紫 ← fx_wpn_sniper_*",
+   "placeholder": false,
+   "weapon": "sniper",
+   "evo": false
+  },
+  "icon_evo_sniper.png": {
+   "frame": {
+    "x": 128,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "src": "#ffd6f0/#ff96d2/#d668b0 ← fx_evo_sniper_antimat_*",
+   "placeholder": false,
+   "weapon": "sniper",
+   "evo": true
+  },
+  "icon_wpn_homing.png": {
+   "frame": {
+    "x": 160,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "src": "#ff96d2 ← fx_wpn_homing_*",
+   "placeholder": false,
+   "weapon": "homing",
+   "evo": false
+  },
+  "icon_evo_homing_swarm.png": {
+   "frame": {
+    "x": 192,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "src": "#d63c9c/#ff78c8 ← fx_evo_homing_swarm_*",
+   "placeholder": false,
+   "weapon": "homing",
+   "evo": true
+  },
+  "icon_wpn_laser.png": {
+   "frame": {
+    "x": 224,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "src": "#aa78ff/#d6beff ← fx_wpn_laser_*",
+   "placeholder": false,
+   "weapon": "laser",
+   "evo": false
+  },
+  "icon_evo_laser_prism.png": {
+   "frame": {
+    "x": 0,
+    "y": 64,
+    "w": 32,
+    "h": 32
+   },
+   "src": "白+雷紫+#ff96d2 ← fx_evo_laser_prism_*",
+   "placeholder": false,
+   "weapon": "laser",
+   "evo": true
+  },
+  "icon_evo_laser_sear.png": {
+   "frame": {
+    "x": 32,
+    "y": 64,
+    "w": 32,
+    "h": 32
+   },
+   "src": "#ff78c8/#d63c9c ← fx_evo_laser_sear_*",
+   "placeholder": false,
+   "weapon": "laser",
+   "evo": true
+  },
+  "icon_wpn_blade.png": {
+   "frame": {
+    "x": 64,
+    "y": 64,
+    "w": 32,
+    "h": 32
+   },
+   "src": "霜白 #dbd2e6/#c8c8d4 ← fx_wpn_blade_*",
+   "placeholder": false,
+   "weapon": "blade",
+   "evo": false
+  },
+  "icon_evo_blade_iai.png": {
+   "frame": {
+    "x": 96,
+    "y": 64,
+    "w": 32,
+    "h": 32
+   },
+   "src": "暗鞘+霜白刃+品红斩弧 #d63c9c/#ffd6f0 ← fx_evo_blade_iai_*",
+   "placeholder": false,
+   "weapon": "blade",
+   "evo": true
+  },
+  "icon_evo_blade_dual.png": {
+   "frame": {
+    "x": 128,
+    "y": 64,
+    "w": 32,
+    "h": 32
+   },
+   "src": "霜白+#ffd6f0 双刀 ← fx_evo_blade_dual_*",
+   "placeholder": false,
+   "weapon": "blade",
+   "evo": true
+  },
+  "icon_wpn_spear.png": {
+   "frame": {
+    "x": 160,
+    "y": 64,
+    "w": 32,
+    "h": 32
+   },
+   "src": "淡紫 #b09ed6/#dbd2e6 ← fx_wpn_spear_*",
+   "placeholder": false,
+   "weapon": "spear",
+   "evo": false
+  },
+  "icon_evo_spear_dragon.png": {
+   "frame": {
+    "x": 192,
+    "y": 64,
+    "w": 32,
+    "h": 32
+   },
+   "src": "#ffd6f0/#ff78c8 ← fx_evo_spear_dragon_*",
+   "placeholder": false,
+   "weapon": "spear",
+   "evo": true
+  },
+  "icon_wpn_meteor.png": {
+   "frame": {
+    "x": 224,
+    "y": 64,
+    "w": 32,
+    "h": 32
+   },
+   "src": "铁灰 #808090/#c8c8d4(暗部#686078)+品红 #ff78c8/#d63c9c/#7a1e5c ← fx_wpn_meteor_*（11-01 改色版）",
+   "placeholder": false,
+   "weapon": "meteor",
+   "evo": false
+  },
+  "icon_evo_meteor.png": {
+   "frame": {
+    "x": 0,
+    "y": 96,
+    "w": 32,
+    "h": 32
+   },
+   "src": "品红 #7a1e5c/#d63c9c/#ff78c8 ← fx_evo_meteor_heavy_*",
+   "placeholder": false,
+   "weapon": "meteor",
+   "evo": true
+  },
+  "icon_wpn_mace.png": {
+   "frame": {
+    "x": 32,
+    "y": 96,
+    "w": 32,
+    "h": 32
+   },
+   "src": "淡紫 #b09ed6/#785caa ← fx_wpn_mace_*",
+   "placeholder": false,
+   "weapon": "mace",
+   "evo": false
+  },
+  "icon_evo_mace_quaker.png": {
+   "frame": {
+    "x": 64,
+    "y": 96,
+    "w": 32,
+    "h": 32
+   },
+   "src": "淡紫+#ffd6f0 震波 ← fx_evo_mace_quaker_wave",
+   "placeholder": false,
+   "weapon": "mace",
+   "evo": true
+  },
+  "icon_wpn_axe.png": {
+   "frame": {
+    "x": 96,
+    "y": 96,
+    "w": 32,
+    "h": 32
+   },
+   "src": "霜白 #c8c8d4/#808090，柄 #84726e ← fx_wpn_axe_*",
+   "placeholder": false,
+   "weapon": "axe",
+   "evo": false
+  },
+  "icon_evo_axe_whirl.png": {
+   "frame": {
+    "x": 128,
+    "y": 96,
+    "w": 32,
+    "h": 32
+   },
+   "src": "霜白双刃+旋风弧 ← fx_evo_axe_whirl_spin",
+   "placeholder": false,
+   "weapon": "axe",
+   "evo": true
+  },
+  "icon_wpn_boomerang.png": {
+   "frame": {
+    "x": 160,
+    "y": 96,
+    "w": 32,
+    "h": 32
+   },
+   "src": "霜白 ← fx_wpn_boomerang_*",
+   "placeholder": false,
+   "weapon": "boomerang",
+   "evo": false
+  },
+  "icon_evo_boomerang_chain.png": {
+   "frame": {
+    "x": 192,
+    "y": 96,
+    "w": 32,
+    "h": 32
+   },
+   "src": "铁灰链+#ffd6f0 ← fx_evo_boomerang_chain_*",
+   "placeholder": false,
+   "weapon": "boomerang",
+   "evo": true
+  },
+  "icon_wpn_fire_dragon.png": {
+   "frame": {
+    "x": 224,
+    "y": 96,
+    "w": 32,
+    "h": 32
+   },
+   "src": "手绘：角+小翼，配色 fx_wpn_fire_dragon_pet",
+   "placeholder": false,
+   "weapon": "fire_dragon",
+   "evo": false
+  },
+  "icon_evo_fire_dragon.png": {
+   "frame": {
+    "x": 0,
+    "y": 128,
+    "w": 32,
+    "h": 32
+   },
+   "src": "手绘本体+火焰带（flameband 配色）",
+   "placeholder": false,
+   "weapon": "fire_dragon",
+   "evo": true
+  },
+  "icon_wpn_ice_dragon.png": {
+   "frame": {
+    "x": 32,
+    "y": 128,
+    "w": 32,
+    "h": 32
+   },
+   "src": "手绘：背部冰棱刺，配色 fx_wpn_ice_dragon_pet",
+   "placeholder": false,
+   "weapon": "ice_dragon",
+   "evo": false
+  },
+  "icon_evo_ice_dragon.png": {
+   "frame": {
+    "x": 64,
+    "y": 128,
+    "w": 32,
+    "h": 32
+   },
+   "src": "手绘本体+手绘冰息锥（fx_evo_ice_dragon_cone 配色 #cecce8/#f0f0fc/#9694bc）",
+   "placeholder": false,
+   "weapon": "ice_dragon",
+   "evo": true
+  },
+  "icon_wpn_mech_dragon.png": {
+   "frame": {
+    "x": 96,
+    "y": 128,
+    "w": 32,
+    "h": 32
+   },
+   "src": "手绘：方块身+铆钉+接缝+金属高光，配色 fx_wpn_mech_dragon_pet",
+   "placeholder": false,
+   "weapon": "mech_dragon",
+   "evo": false
+  },
+  "icon_evo_mech_dragon.png": {
+   "frame": {
+    "x": 128,
+    "y": 128,
+    "w": 32,
+    "h": 32
+   },
+   "src": "手绘机甲龙王：护甲板+独眼+导弹舱，配色 fx_evo_mech_dragon_pet",
+   "placeholder": false,
+   "weapon": "mech_dragon",
+   "evo": true
+  },
+  "icon_wpn_thunderbird.png": {
+   "frame": {
+    "x": 160,
+    "y": 128,
+    "w": 32,
+    "h": 32
+   },
+   "src": "手绘展翅鸟，配色 fx_wpn_thunderbird_pet",
+   "placeholder": false,
+   "weapon": "thunderbird",
+   "evo": false
+  },
+  "icon_evo_thunderbird.png": {
+   "frame": {
+    "x": 192,
+    "y": 128,
+    "w": 32,
+    "h": 32
+   },
+   "src": "手绘展翅鸟+传导电弧（chainarc 配色）",
+   "placeholder": false,
+   "weapon": "thunderbird",
+   "evo": true
+  },
+  "icon_wpn_guardian.png": {
+   "frame": {
+    "x": 224,
+    "y": 128,
+    "w": 32,
+    "h": 32
+   },
+   "src": "手绘 24px 精灵球，配色 fx_wpn_guardian_orb",
+   "placeholder": false,
+   "weapon": "guardian",
+   "evo": false
+  },
+  "icon_evo_guardian.png": {
+   "frame": {
+    "x": 0,
+    "y": 160,
+    "w": 32,
+    "h": 32
+   },
+   "src": "fx_evo_guardian_orb_00 + 淡紫结界环",
+   "placeholder": false,
+   "weapon": "guardian",
+   "evo": true
+  }
+ },
+ "meta": {
+  "image": "atlas_icon_wpn.png",
+  "size": {
+   "w": 256,
+   "h": 192
+  }
+ }
+}

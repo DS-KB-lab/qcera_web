@@ -1,0 +1,1273 @@
+{
+ "frames": {
+  "fx_king_armorbreak_00.png": {
+   "frame": {
+    "x": 927,
+    "y": 192,
+    "w": 30,
+    "h": 30
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 65,
+    "y": 57,
+    "w": 30,
+    "h": 30
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.55
+   },
+   "note": "血量降到 50% 时播 1 次，12fps；中心对齐魂火锚点；之后本体换碎甲帧（本体帧由美术部出）、魂火切 rage"
+  },
+  "fx_king_armorbreak_01.png": {
+   "frame": {
+    "x": 640,
+    "y": 192,
+    "w": 70,
+    "h": 70
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 45,
+    "y": 37,
+    "w": 70,
+    "h": 70
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.55
+   },
+   "note": "血量降到 50% 时播 1 次，12fps；中心对齐魂火锚点；之后本体换碎甲帧（本体帧由美术部出）、魂火切 rage"
+  },
+  "fx_king_armorbreak_02.png": {
+   "frame": {
+    "x": 253,
+    "y": 192,
+    "w": 102,
+    "h": 102
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 29,
+    "y": 21,
+    "w": 102,
+    "h": 102
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.55
+   },
+   "note": "血量降到 50% 时播 1 次，12fps；中心对齐魂火锚点；之后本体换碎甲帧（本体帧由美术部出）、魂火切 rage"
+  },
+  "fx_king_armorbreak_03.png": {
+   "frame": {
+    "x": 864,
+    "y": 1,
+    "w": 124,
+    "h": 124
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 18,
+    "y": 10,
+    "w": 124,
+    "h": 124
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.55
+   },
+   "note": "血量降到 50% 时播 1 次，12fps；中心对齐魂火锚点；之后本体换碎甲帧（本体帧由美术部出）、魂火切 rage"
+  },
+  "fx_king_armorbreak_04.png": {
+   "frame": {
+    "x": 506,
+    "y": 192,
+    "w": 133,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 15,
+    "y": 44,
+    "w": 133,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.55
+   },
+   "note": "血量降到 50% 时播 1 次，12fps；中心对齐魂火锚点；之后本体换碎甲帧（本体帧由美术部出）、魂火切 rage"
+  },
+  "fx_king_armorbreak_05.png": {
+   "frame": {
+    "x": 356,
+    "y": 192,
+    "w": 149,
+    "h": 102
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 7,
+    "y": 46,
+    "w": 149,
+    "h": 102
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.55
+   },
+   "note": "血量降到 50% 时播 1 次，12fps；中心对齐魂火锚点；之后本体换碎甲帧（本体帧由美术部出）、魂火切 rage"
+  },
+  "fx_king_slam_00.png": {
+   "frame": {
+    "x": 711,
+    "y": 192,
+    "w": 62,
+    "h": 62
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 65,
+    "y": 65,
+    "w": 62,
+    "h": 62
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 192
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "scale": "1:1 即半径 3 身位（96px），不缩放",
+   "note": "砸地冲击，锚点=锚锤落点；伤害帧=01；15fps 单次；预警另用 fx_warn_circle_192（1:1 不缩放，C-36），1 秒"
+  },
+  "fx_king_slam_01.png": {
+   "frame": {
+    "x": 1,
+    "y": 192,
+    "w": 122,
+    "h": 122
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 35,
+    "y": 35,
+    "w": 122,
+    "h": 122
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 192
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "scale": "1:1 即半径 3 身位（96px），不缩放",
+   "note": "砸地冲击，锚点=锚锤落点；伤害帧=01；15fps 单次；预警另用 fx_warn_circle_192（1:1 不缩放，C-36），1 秒"
+  },
+  "fx_king_slam_02.png": {
+   "frame": {
+    "x": 345,
+    "y": 1,
+    "w": 170,
+    "h": 170
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 11,
+    "y": 11,
+    "w": 170,
+    "h": 170
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 192
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "scale": "1:1 即半径 3 身位（96px），不缩放",
+   "note": "砸地冲击，锚点=锚锤落点；伤害帧=01；15fps 单次；预警另用 fx_warn_circle_192（1:1 不缩放，C-36），1 秒"
+  },
+  "fx_king_slam_03.png": {
+   "frame": {
+    "x": 1,
+    "y": 1,
+    "w": 190,
+    "h": 190
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 190,
+    "h": 190
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 192
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "scale": "1:1 即半径 3 身位（96px），不缩放",
+   "note": "砸地冲击，锚点=锚锤落点；伤害帧=01；15fps 单次；预警另用 fx_warn_circle_192（1:1 不缩放，C-36），1 秒"
+  },
+  "fx_king_slam_04.png": {
+   "frame": {
+    "x": 516,
+    "y": 1,
+    "w": 154,
+    "h": 170
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 19,
+    "y": 11,
+    "w": 154,
+    "h": 170
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 192
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "scale": "1:1 即半径 3 身位（96px），不缩放",
+   "note": "砸地冲击，锚点=锚锤落点；伤害帧=01；15fps 单次；预警另用 fx_warn_circle_192（1:1 不缩放，C-36），1 秒"
+  },
+  "fx_king_slam_05.png": {
+   "frame": {
+    "x": 192,
+    "y": 1,
+    "w": 152,
+    "h": 172
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 20,
+    "y": 10,
+    "w": 152,
+    "h": 172
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 192
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "scale": "1:1 即半径 3 身位（96px），不缩放",
+   "note": "砸地冲击，锚点=锚锤落点；伤害帧=01；15fps 单次；预警另用 fx_warn_circle_192（1:1 不缩放，C-36），1 秒"
+  },
+  "fx_king_soul_idle_00.png": {
+   "frame": {
+    "x": 540,
+    "y": 315,
+    "w": 14,
+    "h": 17
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 5,
+    "w": 14,
+    "h": 17
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 112,
+    "y": 88,
+    "boss": "boss_king (224×224，左上角原点，y 向下)",
+    "perFrameOffset": {
+     "boss_king_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_king_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_king_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_king_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 8fps 循环；rage 12fps 循环，血量 <50% 后替换 idle"
+  },
+  "fx_king_soul_idle_01.png": {
+   "frame": {
+    "x": 506,
+    "y": 315,
+    "w": 16,
+    "h": 19
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 4,
+    "w": 16,
+    "h": 19
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 112,
+    "y": 88,
+    "boss": "boss_king (224×224，左上角原点，y 向下)",
+    "perFrameOffset": {
+     "boss_king_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_king_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_king_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_king_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 8fps 循环；rage 12fps 循环，血量 <50% 后替换 idle"
+  },
+  "fx_king_soul_idle_02.png": {
+   "frame": {
+    "x": 437,
+    "y": 315,
+    "w": 18,
+    "h": 21
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 3,
+    "w": 18,
+    "h": 21
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 112,
+    "y": 88,
+    "boss": "boss_king (224×224，左上角原点，y 向下)",
+    "perFrameOffset": {
+     "boss_king_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_king_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_king_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_king_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 8fps 循环；rage 12fps 循环，血量 <50% 后替换 idle"
+  },
+  "fx_king_soul_idle_03.png": {
+   "frame": {
+    "x": 523,
+    "y": 315,
+    "w": 16,
+    "h": 19
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 4,
+    "w": 16,
+    "h": 19
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 112,
+    "y": 88,
+    "boss": "boss_king (224×224，左上角原点，y 向下)",
+    "perFrameOffset": {
+     "boss_king_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_king_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_king_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_king_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 8fps 循环；rage 12fps 循环，血量 <50% 后替换 idle"
+  },
+  "fx_king_soul_rage_00.png": {
+   "frame": {
+    "x": 389,
+    "y": 315,
+    "w": 20,
+    "h": 24
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 6,
+    "w": 20,
+    "h": 24
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 112,
+    "y": 88,
+    "boss": "boss_king (224×224，左上角原点，y 向下)",
+    "perFrameOffset": {
+     "boss_king_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_king_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_king_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_king_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 8fps 循环；rage 12fps 循环，血量 <50% 后替换 idle"
+  },
+  "fx_king_soul_rage_01.png": {
+   "frame": {
+    "x": 285,
+    "y": 315,
+    "w": 24,
+    "h": 28
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 4,
+    "w": 24,
+    "h": 28
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 112,
+    "y": 88,
+    "boss": "boss_king (224×224，左上角原点，y 向下)",
+    "perFrameOffset": {
+     "boss_king_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_king_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_king_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_king_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 8fps 循环；rage 12fps 循环，血量 <50% 后替换 idle"
+  },
+  "fx_king_soul_rage_02.png": {
+   "frame": {
+    "x": 958,
+    "y": 192,
+    "w": 26,
+    "h": 30
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 2,
+    "w": 26,
+    "h": 30
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 112,
+    "y": 88,
+    "boss": "boss_king (224×224，左上角原点，y 向下)",
+    "perFrameOffset": {
+     "boss_king_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_king_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_king_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_king_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 8fps 循环；rage 12fps 循环，血量 <50% 后替换 idle"
+  },
+  "fx_king_soul_rage_03.png": {
+   "frame": {
+    "x": 310,
+    "y": 315,
+    "w": 24,
+    "h": 28
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 4,
+    "w": 24,
+    "h": 28
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 112,
+    "y": 88,
+    "boss": "boss_king (224×224，左上角原点，y 向下)",
+    "perFrameOffset": {
+     "boss_king_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_king_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_king_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_king_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 8fps 循环；rage 12fps 循环，血量 <50% 后替换 idle"
+  },
+  "fx_king_summonmark_00.png": {
+   "frame": {
+    "x": 1,
+    "y": 315,
+    "w": 62,
+    "h": 30
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 62,
+    "h": 30
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "skill": {
+    "summon_every_s": 15,
+    "marks_per_unit": 1,
+    "solo_count": 3,
+    "duo_count": 6,
+    "alive_cap": 12,
+    "total_cap_solo": 30,
+    "mark_s": 0.5,
+    "fps": 8
+   },
+   "note": "C-36：骷髅出生标记，一只怪对一个标记；不掉血，魂火蓝紫；出生前 0.5s 循环"
+  },
+  "fx_king_summonmark_01.png": {
+   "frame": {
+    "x": 64,
+    "y": 315,
+    "w": 62,
+    "h": 30
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 62,
+    "h": 30
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "skill": {
+    "summon_every_s": 15,
+    "marks_per_unit": 1,
+    "solo_count": 3,
+    "duo_count": 6,
+    "alive_cap": 12,
+    "total_cap_solo": 30,
+    "mark_s": 0.5,
+    "fps": 8
+   },
+   "note": "C-36：骷髅出生标记，一只怪对一个标记；不掉血，魂火蓝紫；出生前 0.5s 循环"
+  },
+  "fx_king_summonmark_02.png": {
+   "frame": {
+    "x": 127,
+    "y": 315,
+    "w": 62,
+    "h": 30
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 62,
+    "h": 30
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "skill": {
+    "summon_every_s": 15,
+    "marks_per_unit": 1,
+    "solo_count": 3,
+    "duo_count": 6,
+    "alive_cap": 12,
+    "total_cap_solo": 30,
+    "mark_s": 0.5,
+    "fps": 8
+   },
+   "note": "C-36：骷髅出生标记，一只怪对一个标记；不掉血，魂火蓝紫；出生前 0.5s 循环"
+  },
+  "fx_king_summonmark_03.png": {
+   "frame": {
+    "x": 190,
+    "y": 315,
+    "w": 62,
+    "h": 30
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 62,
+    "h": 30
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "skill": {
+    "summon_every_s": 15,
+    "marks_per_unit": 1,
+    "solo_count": 3,
+    "duo_count": 6,
+    "alive_cap": 12,
+    "total_cap_solo": 30,
+    "mark_s": 0.5,
+    "fps": 8
+   },
+   "note": "C-36：骷髅出生标记，一只怪对一个标记；不掉血，魂火蓝紫；出生前 0.5s 循环"
+  },
+  "fx_king_summonrise_00.png": {
+   "frame": {
+    "x": 601,
+    "y": 315,
+    "w": 14,
+    "h": 7
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 9,
+    "y": 23,
+    "w": 14,
+    "h": 7
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_king_summonrise_01.png": {
+   "frame": {
+    "x": 555,
+    "y": 315,
+    "w": 22,
+    "h": 13
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 18,
+    "w": 22,
+    "h": 13
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_king_summonrise_02.png": {
+   "frame": {
+    "x": 456,
+    "y": 315,
+    "w": 26,
+    "h": 20
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 12,
+    "w": 26,
+    "h": 20
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_king_summonrise_03.png": {
+   "frame": {
+    "x": 410,
+    "y": 315,
+    "w": 26,
+    "h": 23
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 9,
+    "w": 26,
+    "h": 23
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_king_summonrise_04.png": {
+   "frame": {
+    "x": 578,
+    "y": 315,
+    "w": 22,
+    "h": 11
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 20,
+    "w": 22,
+    "h": 11
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_king_sweep_00.png": {
+   "frame": {
+    "x": 798,
+    "y": 192,
+    "w": 128,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 72,
+    "w": 128,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 128
+   },
+   "pivot": {
+    "x": 0,
+    "y": 0
+   },
+   "scale": "×2 最近邻：外缘半径 128→256px = 8 身位；默认从朝右扫到朝上（逆时针 90°），代码旋转/镜像",
+   "skill": {
+    "arc_deg": 90,
+    "radius_u": 8,
+    "radius_px": 256,
+    "warn": "fx_warn_fan90_256_00.png",
+    "warn_scale": 1,
+    "warn_radius_px": 256,
+    "warn_s": 1.2,
+    "swing_fps": 15,
+    "swing_frames": 5,
+    "swing_s": 0.333,
+    "hit_frame": "02"
+   },
+   "note": "C-36：锁链横扫拖影，锚点=镣王手部；预警 1.2s 结束后播挥动帧；狂暴后两手各一次（第 2 条延迟 0.3s）"
+  },
+  "fx_king_sweep_01.png": {
+   "frame": {
+    "x": 124,
+    "y": 192,
+    "w": 128,
+    "h": 106
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 22,
+    "w": 128,
+    "h": 106
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 128
+   },
+   "pivot": {
+    "x": 0,
+    "y": 0
+   },
+   "scale": "×2 最近邻：外缘半径 128→256px = 8 身位；默认从朝右扫到朝上（逆时针 90°），代码旋转/镜像",
+   "skill": {
+    "arc_deg": 90,
+    "radius_u": 8,
+    "radius_px": 256,
+    "warn": "fx_warn_fan90_256_00.png",
+    "warn_scale": 1,
+    "warn_radius_px": 256,
+    "warn_s": 1.2,
+    "swing_fps": 15,
+    "swing_frames": 5,
+    "swing_s": 0.333,
+    "hit_frame": "02"
+   },
+   "note": "C-36：锁链横扫拖影，锚点=镣王手部；预警 1.2s 结束后播挥动帧；狂暴后两手各一次（第 2 条延迟 0.3s）"
+  },
+  "fx_king_sweep_02.png": {
+   "frame": {
+    "x": 746,
+    "y": 1,
+    "w": 117,
+    "h": 127
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 1,
+    "w": 117,
+    "h": 127
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 128
+   },
+   "pivot": {
+    "x": 0,
+    "y": 0
+   },
+   "scale": "×2 最近邻：外缘半径 128→256px = 8 身位；默认从朝右扫到朝上（逆时针 90°），代码旋转/镜像",
+   "skill": {
+    "arc_deg": 90,
+    "radius_u": 8,
+    "radius_px": 256,
+    "warn": "fx_warn_fan90_256_00.png",
+    "warn_scale": 1,
+    "warn_radius_px": 256,
+    "warn_s": 1.2,
+    "swing_fps": 15,
+    "swing_frames": 5,
+    "swing_s": 0.333,
+    "hit_frame": "02"
+   },
+   "note": "C-36：锁链横扫拖影，锚点=镣王手部；预警 1.2s 结束后播挥动帧；狂暴后两手各一次（第 2 条延迟 0.3s）"
+  },
+  "fx_king_sweep_03.png": {
+   "frame": {
+    "x": 671,
+    "y": 1,
+    "w": 74,
+    "h": 128
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 74,
+    "h": 128
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 128
+   },
+   "pivot": {
+    "x": 0,
+    "y": 0
+   },
+   "scale": "×2 最近邻：外缘半径 128→256px = 8 身位；默认从朝右扫到朝上（逆时针 90°），代码旋转/镜像",
+   "skill": {
+    "arc_deg": 90,
+    "radius_u": 8,
+    "radius_px": 256,
+    "warn": "fx_warn_fan90_256_00.png",
+    "warn_scale": 1,
+    "warn_radius_px": 256,
+    "warn_s": 1.2,
+    "swing_fps": 15,
+    "swing_frames": 5,
+    "swing_s": 0.333,
+    "hit_frame": "02"
+   },
+   "note": "C-36：锁链横扫拖影，锚点=镣王手部；预警 1.2s 结束后播挥动帧；狂暴后两手各一次（第 2 条延迟 0.3s）"
+  },
+  "fx_king_sweep_04.png": {
+   "frame": {
+    "x": 774,
+    "y": 192,
+    "w": 23,
+    "h": 58
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 23,
+    "h": 58
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 128
+   },
+   "pivot": {
+    "x": 0,
+    "y": 0
+   },
+   "scale": "×2 最近邻：外缘半径 128→256px = 8 身位；默认从朝右扫到朝上（逆时针 90°），代码旋转/镜像",
+   "skill": {
+    "arc_deg": 90,
+    "radius_u": 8,
+    "radius_px": 256,
+    "warn": "fx_warn_fan90_256_00.png",
+    "warn_scale": 1,
+    "warn_radius_px": 256,
+    "warn_s": 1.2,
+    "swing_fps": 15,
+    "swing_frames": 5,
+    "swing_s": 0.333,
+    "hit_frame": "02"
+   },
+   "note": "C-36：锁链横扫拖影，锚点=镣王手部；预警 1.2s 结束后播挥动帧；狂暴后两手各一次（第 2 条延迟 0.3s）"
+  },
+  "fx_king_sweephit_00.png": {
+   "frame": {
+    "x": 335,
+    "y": 315,
+    "w": 25,
+    "h": 25
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 4,
+    "y": 4,
+    "w": 25,
+    "h": 25
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_king_sweephit_01.png": {
+   "frame": {
+    "x": 483,
+    "y": 315,
+    "w": 22,
+    "h": 20
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 5,
+    "w": 22,
+    "h": 20
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_king_sweephit_02.png": {
+   "frame": {
+    "x": 361,
+    "y": 315,
+    "w": 27,
+    "h": 25
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 3,
+    "w": 27,
+    "h": 25
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_king_sweephit_03.png": {
+   "frame": {
+    "x": 253,
+    "y": 315,
+    "w": 31,
+    "h": 30
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 31,
+    "h": 30
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  }
+ },
+ "meta": {
+  "image": "fx_boss_king.png",
+  "size": {
+   "w": 989,
+   "h": 346
+  },
+  "scale": "1",
+  "filter": "nearest",
+  "format": "RGBA8888 palette256",
+  "anchorOnBoss": {
+   "basePoint": {
+    "x": 112,
+    "y": 88
+   },
+   "boss": "boss_king 224×224，左上角原点，y 向下为正",
+   "perFrameOffset": {
+    "boss_king_sil_idle_00": {
+     "x": 0,
+     "y": 0
+    },
+    "boss_king_sil_idle_01": {
+     "x": 0,
+     "y": -2
+    },
+    "boss_king_sil_move_00": {
+     "x": 0,
+     "y": -1
+    },
+    "boss_king_sil_move_01": {
+     "x": 0,
+     "y": -1
+    }
+   },
+   "points": {
+    "soul": {
+     "x": 112,
+     "y": 88
+    },
+    "handL": {
+     "x": 44,
+     "y": 150,
+     "est": true
+    },
+    "handR": {
+     "x": 180,
+     "y": 150,
+     "est": true
+    },
+    "foot": {
+     "x": 112,
+     "y": 222
+    }
+   },
+   "note": "C-29：挂点 = 基准点 + 当前本体帧 y 偏移；手部为剪影估点，正式本体帧出来后重校"
+  }
+ }
+}

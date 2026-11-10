@@ -1,0 +1,1390 @@
+{
+ "frames": {
+  "fx_spider_burrow_00.png": {
+   "frame": {
+    "x": 118,
+    "y": 390,
+    "w": 31,
+    "h": 26
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 14,
+    "y": 27,
+    "w": 31,
+    "h": 26
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_burrow_01.png": {
+   "frame": {
+    "x": 809,
+    "y": 293,
+    "w": 42,
+    "h": 31
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 9,
+    "y": 24,
+    "w": 42,
+    "h": 31
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_burrow_02.png": {
+   "frame": {
+    "x": 755,
+    "y": 293,
+    "w": 53,
+    "h": 35
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 21,
+    "w": 53,
+    "h": 35
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_burrow_03.png": {
+   "frame": {
+    "x": 914,
+    "y": 293,
+    "w": 47,
+    "h": 28
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 11,
+    "y": 26,
+    "w": 47,
+    "h": 28
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_burrow_04.png": {
+   "frame": {
+    "x": 179,
+    "y": 390,
+    "w": 42,
+    "h": 24
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 11,
+    "y": 27,
+    "w": 42,
+    "h": 24
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_burrow_05.png": {
+   "frame": {
+    "x": 427,
+    "y": 390,
+    "w": 27,
+    "h": 15
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 17,
+    "y": 32,
+    "w": 27,
+    "h": 15
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_burrow_warn_00.png": {
+   "frame": {
+    "x": 1,
+    "y": 196,
+    "w": 256,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 256,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 256,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0,
+    "y": 0.5
+   }
+  },
+  "fx_spider_burrow_warn_01.png": {
+   "frame": {
+    "x": 258,
+    "y": 196,
+    "w": 256,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 256,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 256,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0,
+    "y": 0.5
+   }
+  },
+  "fx_spider_burrow_warn_02.png": {
+   "frame": {
+    "x": 515,
+    "y": 196,
+    "w": 256,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 256,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 256,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0,
+    "y": 0.5
+   }
+  },
+  "fx_spider_burrow_warn_03.png": {
+   "frame": {
+    "x": 1,
+    "y": 293,
+    "w": 256,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 256,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 256,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0,
+    "y": 0.5
+   }
+  },
+  "fx_spider_core_idle_00.png": {
+   "frame": {
+    "x": 689,
+    "y": 390,
+    "w": 12,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 2,
+    "w": 12,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 64,
+    "y": 74,
+    "boss": "boss_spider (128×128，左上角原点，y 向下)",
+    "cocos_offset_from_center": {
+     "x": 0,
+     "y": -10
+    },
+    "perFrameOffset": {
+     "boss_spider_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_spider_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_spider_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_spider_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 6fps 循环；warn 8fps 循环，仅技能预警期间"
+  },
+  "fx_spider_core_idle_01.png": {
+   "frame": {
+    "x": 481,
+    "y": 390,
+    "w": 14,
+    "h": 14
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 14,
+    "h": 14
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 64,
+    "y": 74,
+    "boss": "boss_spider (128×128，左上角原点，y 向下)",
+    "cocos_offset_from_center": {
+     "x": 0,
+     "y": -10
+    },
+    "perFrameOffset": {
+     "boss_spider_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_spider_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_spider_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_spider_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 6fps 循环；warn 8fps 循环，仅技能预警期间"
+  },
+  "fx_spider_core_idle_02.png": {
+   "frame": {
+    "x": 410,
+    "y": 390,
+    "w": 16,
+    "h": 16
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 16,
+    "h": 16
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 64,
+    "y": 74,
+    "boss": "boss_spider (128×128，左上角原点，y 向下)",
+    "cocos_offset_from_center": {
+     "x": 0,
+     "y": -10
+    },
+    "perFrameOffset": {
+     "boss_spider_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_spider_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_spider_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_spider_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 6fps 循环；warn 8fps 循环，仅技能预警期间"
+  },
+  "fx_spider_core_idle_03.png": {
+   "frame": {
+    "x": 496,
+    "y": 390,
+    "w": 14,
+    "h": 14
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 14,
+    "h": 14
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 64,
+    "y": 74,
+    "boss": "boss_spider (128×128，左上角原点，y 向下)",
+    "cocos_offset_from_center": {
+     "x": 0,
+     "y": -10
+    },
+    "perFrameOffset": {
+     "boss_spider_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_spider_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_spider_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_spider_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 6fps 循环；warn 8fps 循环，仅技能预警期间"
+  },
+  "fx_spider_core_warn_00.png": {
+   "frame": {
+    "x": 511,
+    "y": 390,
+    "w": 14,
+    "h": 14
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 14,
+    "h": 14
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 64,
+    "y": 74,
+    "boss": "boss_spider (128×128，左上角原点，y 向下)",
+    "cocos_offset_from_center": {
+     "x": 0,
+     "y": -10
+    },
+    "perFrameOffset": {
+     "boss_spider_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_spider_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_spider_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_spider_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 6fps 循环；warn 8fps 循环，仅技能预警期间"
+  },
+  "fx_spider_core_warn_01.png": {
+   "frame": {
+    "x": 526,
+    "y": 390,
+    "w": 14,
+    "h": 14
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 14,
+    "h": 14
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchorOnBoss": {
+    "x": 64,
+    "y": 74,
+    "boss": "boss_spider (128×128，左上角原点，y 向下)",
+    "cocos_offset_from_center": {
+     "x": 0,
+     "y": -10
+    },
+    "perFrameOffset": {
+     "boss_spider_sil_idle_00": {
+      "x": 0,
+      "y": 0
+     },
+     "boss_spider_sil_idle_01": {
+      "x": 0,
+      "y": -2
+     },
+     "boss_spider_sil_move_00": {
+      "x": 0,
+      "y": -1
+     },
+     "boss_spider_sil_move_01": {
+      "x": 0,
+      "y": -1
+     }
+    },
+    "offsetNote": "C-29：剪影整体 alpha 逐行互相关实测（y 向下为正），正式本体帧出来后重校"
+   },
+   "note": "idle 6fps 循环；warn 8fps 循环，仅技能预警期间"
+  },
+  "fx_spider_dashhit_00.png": {
+   "frame": {
+    "x": 272,
+    "y": 390,
+    "w": 22,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 21,
+    "y": 21,
+    "w": 22,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_dashhit_01.png": {
+   "frame": {
+    "x": 677,
+    "y": 293,
+    "w": 38,
+    "h": 38
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 13,
+    "y": 13,
+    "w": 38,
+    "h": 38
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_dashhit_02.png": {
+   "frame": {
+    "x": 444,
+    "y": 293,
+    "w": 50,
+    "h": 50
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 7,
+    "y": 7,
+    "w": 50,
+    "h": 50
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_dashhit_03.png": {
+   "frame": {
+    "x": 321,
+    "y": 293,
+    "w": 58,
+    "h": 58
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 3,
+    "w": 58,
+    "h": 58
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_dashhit_04.png": {
+   "frame": {
+    "x": 258,
+    "y": 293,
+    "w": 62,
+    "h": 62
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 62,
+    "h": 62
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_dashtrail_00.png": {
+   "frame": {
+    "x": 382,
+    "y": 390,
+    "w": 27,
+    "h": 17
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 10,
+    "w": 27,
+    "h": 17
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_dashtrail_01.png": {
+   "frame": {
+    "x": 455,
+    "y": 390,
+    "w": 25,
+    "h": 15
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 4,
+    "y": 10,
+    "w": 25,
+    "h": 15
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_dashtrail_02.png": {
+   "frame": {
+    "x": 665,
+    "y": 390,
+    "w": 23,
+    "h": 13
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 10,
+    "w": 23,
+    "h": 13
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_dashtrail_03.png": {
+   "frame": {
+    "x": 715,
+    "y": 390,
+    "w": 14,
+    "h": 9
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 12,
+    "w": 14,
+    "h": 9
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_gear_00.png": {
+   "frame": {
+    "x": 962,
+    "y": 293,
+    "w": 28,
+    "h": 28
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 2,
+    "w": 28,
+    "h": 28
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_gear_01.png": {
+   "frame": {
+    "x": 991,
+    "y": 293,
+    "w": 28,
+    "h": 28
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 2,
+    "w": 28,
+    "h": 28
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_gear_02.png": {
+   "frame": {
+    "x": 1,
+    "y": 390,
+    "w": 28,
+    "h": 28
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 2,
+    "w": 28,
+    "h": 28
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_gear_03.png": {
+   "frame": {
+    "x": 30,
+    "y": 390,
+    "w": 28,
+    "h": 28
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 2,
+    "w": 28,
+    "h": 28
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_gear_warn_00.png": {
+   "frame": {
+    "x": 1,
+    "y": 1,
+    "w": 194,
+    "h": 194
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 194,
+    "h": 194
+   },
+   "sourceSize": {
+    "w": 194,
+    "h": 194
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_spider_gear_warn_01.png": {
+   "frame": {
+    "x": 196,
+    "y": 1,
+    "w": 194,
+    "h": 194
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 194,
+    "h": 194
+   },
+   "sourceSize": {
+    "w": 194,
+    "h": 194
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_spider_gear_warn_02.png": {
+   "frame": {
+    "x": 391,
+    "y": 1,
+    "w": 194,
+    "h": 194
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 194,
+    "h": 194
+   },
+   "sourceSize": {
+    "w": 194,
+    "h": 194
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_spider_gear_warn_03.png": {
+   "frame": {
+    "x": 586,
+    "y": 1,
+    "w": 194,
+    "h": 194
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 194,
+    "h": 194
+   },
+   "sourceSize": {
+    "w": 194,
+    "h": 194
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_spider_gearhit_00.png": {
+   "frame": {
+    "x": 318,
+    "y": 390,
+    "w": 21,
+    "h": 21
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 6,
+    "w": 21,
+    "h": 21
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_gearhit_01.png": {
+   "frame": {
+    "x": 222,
+    "y": 390,
+    "w": 25,
+    "h": 24
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 4,
+    "y": 5,
+    "w": 25,
+    "h": 24
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_gearhit_02.png": {
+   "frame": {
+    "x": 59,
+    "y": 390,
+    "w": 28,
+    "h": 28
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 3,
+    "w": 28,
+    "h": 28
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_gearhit_03.png": {
+   "frame": {
+    "x": 883,
+    "y": 293,
+    "w": 30,
+    "h": 29
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 3,
+    "w": 30,
+    "h": 29
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_gearlaunch_00.png": {
+   "frame": {
+    "x": 248,
+    "y": 390,
+    "w": 23,
+    "h": 23
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 13,
+    "y": 13,
+    "w": 23,
+    "h": 23
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   }
+  },
+  "fx_spider_gearlaunch_01.png": {
+   "frame": {
+    "x": 637,
+    "y": 293,
+    "w": 39,
+    "h": 39
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 5,
+    "w": 39,
+    "h": 39
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   }
+  },
+  "fx_spider_gearlaunch_02.png": {
+   "frame": {
+    "x": 546,
+    "y": 293,
+    "w": 47,
+    "h": 47
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 47,
+    "h": 47
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   }
+  },
+  "fx_spider_gearlaunch_03.png": {
+   "frame": {
+    "x": 594,
+    "y": 293,
+    "w": 42,
+    "h": 42
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 3,
+    "w": 42,
+    "h": 42
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   }
+  },
+  "fx_spider_summon_00.png": {
+   "frame": {
+    "x": 702,
+    "y": 390,
+    "w": 12,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 10,
+    "y": 14,
+    "w": 12,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_summon_01.png": {
+   "frame": {
+    "x": 340,
+    "y": 390,
+    "w": 18,
+    "h": 20
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 7,
+    "y": 10,
+    "w": 18,
+    "h": 20
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_summon_02.png": {
+   "frame": {
+    "x": 150,
+    "y": 390,
+    "w": 28,
+    "h": 26
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 6,
+    "w": 28,
+    "h": 26
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_summon_03.png": {
+   "frame": {
+    "x": 88,
+    "y": 390,
+    "w": 29,
+    "h": 28
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 4,
+    "w": 29,
+    "h": 28
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_summon_04.png": {
+   "frame": {
+    "x": 295,
+    "y": 390,
+    "w": 22,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 7,
+    "w": 22,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_summon_05.png": {
+   "frame": {
+    "x": 359,
+    "y": 390,
+    "w": 22,
+    "h": 20
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 8,
+    "w": 22,
+    "h": 20
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_spider_summoncast_00.png": {
+   "frame": {
+    "x": 852,
+    "y": 293,
+    "w": 30,
+    "h": 30
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 17,
+    "y": 17,
+    "w": 30,
+    "h": 30
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_summoncast_01.png": {
+   "frame": {
+    "x": 495,
+    "y": 293,
+    "w": 50,
+    "h": 50
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 7,
+    "y": 7,
+    "w": 50,
+    "h": 50
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_summoncast_02.png": {
+   "frame": {
+    "x": 380,
+    "y": 293,
+    "w": 63,
+    "h": 54
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 5,
+    "w": 63,
+    "h": 54
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_summoncast_03.png": {
+   "frame": {
+    "x": 716,
+    "y": 293,
+    "w": 38,
+    "h": 38
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 13,
+    "y": 13,
+    "w": 38,
+    "h": 38
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 64
+   }
+  },
+  "fx_spider_summonmark_00.png": {
+   "frame": {
+    "x": 541,
+    "y": 390,
+    "w": 30,
+    "h": 14
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 30,
+    "h": 14
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "地面贴花，不掉血，淡紫；出生前 0.5s 循环"
+  },
+  "fx_spider_summonmark_01.png": {
+   "frame": {
+    "x": 572,
+    "y": 390,
+    "w": 30,
+    "h": 14
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 30,
+    "h": 14
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "地面贴花，不掉血，淡紫；出生前 0.5s 循环"
+  },
+  "fx_spider_summonmark_02.png": {
+   "frame": {
+    "x": 603,
+    "y": 390,
+    "w": 30,
+    "h": 14
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 30,
+    "h": 14
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "地面贴花，不掉血，淡紫；出生前 0.5s 循环"
+  },
+  "fx_spider_summonmark_03.png": {
+   "frame": {
+    "x": 634,
+    "y": 390,
+    "w": 30,
+    "h": 14
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 30,
+    "h": 14
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "地面贴花，不掉血，淡紫；出生前 0.5s 循环"
+  }
+ },
+ "meta": {
+  "image": "fx_boss_spider.png",
+  "size": {
+   "w": 1020,
+   "h": 419
+  },
+  "scale": "1",
+  "filter": "nearest",
+  "format": "RGBA8888 palette256",
+  "anchorOnBoss": {
+   "basePoint": {
+    "x": 64,
+    "y": 74
+   },
+   "boss": "boss_spider 128×128，左上角原点，y 向下为正",
+   "perFrameOffset": {
+    "boss_spider_sil_idle_00": {
+     "x": 0,
+     "y": 0
+    },
+    "boss_spider_sil_idle_01": {
+     "x": 0,
+     "y": -2
+    },
+    "boss_spider_sil_move_00": {
+     "x": 0,
+     "y": -1
+    },
+    "boss_spider_sil_move_01": {
+     "x": 0,
+     "y": -1
+    }
+   },
+   "note": "C-29"
+  }
+ }
+}

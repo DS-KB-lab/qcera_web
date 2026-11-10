@@ -1,0 +1,134 @@
+{
+ "frames": {
+  "boss_king_move_01.png": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   },
+   "pivot": {
+    "x": 0.4643,
+    "y": 0.0
+   }
+  },
+  "boss_king_move_02.png": {
+   "frame": {
+    "x": 225,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   },
+   "pivot": {
+    "x": 0.4643,
+    "y": 0.0
+   }
+  },
+  "boss_king_move_03.png": {
+   "frame": {
+    "x": 450,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   },
+   "pivot": {
+    "x": 0.4643,
+    "y": 0.0
+   }
+  },
+  "boss_king_move_04.png": {
+   "frame": {
+    "x": 675,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   },
+   "pivot": {
+    "x": 0.4643,
+    "y": 0.0
+   }
+  },
+  "boss_king_move_05.png": {
+   "frame": {
+    "x": 0,
+    "y": 225,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   },
+   "pivot": {
+    "x": 0.4643,
+    "y": 0.0
+   }
+  }
+ },
+ "meta": {
+  "image": "atlas_subA2_boss_p2.png",
+  "size": {
+   "w": 899,
+   "h": 449
+  },
+  "scale": "1",
+  "filter": "nearest",
+  "pivot_note": "C-51：归一化，Cocos y 向上"
+ }
+}

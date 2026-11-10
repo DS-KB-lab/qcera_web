@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" width="960" height="340">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset=".55" stop-color="#f6a53a"/>
+      <stop offset="1" stop-color="#d9622b"/>
+    </linearGradient>
+    <g id="link">
+      <rect x="-26" y="-13" width="52" height="26" rx="13" fill="none" stroke="#c9ced8" stroke-width="7"/>
+    </g>
+  </defs>
+  <text x="480" y="190" text-anchor="middle" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC',sans-serif" font-size="150" font-weight="900" letter-spacing="6" fill="url(#g)" stroke="#2a140a" stroke-width="10" paint-order="stroke" stroke-linejoin="round">链子幸存者</text>
+  <g transform="translate(480 250)">
+    <use href="#link" x="-176"/><use href="#link" x="-132" transform="rotate(0)"/>
+    <rect x="-112" y="-5" width="44" height="10" rx="5" fill="#c9ced8"/>
+    <use href="#link" x="-44"/><use href="#link" x="0"/><use href="#link" x="44"/>
+    <rect x="68" y="-5" width="44" height="10" rx="5" fill="#c9ced8"/>
+    <use href="#link" x="132"/><use href="#link" x="176"/>
+  </g>
+  <text x="480" y="318" text-anchor="middle" font-family="'Geist','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="16" fill="#e9ecf2">CHAIN SURVIVOR</text>
+</svg>

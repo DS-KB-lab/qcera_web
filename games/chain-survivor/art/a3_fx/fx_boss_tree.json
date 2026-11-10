@@ -1,0 +1,1801 @@
+{
+ "frames": {
+  "fx_tree_death_burst_00.png": {
+   "frame": {
+    "x": 555,
+    "y": 445,
+    "w": 42,
+    "h": 42
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 46,
+    "y": 31,
+    "w": 42,
+    "h": 42
+   },
+   "sourceSize": {
+    "w": 129,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5194,
+    "y": 0.5667
+   }
+  },
+  "fx_tree_death_burst_01.png": {
+   "frame": {
+    "x": 173,
+    "y": 305,
+    "w": 70,
+    "h": 71
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 32,
+    "y": 16,
+    "w": 70,
+    "h": 71
+   },
+   "sourceSize": {
+    "w": 129,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5194,
+    "y": 0.5667
+   }
+  },
+  "fx_tree_death_burst_02.png": {
+   "frame": {
+    "x": 871,
+    "y": 1,
+    "w": 66,
+    "h": 114
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 30,
+    "y": 0,
+    "w": 66,
+    "h": 114
+   },
+   "sourceSize": {
+    "w": 129,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5194,
+    "y": 0.5667
+   }
+  },
+  "fx_tree_death_burst_03.png": {
+   "frame": {
+    "x": 773,
+    "y": 1,
+    "w": 97,
+    "h": 117
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 18,
+    "y": 3,
+    "w": 97,
+    "h": 117
+   },
+   "sourceSize": {
+    "w": 129,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5194,
+    "y": 0.5667
+   }
+  },
+  "fx_tree_death_burst_04.png": {
+   "frame": {
+    "x": 1,
+    "y": 194,
+    "w": 124,
+    "h": 110
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 8,
+    "w": 124,
+    "h": 110
+   },
+   "sourceSize": {
+    "w": 129,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5194,
+    "y": 0.5667
+   }
+  },
+  "fx_tree_death_burst_05.png": {
+   "frame": {
+    "x": 575,
+    "y": 194,
+    "w": 121,
+    "h": 77
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 121,
+    "h": 77
+   },
+   "sourceSize": {
+    "w": 129,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5194,
+    "y": 0.5667
+   }
+  },
+  "fx_tree_death_chip_00.png": {
+   "frame": {
+    "x": 665,
+    "y": 499,
+    "w": 11,
+    "h": 4
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 3,
+    "w": 11,
+    "h": 4
+   },
+   "sourceSize": {
+    "w": 11,
+    "h": 9
+   },
+   "pivot": {
+    "x": 0.4545,
+    "y": 0.5556
+   }
+  },
+  "fx_tree_death_chip_01.png": {
+   "frame": {
+    "x": 627,
+    "y": 499,
+    "w": 8,
+    "h": 7
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 8,
+    "h": 7
+   },
+   "sourceSize": {
+    "w": 11,
+    "h": 9
+   },
+   "pivot": {
+    "x": 0.4545,
+    "y": 0.5556
+   }
+  },
+  "fx_tree_death_chip_02.png": {
+   "frame": {
+    "x": 524,
+    "y": 499,
+    "w": 3,
+    "h": 9
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 4,
+    "y": 0,
+    "w": 3,
+    "h": 9
+   },
+   "sourceSize": {
+    "w": 11,
+    "h": 9
+   },
+   "pivot": {
+    "x": 0.4545,
+    "y": 0.5556
+   }
+  },
+  "fx_tree_death_chip_03.png": {
+   "frame": {
+    "x": 636,
+    "y": 499,
+    "w": 8,
+    "h": 7
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 8,
+    "h": 7
+   },
+   "sourceSize": {
+    "w": 11,
+    "h": 9
+   },
+   "pivot": {
+    "x": 0.4545,
+    "y": 0.5556
+   }
+  },
+  "fx_tree_death_fade_00.png": {
+   "frame": {
+    "x": 1,
+    "y": 445,
+    "w": 138,
+    "h": 53
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 25,
+    "w": 138,
+    "h": 53
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 78
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.2692
+   }
+  },
+  "fx_tree_death_fade_01.png": {
+   "frame": {
+    "x": 414,
+    "y": 378,
+    "w": 134,
+    "h": 59
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 10,
+    "y": 18,
+    "w": 134,
+    "h": 59
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 78
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.2692
+   }
+  },
+  "fx_tree_death_fade_02.png": {
+   "frame": {
+    "x": 68,
+    "y": 378,
+    "w": 139,
+    "h": 65
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 11,
+    "w": 139,
+    "h": 65
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 78
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.2692
+   }
+  },
+  "fx_tree_death_fade_03.png": {
+   "frame": {
+    "x": 244,
+    "y": 305,
+    "w": 146,
+    "h": 71
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 4,
+    "w": 146,
+    "h": 71
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 78
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.2692
+   }
+  },
+  "fx_tree_death_fade_04.png": {
+   "frame": {
+    "x": 391,
+    "y": 305,
+    "w": 144,
+    "h": 70
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 3,
+    "w": 144,
+    "h": 70
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 78
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.2692
+   }
+  },
+  "fx_tree_death_fade_05.png": {
+   "frame": {
+    "x": 266,
+    "y": 499,
+    "w": 134,
+    "h": 15
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 10,
+    "y": 0,
+    "w": 134,
+    "h": 15
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 78
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.2692
+   }
+  },
+  "fx_tree_death_spore_00.png": {
+   "frame": {
+    "x": 645,
+    "y": 499,
+    "w": 6,
+    "h": 6
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 6,
+    "h": 6
+   },
+   "sourceSize": {
+    "w": 8,
+    "h": 8
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_tree_death_spore_01.png": {
+   "frame": {
+    "x": 585,
+    "y": 499,
+    "w": 8,
+    "h": 8
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 8,
+    "h": 8
+   },
+   "sourceSize": {
+    "w": 8,
+    "h": 8
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_tree_death_spore_02.png": {
+   "frame": {
+    "x": 594,
+    "y": 499,
+    "w": 8,
+    "h": 8
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 8,
+    "h": 8
+   },
+   "sourceSize": {
+    "w": 8,
+    "h": 8
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_tree_death_spore_03.png": {
+   "frame": {
+    "x": 652,
+    "y": 499,
+    "w": 6,
+    "h": 6
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 6,
+    "h": 6
+   },
+   "sourceSize": {
+    "w": 8,
+    "h": 8
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_tree_fruit_00.png": {
+   "frame": {
+    "x": 401,
+    "y": 499,
+    "w": 12,
+    "h": 14
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 1,
+    "w": 12,
+    "h": 14
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   }
+  },
+  "fx_tree_fruit_01.png": {
+   "frame": {
+    "x": 442,
+    "y": 499,
+    "w": 14,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 2,
+    "w": 14,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   }
+  },
+  "fx_tree_fruit_02.png": {
+   "frame": {
+    "x": 414,
+    "y": 499,
+    "w": 12,
+    "h": 14
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 1,
+    "w": 12,
+    "h": 14
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   }
+  },
+  "fx_tree_fruit_03.png": {
+   "frame": {
+    "x": 457,
+    "y": 499,
+    "w": 14,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 2,
+    "w": 14,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   }
+  },
+  "fx_tree_fruitland_00.png": {
+   "frame": {
+    "x": 427,
+    "y": 499,
+    "w": 14,
+    "h": 14
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 9,
+    "y": 13,
+    "w": 14,
+    "h": 14
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_tree_fruitland_01.png": {
+   "frame": {
+    "x": 96,
+    "y": 499,
+    "w": 26,
+    "h": 20
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 10,
+    "w": 26,
+    "h": 20
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_tree_fruitland_02.png": {
+   "frame": {
+    "x": 1,
+    "y": 499,
+    "w": 28,
+    "h": 24
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 8,
+    "w": 28,
+    "h": 24
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_tree_fruitland_03.png": {
+   "frame": {
+    "x": 30,
+    "y": 499,
+    "w": 32,
+    "h": 24
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 8,
+    "w": 32,
+    "h": 24
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_tree_fruitland_04.png": {
+   "frame": {
+    "x": 63,
+    "y": 499,
+    "w": 32,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 9,
+    "w": 32,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_tree_fruitmark_00.png": {
+   "frame": {
+    "x": 536,
+    "y": 305,
+    "w": 66,
+    "h": 66
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 66,
+    "h": 66
+   },
+   "sourceSize": {
+    "w": 66,
+    "h": 66
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "C-27：果实落点标记，不掉血，淡紫（不用红）；果实飞行期间循环 8fps"
+  },
+  "fx_tree_fruitmark_01.png": {
+   "frame": {
+    "x": 603,
+    "y": 305,
+    "w": 66,
+    "h": 66
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 66,
+    "h": 66
+   },
+   "sourceSize": {
+    "w": 66,
+    "h": 66
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "C-27：果实落点标记，不掉血，淡紫（不用红）；果实飞行期间循环 8fps"
+  },
+  "fx_tree_fruitmark_02.png": {
+   "frame": {
+    "x": 670,
+    "y": 305,
+    "w": 66,
+    "h": 66
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 66,
+    "h": 66
+   },
+   "sourceSize": {
+    "w": 66,
+    "h": 66
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "C-27：果实落点标记，不掉血，淡紫（不用红）；果实飞行期间循环 8fps"
+  },
+  "fx_tree_fruitmark_03.png": {
+   "frame": {
+    "x": 737,
+    "y": 305,
+    "w": 66,
+    "h": 66
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 66,
+    "h": 66
+   },
+   "sourceSize": {
+    "w": 66,
+    "h": 66
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "C-27：果实落点标记，不掉血，淡紫（不用红）；果实飞行期间循环 8fps"
+  },
+  "fx_tree_intro_emerge_00.png": {
+   "frame": {
+    "x": 208,
+    "y": 378,
+    "w": 82,
+    "h": 63
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 45,
+    "y": 19,
+    "w": 82,
+    "h": 63
+   },
+   "sourceSize": {
+    "w": 171,
+    "h": 95
+   },
+   "pivot": {
+    "x": 0.5029,
+    "y": 0.2526
+   }
+  },
+  "fx_tree_intro_emerge_01.png": {
+   "frame": {
+    "x": 289,
+    "y": 194,
+    "w": 130,
+    "h": 88
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 21,
+    "y": 0,
+    "w": 130,
+    "h": 88
+   },
+   "sourceSize": {
+    "w": 171,
+    "h": 95
+   },
+   "pivot": {
+    "x": 0.5029,
+    "y": 0.2526
+   }
+  },
+  "fx_tree_intro_emerge_02.png": {
+   "frame": {
+    "x": 420,
+    "y": 194,
+    "w": 154,
+    "h": 82
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 9,
+    "y": 9,
+    "w": 154,
+    "h": 82
+   },
+   "sourceSize": {
+    "w": 171,
+    "h": 95
+   },
+   "pivot": {
+    "x": 0.5029,
+    "y": 0.2526
+   }
+  },
+  "fx_tree_intro_emerge_03.png": {
+   "frame": {
+    "x": 126,
+    "y": 194,
+    "w": 162,
+    "h": 95
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 0,
+    "w": 162,
+    "h": 95
+   },
+   "sourceSize": {
+    "w": 171,
+    "h": 95
+   },
+   "pivot": {
+    "x": 0.5029,
+    "y": 0.2526
+   }
+  },
+  "fx_tree_intro_emerge_04.png": {
+   "frame": {
+    "x": 697,
+    "y": 194,
+    "w": 162,
+    "h": 73
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 19,
+    "w": 162,
+    "h": 73
+   },
+   "sourceSize": {
+    "w": 171,
+    "h": 95
+   },
+   "pivot": {
+    "x": 0.5029,
+    "y": 0.2526
+   }
+  },
+  "fx_tree_intro_emerge_05.png": {
+   "frame": {
+    "x": 1,
+    "y": 305,
+    "w": 171,
+    "h": 72
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 19,
+    "w": 171,
+    "h": 72
+   },
+   "sourceSize": {
+    "w": 171,
+    "h": 95
+   },
+   "pivot": {
+    "x": 0.5029,
+    "y": 0.2526
+   }
+  },
+  "fx_tree_leaf_00.png": {
+   "frame": {
+    "x": 603,
+    "y": 499,
+    "w": 11,
+    "h": 7
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 5,
+    "w": 11,
+    "h": 7
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   }
+  },
+  "fx_tree_leaf_01.png": {
+   "frame": {
+    "x": 528,
+    "y": 499,
+    "w": 10,
+    "h": 8
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 4,
+    "w": 10,
+    "h": 8
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   }
+  },
+  "fx_tree_leaf_02.png": {
+   "frame": {
+    "x": 615,
+    "y": 499,
+    "w": 11,
+    "h": 7
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 5,
+    "w": 11,
+    "h": 7
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   }
+  },
+  "fx_tree_leaf_03.png": {
+   "frame": {
+    "x": 539,
+    "y": 499,
+    "w": 10,
+    "h": 8
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 4,
+    "w": 10,
+    "h": 8
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   }
+  },
+  "fx_tree_retreat_00.png": {
+   "frame": {
+    "x": 831,
+    "y": 445,
+    "w": 71,
+    "h": 29
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 76,
+    "y": 53,
+    "w": 71,
+    "h": 29
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.33333333333333337
+   },
+   "groundLine_y": 64,
+   "treeClipVisibleHeight": 192,
+   "treeSinkY": 0,
+   "note": "锚点对齐古树脚底中心；古树剪影下移 treeSinkY 并只显示地面线以上部分；fps 10，单次"
+  },
+  "fx_tree_retreat_01.png": {
+   "frame": {
+    "x": 140,
+    "y": 445,
+    "w": 154,
+    "h": 52
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 32,
+    "y": 39,
+    "w": 154,
+    "h": 52
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.33333333333333337
+   },
+   "groundLine_y": 64,
+   "treeClipVisibleHeight": 180,
+   "treeSinkY": 12,
+   "note": "锚点对齐古树脚底中心；古树剪影下移 treeSinkY 并只显示地面线以上部分；fps 10，单次"
+  },
+  "fx_tree_retreat_02.png": {
+   "frame": {
+    "x": 598,
+    "y": 445,
+    "w": 156,
+    "h": 37
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 31,
+    "y": 40,
+    "w": 156,
+    "h": 37
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.33333333333333337
+   },
+   "groundLine_y": 64,
+   "treeClipVisibleHeight": 150,
+   "treeSinkY": 42,
+   "note": "锚点对齐古树脚底中心；古树剪影下移 treeSinkY 并只显示地面线以上部分；fps 10，单次"
+  },
+  "fx_tree_retreat_03.png": {
+   "frame": {
+    "x": 686,
+    "y": 378,
+    "w": 164,
+    "h": 57
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 30,
+    "y": 22,
+    "w": 164,
+    "h": 57
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.33333333333333337
+   },
+   "groundLine_y": 64,
+   "treeClipVisibleHeight": 112,
+   "treeSinkY": 80,
+   "note": "锚点对齐古树脚底中心；古树剪影下移 treeSinkY 并只显示地面线以上部分；fps 10，单次"
+  },
+  "fx_tree_retreat_04.png": {
+   "frame": {
+    "x": 295,
+    "y": 445,
+    "w": 164,
+    "h": 49
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 30,
+    "y": 30,
+    "w": 164,
+    "h": 49
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.33333333333333337
+   },
+   "groundLine_y": 64,
+   "treeClipVisibleHeight": 72,
+   "treeSinkY": 120,
+   "note": "锚点对齐古树脚底中心；古树剪影下移 treeSinkY 并只显示地面线以上部分；fps 10，单次"
+  },
+  "fx_tree_retreat_05.png": {
+   "frame": {
+    "x": 851,
+    "y": 378,
+    "w": 164,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 30,
+    "y": 22,
+    "w": 164,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.33333333333333337
+   },
+   "groundLine_y": 64,
+   "treeClipVisibleHeight": 32,
+   "treeSinkY": 160,
+   "note": "锚点对齐古树脚底中心；古树剪影下移 treeSinkY 并只显示地面线以上部分；fps 10，单次"
+  },
+  "fx_tree_retreat_06.png": {
+   "frame": {
+    "x": 549,
+    "y": 378,
+    "w": 136,
+    "h": 58
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 44,
+    "y": 18,
+    "w": 136,
+    "h": 58
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.33333333333333337
+   },
+   "groundLine_y": 64,
+   "treeClipVisibleHeight": 0,
+   "treeSinkY": 192,
+   "note": "锚点对齐古树脚底中心；古树剪影下移 treeSinkY 并只显示地面线以上部分；fps 10，单次"
+  },
+  "fx_tree_retreat_07.png": {
+   "frame": {
+    "x": 291,
+    "y": 378,
+    "w": 122,
+    "h": 59
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 51,
+    "y": 16,
+    "w": 122,
+    "h": 59
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.33333333333333337
+   },
+   "groundLine_y": 64,
+   "treeClipVisibleHeight": 0,
+   "treeSinkY": 192,
+   "note": "锚点对齐古树脚底中心；古树剪影下移 treeSinkY 并只显示地面线以上部分；fps 10，单次"
+  },
+  "fx_tree_roothit_00.png": {
+   "frame": {
+    "x": 123,
+    "y": 499,
+    "w": 18,
+    "h": 20
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 7,
+    "y": 6,
+    "w": 18,
+    "h": 20
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_tree_roothit_01.png": {
+   "frame": {
+    "x": 142,
+    "y": 499,
+    "w": 22,
+    "h": 20
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 6,
+    "w": 22,
+    "h": 20
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_tree_roothit_02.png": {
+   "frame": {
+    "x": 936,
+    "y": 445,
+    "w": 28,
+    "h": 26
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 3,
+    "w": 28,
+    "h": 26
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_tree_roothit_03.png": {
+   "frame": {
+    "x": 903,
+    "y": 445,
+    "w": 32,
+    "h": 28
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 32,
+    "h": 28
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_tree_rootspike_00.png": {
+   "frame": {
+    "x": 550,
+    "y": 499,
+    "w": 34,
+    "h": 8
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 7,
+    "y": 40,
+    "w": 34,
+    "h": 8
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.0
+   }
+  },
+  "fx_tree_rootspike_01.png": {
+   "frame": {
+    "x": 207,
+    "y": 499,
+    "w": 38,
+    "h": 18
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 30,
+    "w": 38,
+    "h": 18
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.0
+   }
+  },
+  "fx_tree_rootspike_02.png": {
+   "frame": {
+    "x": 792,
+    "y": 445,
+    "w": 38,
+    "h": 30
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 18,
+    "w": 38,
+    "h": 30
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.0
+   }
+  },
+  "fx_tree_rootspike_03.png": {
+   "frame": {
+    "x": 755,
+    "y": 445,
+    "w": 36,
+    "h": 34
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 14,
+    "w": 36,
+    "h": 34
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.0
+   }
+  },
+  "fx_tree_rootspike_04.png": {
+   "frame": {
+    "x": 965,
+    "y": 445,
+    "w": 36,
+    "h": 26
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 22,
+    "w": 36,
+    "h": 26
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.0
+   }
+  },
+  "fx_tree_rootspike_05.png": {
+   "frame": {
+    "x": 472,
+    "y": 499,
+    "w": 34,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 7,
+    "y": 36,
+    "w": 34,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.0
+   }
+  },
+  "fx_tree_rootspike_warn_00.png": {
+   "frame": {
+    "x": 804,
+    "y": 305,
+    "w": 66,
+    "h": 66
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 66,
+    "h": 66
+   },
+   "sourceSize": {
+    "w": 66,
+    "h": 66
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_tree_rootspike_warn_01.png": {
+   "frame": {
+    "x": 871,
+    "y": 305,
+    "w": 66,
+    "h": 66
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 66,
+    "h": 66
+   },
+   "sourceSize": {
+    "w": 66,
+    "h": 66
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_tree_rootspike_warn_02.png": {
+   "frame": {
+    "x": 938,
+    "y": 305,
+    "w": 66,
+    "h": 66
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 66,
+    "h": 66
+   },
+   "sourceSize": {
+    "w": 66,
+    "h": 66
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_tree_rootspike_warn_03.png": {
+   "frame": {
+    "x": 1,
+    "y": 378,
+    "w": 66,
+    "h": 66
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 66,
+    "h": 66
+   },
+   "sourceSize": {
+    "w": 66,
+    "h": 66
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_tree_slow_warn_00.png": {
+   "frame": {
+    "x": 1,
+    "y": 1,
+    "w": 192,
+    "h": 192
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 192,
+    "h": 192
+   },
+   "sourceSize": {
+    "w": 194,
+    "h": 194
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_tree_slow_warn_01.png": {
+   "frame": {
+    "x": 194,
+    "y": 1,
+    "w": 192,
+    "h": 192
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 192,
+    "h": 192
+   },
+   "sourceSize": {
+    "w": 194,
+    "h": 194
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_tree_slow_warn_02.png": {
+   "frame": {
+    "x": 387,
+    "y": 1,
+    "w": 192,
+    "h": 192
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 192,
+    "h": 192
+   },
+   "sourceSize": {
+    "w": 194,
+    "h": 194
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_tree_slow_warn_03.png": {
+   "frame": {
+    "x": 580,
+    "y": 1,
+    "w": 192,
+    "h": 192
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 192,
+    "h": 192
+   },
+   "sourceSize": {
+    "w": 194,
+    "h": 194
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx_tree_slowzone_96_00.png": {
+   "frame": {
+    "x": 460,
+    "y": 445,
+    "w": 94,
+    "h": 46
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 94,
+    "h": 46
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 48
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "scale": "C-27：半径 3 身位=直径 192px，代码 ×2 最近邻放大（俯视 2:1 椭圆）",
+   "note": "C-27：减速区不掉血，淡紫；区内移速 −30%，每 15 秒一次，持续 5 秒"
+  },
+  "fx_tree_vinesprout_00.png": {
+   "frame": {
+    "x": 659,
+    "y": 499,
+    "w": 5,
+    "h": 5
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 15,
+    "y": 27,
+    "w": 5,
+    "h": 5
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_tree_vinesprout_01.png": {
+   "frame": {
+    "x": 507,
+    "y": 499,
+    "w": 16,
+    "h": 10
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 9,
+    "y": 22,
+    "w": 16,
+    "h": 10
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_tree_vinesprout_02.png": {
+   "frame": {
+    "x": 246,
+    "y": 499,
+    "w": 19,
+    "h": 15
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 8,
+    "y": 17,
+    "w": 19,
+    "h": 15
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_tree_vinesprout_03.png": {
+   "frame": {
+    "x": 186,
+    "y": 499,
+    "w": 20,
+    "h": 19
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 7,
+    "y": 13,
+    "w": 20,
+    "h": 19
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  },
+  "fx_tree_vinesprout_04.png": {
+   "frame": {
+    "x": 165,
+    "y": 499,
+    "w": 20,
+    "h": 20
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 7,
+    "y": 12,
+    "w": 20,
+    "h": 20
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   }
+  }
+ },
+ "meta": {
+  "image": "fx_boss_tree.png",
+  "size": {
+   "w": 1016,
+   "h": 524
+  },
+  "scale": "1",
+  "filter": "nearest",
+  "format": "RGBA8888 palette256",
+  "anchorOnBoss": {
+   "basePoint": {
+    "x": 96,
+    "y": 191
+   },
+   "boss": "boss_tree 192×192，左上角原点，y 向下为正",
+   "perFrameOffset": {
+    "boss_tree_sil_idle_00": {
+     "x": 0,
+     "y": 0
+    },
+    "boss_tree_sil_idle_01": {
+     "x": 0,
+     "y": -2
+    },
+    "boss_tree_sil_move_00": {
+     "x": 0,
+     "y": -1
+    },
+    "boss_tree_sil_move_01": {
+     "x": 0,
+     "y": -1
+    }
+   },
+   "points": {
+    "foot": {
+     "x": 96,
+     "y": 191
+    },
+    "crown": {
+     "x": 96,
+     "y": 40,
+     "est": true
+    }
+   },
+   "note": "C-29：挂点 = 基准点 + 当前本体帧 y 偏移（剪影整体 alpha 互相关实测）；foot=撤退/根刺/落叶区基准，crown=抛果实/落叶发射点（估点）；正式本体帧出来后重校"
+  }
+ }
+}
