@@ -1,0 +1,2022 @@
+{
+ "frames": {
+  "fx_evo_holysword_hit_00.png": {
+   "frame": {
+    "x": 979,
+    "y": 1,
+    "w": 26,
+    "h": 26
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 3,
+    "w": 26,
+    "h": 26
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "圣剑/剑气命中，20fps 单次"
+  },
+  "fx_evo_holysword_hit_01.png": {
+   "frame": {
+    "x": 1,
+    "y": 98,
+    "w": 30,
+    "h": 26
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 3,
+    "w": 30,
+    "h": 26
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "圣剑/剑气命中，20fps 单次"
+  },
+  "fx_evo_holysword_hit_02.png": {
+   "frame": {
+    "x": 827,
+    "y": 1,
+    "w": 26,
+    "h": 30
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 1,
+    "w": 26,
+    "h": 30
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "圣剑/剑气命中，20fps 单次"
+  },
+  "fx_evo_holysword_slash_00.png": {
+   "frame": {
+    "x": 576,
+    "y": 1,
+    "w": 36,
+    "h": 43
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 22,
+    "y": 1,
+    "w": 36,
+    "h": 43
+   },
+   "sourceSize": {
+    "w": 62,
+    "h": 108
+   },
+   "pivot": {
+    "x": 0.016129032258064516,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "圣剑挥砍，20fps 单次"
+  },
+  "fx_evo_holysword_slash_01.png": {
+   "frame": {
+    "x": 282,
+    "y": 1,
+    "w": 35,
+    "h": 74
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 27,
+    "y": 1,
+    "w": 35,
+    "h": 74
+   },
+   "sourceSize": {
+    "w": 62,
+    "h": 108
+   },
+   "pivot": {
+    "x": 0.016129032258064516,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "圣剑挥砍，20fps 单次"
+  },
+  "fx_evo_holysword_slash_02.png": {
+   "frame": {
+    "x": 318,
+    "y": 1,
+    "w": 45,
+    "h": 74
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 17,
+    "y": 33,
+    "w": 45,
+    "h": 74
+   },
+   "sourceSize": {
+    "w": 62,
+    "h": 108
+   },
+   "pivot": {
+    "x": 0.016129032258064516,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "圣剑挥砍，20fps 单次"
+  },
+  "fx_evo_holysword_slash_03.png": {
+   "frame": {
+    "x": 713,
+    "y": 1,
+    "w": 41,
+    "h": 36
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 17,
+    "y": 71,
+    "w": 41,
+    "h": 36
+   },
+   "sourceSize": {
+    "w": 62,
+    "h": 108
+   },
+   "pivot": {
+    "x": 0.016129032258064516,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "圣剑挥砍，20fps 单次"
+  },
+  "fx_evo_holysword_wave_00.png": {
+   "frame": {
+    "x": 650,
+    "y": 1,
+    "w": 30,
+    "h": 42
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 30,
+    "h": 42
+   },
+   "sourceSize": {
+    "w": 31,
+    "h": 44
+   },
+   "pivot": {
+    "x": 0.8064516129032258,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 12,
+   "trail_px": 15,
+   "note": "剑气（月牙，高 44px≈1.4 身位，暂定），12fps 循环，穿透"
+  },
+  "fx_evo_holysword_wave_01.png": {
+   "frame": {
+    "x": 681,
+    "y": 1,
+    "w": 31,
+    "h": 42
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 1,
+    "w": 31,
+    "h": 42
+   },
+   "sourceSize": {
+    "w": 31,
+    "h": 44
+   },
+   "pivot": {
+    "x": 0.8064516129032258,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 12,
+   "trail_px": 15,
+   "note": "剑气（月牙，高 44px≈1.4 身位，暂定），12fps 循环，穿透"
+  },
+  "fx_evo_pistol_bullet_00.png": {
+   "frame": {
+    "x": 1,
+    "y": 125,
+    "w": 32,
+    "h": 8
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 32,
+    "h": 8
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 12
+   },
+   "pivot": {
+    "x": 0.78125,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 16,
+   "trail_px": 20,
+   "note": "双持左轮弹，4 发扇形（代码按扇形角度旋转），12fps 循环"
+  },
+  "fx_evo_pistol_bullet_01.png": {
+   "frame": {
+    "x": 34,
+    "y": 125,
+    "w": 32,
+    "h": 8
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 32,
+    "h": 8
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 12
+   },
+   "pivot": {
+    "x": 0.78125,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 16,
+   "trail_px": 20,
+   "note": "双持左轮弹，4 发扇形（代码按扇形角度旋转），12fps 循环"
+  },
+  "fx_evo_pistol_hit_00.png": {
+   "frame": {
+    "x": 642,
+    "y": 98,
+    "w": 12,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 6,
+    "w": 12,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "双持左轮命中，20fps 单次"
+  },
+  "fx_evo_pistol_hit_01.png": {
+   "frame": {
+    "x": 79,
+    "y": 98,
+    "w": 23,
+    "h": 23
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 23,
+    "h": 23
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "双持左轮命中，20fps 单次"
+  },
+  "fx_evo_pistol_hit_02.png": {
+   "frame": {
+    "x": 103,
+    "y": 98,
+    "w": 22,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 22,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "双持左轮命中，20fps 单次"
+  },
+  "fx_evo_pistol_hit_03.png": {
+   "frame": {
+    "x": 126,
+    "y": 98,
+    "w": 24,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 1,
+    "w": 24,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "双持左轮命中，20fps 单次"
+  },
+  "fx_evo_pistol_muzzle_00.png": {
+   "frame": {
+    "x": 481,
+    "y": 98,
+    "w": 13,
+    "h": 16
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 4,
+    "w": 13,
+    "h": 16
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.2,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "双枪口闪（左右手各播 1 个），24fps 单次"
+  },
+  "fx_evo_pistol_muzzle_01.png": {
+   "frame": {
+    "x": 151,
+    "y": 98,
+    "w": 15,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 15,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.2,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "双枪口闪（左右手各播 1 个），24fps 单次"
+  },
+  "fx_evo_pistol_muzzle_02.png": {
+   "frame": {
+    "x": 934,
+    "y": 98,
+    "w": 10,
+    "h": 10
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 7,
+    "w": 10,
+    "h": 10
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.2,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "双枪口闪（左右手各播 1 个），24fps 单次"
+  },
+  "fx_evo_staff_fire_boom_00.png": {
+   "frame": {
+    "x": 854,
+    "y": 1,
+    "w": 30,
+    "h": 30
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 33,
+    "y": 33,
+    "w": 30,
+    "h": 30
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "炎爆爆炸，原生 1:1 = 半径 1.5 身位（48px）；伤害帧 01；15fps 单次"
+  },
+  "fx_evo_staff_fire_boom_01.png": {
+   "frame": {
+    "x": 446,
+    "y": 1,
+    "w": 62,
+    "h": 62
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 17,
+    "y": 17,
+    "w": 62,
+    "h": 62
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "炎爆爆炸，原生 1:1 = 半径 1.5 身位（48px）；伤害帧 01；15fps 单次"
+  },
+  "fx_evo_staff_fire_boom_02.png": {
+   "frame": {
+    "x": 195,
+    "y": 1,
+    "w": 86,
+    "h": 86
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 5,
+    "w": 86,
+    "h": 86
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "炎爆爆炸，原生 1:1 = 半径 1.5 身位（48px）；伤害帧 01；15fps 单次"
+  },
+  "fx_evo_staff_fire_boom_03.png": {
+   "frame": {
+    "x": 1,
+    "y": 1,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "炎爆爆炸，原生 1:1 = 半径 1.5 身位（48px）；伤害帧 01；15fps 单次"
+  },
+  "fx_evo_staff_fire_boom_04.png": {
+   "frame": {
+    "x": 98,
+    "y": 1,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "炎爆爆炸，原生 1:1 = 半径 1.5 身位（48px）；伤害帧 01；15fps 单次"
+  },
+  "fx_evo_staff_fire_orb_00.png": {
+   "frame": {
+    "x": 655,
+    "y": 98,
+    "w": 15,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 15,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.6,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "炎爆弹，12fps 循环；品红焰（避开警示红/链子橙黄）"
+  },
+  "fx_evo_staff_fire_orb_01.png": {
+   "frame": {
+    "x": 671,
+    "y": 98,
+    "w": 14,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 2,
+    "w": 14,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.6,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "炎爆弹，12fps 循环；品红焰（避开警示红/链子橙黄）"
+  },
+  "fx_evo_staff_fire_orb_02.png": {
+   "frame": {
+    "x": 686,
+    "y": 98,
+    "w": 15,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 15,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.6,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "炎爆弹，12fps 循环；品红焰（避开警示红/链子橙黄）"
+  },
+  "fx_evo_staff_fire_orb_03.png": {
+   "frame": {
+    "x": 702,
+    "y": 98,
+    "w": 14,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 2,
+    "w": 14,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.6,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "炎爆弹，12fps 循环；品红焰（避开警示红/链子橙黄）"
+  },
+  "fx_evo_staff_ice_freeze_00.png": {
+   "frame": {
+    "x": 167,
+    "y": 98,
+    "w": 46,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 2,
+    "w": 46,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7
+   },
+   "note": "第 3 次命中冻结 1 秒，叠在怪物脚下；4fps 循环（2 帧微光），1 秒后播 ice_hit 收尾；48 档怪原生，32 档怪同图"
+  },
+  "fx_evo_staff_ice_freeze_01.png": {
+   "frame": {
+    "x": 214,
+    "y": 98,
+    "w": 46,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 2,
+    "w": 46,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7
+   },
+   "note": "第 3 次命中冻结 1 秒，叠在怪物脚下；4fps 循环（2 帧微光），1 秒后播 ice_hit 收尾；48 档怪原生，32 档怪同图"
+  },
+  "fx_evo_staff_ice_hit_00.png": {
+   "frame": {
+    "x": 614,
+    "y": 98,
+    "w": 14,
+    "h": 14
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 9,
+    "y": 9,
+    "w": 14,
+    "h": 14
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "冰霜命中（雪花炸开），15fps 单次"
+  },
+  "fx_evo_staff_ice_hit_01.png": {
+   "frame": {
+    "x": 261,
+    "y": 98,
+    "w": 22,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 5,
+    "y": 5,
+    "w": 22,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "冰霜命中（雪花炸开），15fps 单次"
+  },
+  "fx_evo_staff_ice_hit_02.png": {
+   "frame": {
+    "x": 885,
+    "y": 1,
+    "w": 30,
+    "h": 30
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 30,
+    "h": 30
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "冰霜命中（雪花炸开），15fps 单次"
+  },
+  "fx_evo_staff_ice_hit_03.png": {
+   "frame": {
+    "x": 950,
+    "y": 1,
+    "w": 28,
+    "h": 28
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 2,
+    "w": 28,
+    "h": 28
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "冰霜命中（雪花炸开），15fps 单次"
+  },
+  "fx_evo_staff_ice_orb_00.png": {
+   "frame": {
+    "x": 816,
+    "y": 98,
+    "w": 16,
+    "h": 11
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 16,
+    "h": 11
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "冰锥弹，10fps 循环；霜白（s≤0.21，不进青/冷蓝）"
+  },
+  "fx_evo_staff_ice_orb_01.png": {
+   "frame": {
+    "x": 833,
+    "y": 98,
+    "w": 16,
+    "h": 11
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 16,
+    "h": 11
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "冰锥弹，10fps 循环；霜白（s≤0.21，不进青/冷蓝）"
+  },
+  "fx_evo_staff_ice_orb_02.png": {
+   "frame": {
+    "x": 850,
+    "y": 98,
+    "w": 16,
+    "h": 11
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 16,
+    "h": 11
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "冰锥弹，10fps 循环；霜白（s≤0.21，不进青/冷蓝）"
+  },
+  "fx_evo_staff_ice_orb_03.png": {
+   "frame": {
+    "x": 867,
+    "y": 98,
+    "w": 16,
+    "h": 11
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 16,
+    "h": 11
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "冰锥弹，10fps 循环；霜白（s≤0.21，不进青/冷蓝）"
+  },
+  "fx_evo_staff_thunder_arc_00.png": {
+   "frame": {
+    "x": 945,
+    "y": 98,
+    "w": 32,
+    "h": 10
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 32,
+    "h": 10
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 12
+   },
+   "pivot": {
+    "x": 0,
+    "y": 0.5
+   },
+   "scale": "弹射连线：沿 x 平铺/拉伸到两怪距离（最近邻，整数倍平铺优先），3 帧 20fps 循环，每段持续 0.15s",
+   "note": "雷链弹射线；与玩家的「电链」强化叠层区分：此线不走链子黄"
+  },
+  "fx_evo_staff_thunder_arc_01.png": {
+   "frame": {
+    "x": 884,
+    "y": 98,
+    "w": 32,
+    "h": 11
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 1,
+    "w": 32,
+    "h": 11
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 12
+   },
+   "pivot": {
+    "x": 0,
+    "y": 0.5
+   },
+   "scale": "弹射连线：沿 x 平铺/拉伸到两怪距离（最近邻，整数倍平铺优先），3 帧 20fps 循环，每段持续 0.15s",
+   "note": "雷链弹射线；与玩家的「电链」强化叠层区分：此线不走链子黄"
+  },
+  "fx_evo_staff_thunder_arc_02.png": {
+   "frame": {
+    "x": 978,
+    "y": 98,
+    "w": 32,
+    "h": 10
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 32,
+    "h": 10
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 12
+   },
+   "pivot": {
+    "x": 0,
+    "y": 0.5
+   },
+   "scale": "弹射连线：沿 x 平铺/拉伸到两怪距离（最近邻，整数倍平铺优先），3 帧 20fps 循环，每段持续 0.15s",
+   "note": "雷链弹射线；与玩家的「电链」强化叠层区分：此线不走链子黄"
+  },
+  "fx_evo_staff_thunder_hit_00.png": {
+   "frame": {
+    "x": 373,
+    "y": 98,
+    "w": 23,
+    "h": 20
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 2,
+    "w": 23,
+    "h": 20
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "雷链命中（每次弹射播 1 个），20fps 单次"
+  },
+  "fx_evo_staff_thunder_hit_01.png": {
+   "frame": {
+    "x": 397,
+    "y": 98,
+    "w": 18,
+    "h": 20
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 2,
+    "w": 18,
+    "h": 20
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "雷链命中（每次弹射播 1 个），20fps 单次"
+  },
+  "fx_evo_staff_thunder_hit_02.png": {
+   "frame": {
+    "x": 460,
+    "y": 98,
+    "w": 20,
+    "h": 18
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 3,
+    "w": 20,
+    "h": 18
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "雷链命中（每次弹射播 1 个），20fps 单次"
+  },
+  "fx_evo_staff_thunder_orb_00.png": {
+   "frame": {
+    "x": 917,
+    "y": 98,
+    "w": 16,
+    "h": 11
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 16,
+    "h": 11
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "雷球，12fps 循环；白+雷紫（避开链子黄与冷蓝）"
+  },
+  "fx_evo_staff_thunder_orb_01.png": {
+   "frame": {
+    "x": 629,
+    "y": 98,
+    "w": 12,
+    "h": 13
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 3,
+    "w": 12,
+    "h": 13
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "雷球，12fps 循环；白+雷紫（避开链子黄与冷蓝）"
+  },
+  "fx_evo_staff_thunder_orb_02.png": {
+   "frame": {
+    "x": 569,
+    "y": 98,
+    "w": 14,
+    "h": 15
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 1,
+    "w": 14,
+    "h": 15
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "雷球，12fps 循环；白+雷紫（避开链子黄与冷蓝）"
+  },
+  "fx_evo_staff_thunder_orb_03.png": {
+   "frame": {
+    "x": 584,
+    "y": 98,
+    "w": 13,
+    "h": 15
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 0,
+    "w": 13,
+    "h": 15
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "雷球，12fps 循环；白+雷紫（避开链子黄与冷蓝）"
+  },
+  "fx_wpn_pistol_bullet_00.png": {
+   "frame": {
+    "x": 76,
+    "y": 125,
+    "w": 26,
+    "h": 6
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 1,
+    "w": 26,
+    "h": 6
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 8
+   },
+   "pivot": {
+    "x": 0.8076923076923077,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 14,
+   "trail_px": 18,
+   "note": "子弹（头在右，拖尾向左），代码沿方向旋转；12fps 循环；射程 6 身位"
+  },
+  "fx_wpn_pistol_bullet_01.png": {
+   "frame": {
+    "x": 103,
+    "y": 125,
+    "w": 26,
+    "h": 6
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 1,
+    "w": 26,
+    "h": 6
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 8
+   },
+   "pivot": {
+    "x": 0.8076923076923077,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 14,
+   "trail_px": 18,
+   "note": "子弹（头在右，拖尾向左），代码沿方向旋转；12fps 循环；射程 6 身位"
+  },
+  "fx_wpn_pistol_hit_00.png": {
+   "frame": {
+    "x": 598,
+    "y": 98,
+    "w": 15,
+    "h": 15
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 15,
+    "h": 15
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "命中，24fps 单次"
+  },
+  "fx_wpn_pistol_hit_01.png": {
+   "frame": {
+    "x": 717,
+    "y": 98,
+    "w": 12,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 2,
+    "w": 12,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "命中，24fps 单次"
+  },
+  "fx_wpn_pistol_hit_02.png": {
+   "frame": {
+    "x": 730,
+    "y": 98,
+    "w": 12,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 2,
+    "w": 12,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "命中，24fps 单次"
+  },
+  "fx_wpn_pistol_muzzle_00.png": {
+   "frame": {
+    "x": 743,
+    "y": 98,
+    "w": 11,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 2,
+    "w": 11,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.25,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "枪口闪，锚点=枪口；24fps 单次"
+  },
+  "fx_wpn_pistol_muzzle_01.png": {
+   "frame": {
+    "x": 495,
+    "y": 98,
+    "w": 12,
+    "h": 16
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 0,
+    "w": 12,
+    "h": 16
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.25,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "枪口闪，锚点=枪口；24fps 单次"
+  },
+  "fx_wpn_pistol_muzzle_02.png": {
+   "frame": {
+    "x": 67,
+    "y": 125,
+    "w": 8,
+    "h": 8
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 4,
+    "w": 8,
+    "h": 8
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.25,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "枪口闪，锚点=枪口；24fps 单次"
+  },
+  "fx_wpn_staff_cast_00.png": {
+   "frame": {
+    "x": 508,
+    "y": 98,
+    "w": 16,
+    "h": 16
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 4,
+    "y": 4,
+    "w": 16,
+    "h": 16
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "施法闪光，锚点=杖头；18fps 单次"
+  },
+  "fx_wpn_staff_cast_01.png": {
+   "frame": {
+    "x": 416,
+    "y": 98,
+    "w": 20,
+    "h": 20
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 2,
+    "w": 20,
+    "h": 20
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "施法闪光，锚点=杖头；18fps 单次"
+  },
+  "fx_wpn_staff_cast_02.png": {
+   "frame": {
+    "x": 32,
+    "y": 98,
+    "w": 24,
+    "h": 24
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 24,
+    "h": 24
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "施法闪光，锚点=杖头；18fps 单次"
+  },
+  "fx_wpn_staff_hit_00.png": {
+   "frame": {
+    "x": 755,
+    "y": 98,
+    "w": 12,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 6,
+    "w": 12,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "魔法弹命中，18fps 单次"
+  },
+  "fx_wpn_staff_hit_01.png": {
+   "frame": {
+    "x": 284,
+    "y": 98,
+    "w": 20,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 3,
+    "y": 1,
+    "w": 20,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "魔法弹命中，18fps 单次"
+  },
+  "fx_wpn_staff_hit_02.png": {
+   "frame": {
+    "x": 305,
+    "y": 98,
+    "w": 21,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 21,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "魔法弹命中，18fps 单次"
+  },
+  "fx_wpn_staff_hit_03.png": {
+   "frame": {
+    "x": 327,
+    "y": 98,
+    "w": 22,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 1,
+    "w": 22,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "魔法弹命中，18fps 单次"
+  },
+  "fx_wpn_staff_orb_00.png": {
+   "frame": {
+    "x": 768,
+    "y": 98,
+    "w": 23,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 2,
+    "w": 23,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 29,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.7241379310344828,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "魔法弹（头在右，星点拖尾），10fps 循环"
+  },
+  "fx_wpn_staff_orb_01.png": {
+   "frame": {
+    "x": 525,
+    "y": 98,
+    "w": 21,
+    "h": 16
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 0,
+    "w": 21,
+    "h": 16
+   },
+   "sourceSize": {
+    "w": 29,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.7241379310344828,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "魔法弹（头在右，星点拖尾），10fps 循环"
+  },
+  "fx_wpn_staff_orb_02.png": {
+   "frame": {
+    "x": 792,
+    "y": 98,
+    "w": 23,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 2,
+    "w": 23,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 29,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.7241379310344828,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "魔法弹（头在右，星点拖尾），10fps 循环"
+  },
+  "fx_wpn_staff_orb_03.png": {
+   "frame": {
+    "x": 547,
+    "y": 98,
+    "w": 21,
+    "h": 16
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 6,
+    "y": 0,
+    "w": 21,
+    "h": 16
+   },
+   "sourceSize": {
+    "w": 29,
+    "h": 16
+   },
+   "pivot": {
+    "x": 0.7241379310344828,
+    "y": 0.5
+   },
+   "facing": "right",
+   "proj_speed_u": 10,
+   "trail_px": 13,
+   "note": "魔法弹（头在右，星点拖尾），10fps 循环"
+  },
+  "fx_wpn_sword_hit_00.png": {
+   "frame": {
+    "x": 350,
+    "y": 98,
+    "w": 22,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 1,
+    "w": 22,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "挥砍命中，20fps 单次"
+  },
+  "fx_wpn_sword_hit_01.png": {
+   "frame": {
+    "x": 437,
+    "y": 98,
+    "w": 22,
+    "h": 20
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 1,
+    "y": 2,
+    "w": 22,
+    "h": 20
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "挥砍命中，20fps 单次"
+  },
+  "fx_wpn_sword_hit_02.png": {
+   "frame": {
+    "x": 57,
+    "y": 98,
+    "w": 21,
+    "h": 24
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 2,
+    "y": 0,
+    "w": 21,
+    "h": 24
+   },
+   "sourceSize": {
+    "w": 24,
+    "h": 24
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "note": "挥砍命中，20fps 单次"
+  },
+  "fx_wpn_sword_slash_00.png": {
+   "frame": {
+    "x": 797,
+    "y": 1,
+    "w": 29,
+    "h": 34
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 18,
+    "y": 2,
+    "w": 29,
+    "h": 34
+   },
+   "sourceSize": {
+    "w": 50,
+    "h": 88
+   },
+   "pivot": {
+    "x": 0.02,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "挥砍拖影 Lv1–2，原生半径 48px（不缩放），锚点=角色中心；20fps 单次"
+  },
+  "fx_wpn_sword_slash_01.png": {
+   "frame": {
+    "x": 509,
+    "y": 1,
+    "w": 29,
+    "h": 59
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 21,
+    "y": 2,
+    "w": 29,
+    "h": 59
+   },
+   "sourceSize": {
+    "w": 50,
+    "h": 88
+   },
+   "pivot": {
+    "x": 0.02,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "挥砍拖影 Lv1–2，原生半径 48px（不缩放），锚点=角色中心；20fps 单次"
+  },
+  "fx_wpn_sword_slash_02.png": {
+   "frame": {
+    "x": 539,
+    "y": 1,
+    "w": 36,
+    "h": 59
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 14,
+    "y": 27,
+    "w": 36,
+    "h": 59
+   },
+   "sourceSize": {
+    "w": 50,
+    "h": 88
+   },
+   "pivot": {
+    "x": 0.02,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "挥砍拖影 Lv1–2，原生半径 48px（不缩放），锚点=角色中心；20fps 单次"
+  },
+  "fx_wpn_sword_slash_03.png": {
+   "frame": {
+    "x": 916,
+    "y": 1,
+    "w": 33,
+    "h": 29
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 14,
+    "y": 57,
+    "w": 33,
+    "h": 29
+   },
+   "sourceSize": {
+    "w": 50,
+    "h": 88
+   },
+   "pivot": {
+    "x": 0.02,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "挥砍拖影 Lv1–2，原生半径 48px（不缩放），锚点=角色中心；20fps 单次"
+  },
+  "fx_wpn_sword_slashlv3_00.png": {
+   "frame": {
+    "x": 613,
+    "y": 1,
+    "w": 36,
+    "h": 43
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 22,
+    "y": 1,
+    "w": 36,
+    "h": 43
+   },
+   "sourceSize": {
+    "w": 62,
+    "h": 108
+   },
+   "pivot": {
+    "x": 0.016129032258064516,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "挥砍拖影 Lv3 起（范围 +25%），原生半径 60px（不缩放），锚点=角色中心；20fps 单次"
+  },
+  "fx_wpn_sword_slashlv3_01.png": {
+   "frame": {
+    "x": 364,
+    "y": 1,
+    "w": 35,
+    "h": 74
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 27,
+    "y": 1,
+    "w": 35,
+    "h": 74
+   },
+   "sourceSize": {
+    "w": 62,
+    "h": 108
+   },
+   "pivot": {
+    "x": 0.016129032258064516,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "挥砍拖影 Lv3 起（范围 +25%），原生半径 60px（不缩放），锚点=角色中心；20fps 单次"
+  },
+  "fx_wpn_sword_slashlv3_02.png": {
+   "frame": {
+    "x": 400,
+    "y": 1,
+    "w": 45,
+    "h": 74
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 17,
+    "y": 33,
+    "w": 45,
+    "h": 74
+   },
+   "sourceSize": {
+    "w": 62,
+    "h": 108
+   },
+   "pivot": {
+    "x": 0.016129032258064516,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "挥砍拖影 Lv3 起（范围 +25%），原生半径 60px（不缩放），锚点=角色中心；20fps 单次"
+  },
+  "fx_wpn_sword_slashlv3_03.png": {
+   "frame": {
+    "x": 755,
+    "y": 1,
+    "w": 41,
+    "h": 36
+   },
+   "rotated": false,
+   "trimmed": true,
+   "spriteSourceSize": {
+    "x": 17,
+    "y": 71,
+    "w": 41,
+    "h": 36
+   },
+   "sourceSize": {
+    "w": 62,
+    "h": 108
+   },
+   "pivot": {
+    "x": 0.016129032258064516,
+    "y": 0.5
+   },
+   "facing": "right",
+   "note": "挥砍拖影 Lv3 起（范围 +25%），原生半径 60px（不缩放），锚点=角色中心；20fps 单次"
+  }
+ },
+ "meta": {
+  "image": "fx_wpn_main.png",
+  "size": {
+   "w": 1011,
+   "h": 134
+  },
+  "scale": "1",
+  "filter": "nearest",
+  "format": "RGBA8888"
+ }
+}
