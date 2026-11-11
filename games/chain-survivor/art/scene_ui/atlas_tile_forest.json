@@ -1,0 +1,243 @@
+{
+ "image": "atlas_tile_forest.png",
+ "tile": 32,
+ "edge_note": "base_side = 主地面所在方向；side=单边，outer_corner=外角（次材质在对角象限）；不做内凹角",
+ "frames": {
+  "tile_forest_mud_00.png": {
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_mud_01.png": {
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_mud_02.png": {
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_mud_03.png": {
+   "x": 96,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_leaves_00.png": {
+   "x": 128,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_leaves_01.png": {
+   "x": 160,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_twig_00.png": {
+   "x": 0,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_root_00.png": {
+   "x": 32,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_moss_00.png": {
+   "x": 64,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_moss_01.png": {
+   "x": 96,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_mossedge_n.png": {
+   "x": 128,
+   "y": 32,
+   "w": 32,
+   "h": 32,
+   "material": "moss",
+   "base_side": "n",
+   "kind": "side"
+  },
+  "tile_forest_mossedge_e.png": {
+   "x": 160,
+   "y": 32,
+   "w": 32,
+   "h": 32,
+   "material": "moss",
+   "base_side": "e",
+   "kind": "side"
+  },
+  "tile_forest_mossedge_s.png": {
+   "x": 0,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "moss",
+   "base_side": "s",
+   "kind": "side"
+  },
+  "tile_forest_mossedge_w.png": {
+   "x": 32,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "moss",
+   "base_side": "w",
+   "kind": "side"
+  },
+  "tile_forest_mossedge_ne.png": {
+   "x": 64,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "moss",
+   "base_side": "ne",
+   "kind": "outer_corner"
+  },
+  "tile_forest_mossedge_se.png": {
+   "x": 96,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "moss",
+   "base_side": "se",
+   "kind": "outer_corner"
+  },
+  "tile_forest_mossedge_sw.png": {
+   "x": 128,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "moss",
+   "base_side": "sw",
+   "kind": "outer_corner"
+  },
+  "tile_forest_mossedge_nw.png": {
+   "x": 160,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "moss",
+   "base_side": "nw",
+   "kind": "outer_corner"
+  },
+  "tile_forest_border_n.png": {
+   "x": 0,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_border_e.png": {
+   "x": 32,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_border_s.png": {
+   "x": 64,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_border_w.png": {
+   "x": 96,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_border_ne.png": {
+   "x": 128,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_border_se.png": {
+   "x": 160,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_border_sw.png": {
+   "x": 0,
+   "y": 128,
+   "w": 32,
+   "h": 32
+  },
+  "tile_forest_border_nw.png": {
+   "x": 32,
+   "y": 128,
+   "w": 32,
+   "h": 32
+  },
+  "ui_border_forest_n.png": {
+   "x": 64,
+   "y": 128,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_forest_s.png": {
+   "x": 80,
+   "y": 128,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_forest_e.png": {
+   "x": 64,
+   "y": 144,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_forest_w.png": {
+   "x": 80,
+   "y": 144,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_forest_ne.png": {
+   "x": 96,
+   "y": 128,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_forest_nw.png": {
+   "x": 112,
+   "y": 128,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_forest_se.png": {
+   "x": 96,
+   "y": 144,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_forest_sw.png": {
+   "x": 112,
+   "y": 144,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_forest_fill.png": {
+   "x": 128,
+   "y": 128,
+   "w": 16,
+   "h": 16
+  }
+ },
+ "border_note": "border_<方向>：装饰在该格的 <方向> 一侧（n上 e右 s下 w左），四角为外角；地面部分与本段主地块逐像素一致，可直接拼接",
+ "ui_border_note": "ui_border_<方位>：§1A 屏幕信箱边框 16×16，不是地块；边条平铺不拉伸，角块对齐可视区四角，fill 双向平铺（见 border_1a/ui_border_1a.json）"
+}

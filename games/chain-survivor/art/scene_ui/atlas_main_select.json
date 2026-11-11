@@ -1,0 +1,516 @@
+{
+ "frames": {
+  "ui_card_lv_badge.png": {
+   "frame": {
+    "x": 970,
+    "y": 274,
+    "w": 20,
+    "h": 12
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 20,
+    "h": 12
+   },
+   "sourceSize": {
+    "w": 20,
+    "h": 12
+   }
+  },
+  "ui_select_card_evo.png": {
+   "frame": {
+    "x": 1,
+    "y": 1,
+    "w": 276,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 276,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 276,
+    "h": 90
+   },
+   "nineSlice": {
+    "left": 46,
+    "top": 2,
+    "right": 12,
+    "bottom": 2
+   }
+  },
+  "ui_select_card_evo_glow_00.png": {
+   "frame": {
+    "x": 278,
+    "y": 1,
+    "w": 276,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 276,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 276,
+    "h": 90
+   },
+   "nineSlice": {
+    "left": 46,
+    "top": 2,
+    "right": 12,
+    "bottom": 2
+   },
+   "fps": 8,
+   "loop": true
+  },
+  "ui_select_card_evo_glow_01.png": {
+   "frame": {
+    "x": 555,
+    "y": 1,
+    "w": 276,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 276,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 276,
+    "h": 90
+   },
+   "nineSlice": {
+    "left": 46,
+    "top": 2,
+    "right": 12,
+    "bottom": 2
+   },
+   "fps": 8,
+   "loop": true
+  },
+  "ui_select_card_evo_glow_02.png": {
+   "frame": {
+    "x": 1,
+    "y": 92,
+    "w": 276,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 276,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 276,
+    "h": 90
+   },
+   "nineSlice": {
+    "left": 46,
+    "top": 2,
+    "right": 12,
+    "bottom": 2
+   },
+   "fps": 8,
+   "loop": true
+  },
+  "ui_select_card_evo_glow_03.png": {
+   "frame": {
+    "x": 278,
+    "y": 92,
+    "w": 276,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 276,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 276,
+    "h": 90
+   },
+   "nineSlice": {
+    "left": 46,
+    "top": 2,
+    "right": 12,
+    "bottom": 2
+   },
+   "fps": 8,
+   "loop": true
+  },
+  "ui_select_card_evo_on.png": {
+   "frame": {
+    "x": 555,
+    "y": 92,
+    "w": 276,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 276,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 276,
+    "h": 90
+   },
+   "nineSlice": {
+    "left": 46,
+    "top": 2,
+    "right": 12,
+    "bottom": 2
+   }
+  },
+  "ui_select_card_new.png": {
+   "frame": {
+    "x": 1,
+    "y": 183,
+    "w": 276,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 276,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 276,
+    "h": 90
+   },
+   "nineSlice": {
+    "left": 46,
+    "top": 2,
+    "right": 12,
+    "bottom": 2
+   }
+  },
+  "ui_select_card_new_on.png": {
+   "frame": {
+    "x": 278,
+    "y": 183,
+    "w": 276,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 276,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 276,
+    "h": 90
+   },
+   "nineSlice": {
+    "left": 46,
+    "top": 2,
+    "right": 12,
+    "bottom": 2
+   }
+  },
+  "ui_select_card_psv.png": {
+   "frame": {
+    "x": 555,
+    "y": 183,
+    "w": 276,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 276,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 276,
+    "h": 90
+   },
+   "nineSlice": {
+    "left": 46,
+    "top": 2,
+    "right": 12,
+    "bottom": 2
+   }
+  },
+  "ui_select_card_psv_on.png": {
+   "frame": {
+    "x": 1,
+    "y": 274,
+    "w": 276,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 276,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 276,
+    "h": 90
+   },
+   "nineSlice": {
+    "left": 46,
+    "top": 2,
+    "right": 12,
+    "bottom": 2
+   }
+  },
+  "ui_select_card_up.png": {
+   "frame": {
+    "x": 278,
+    "y": 274,
+    "w": 276,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 276,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 276,
+    "h": 90
+   },
+   "nineSlice": {
+    "left": 46,
+    "top": 2,
+    "right": 12,
+    "bottom": 2
+   }
+  },
+  "ui_select_card_up_on.png": {
+   "frame": {
+    "x": 555,
+    "y": 274,
+    "w": 276,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 276,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 276,
+    "h": 90
+   },
+   "nineSlice": {
+    "left": 46,
+    "top": 2,
+    "right": 12,
+    "bottom": 2
+   }
+  },
+  "ui_slot_lv_pip.png": {
+   "frame": {
+    "x": 991,
+    "y": 274,
+    "w": 6,
+    "h": 6
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 6,
+    "h": 6
+   },
+   "sourceSize": {
+    "w": 6,
+    "h": 6
+   }
+  },
+  "ui_slot_lv_pip_on.png": {
+   "frame": {
+    "x": 998,
+    "y": 274,
+    "w": 6,
+    "h": 6
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 6,
+    "h": 6
+   },
+   "sourceSize": {
+    "w": 6,
+    "h": 6
+   }
+  },
+  "ui_slot_psv_empty.png": {
+   "frame": {
+    "x": 832,
+    "y": 274,
+    "w": 22,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 22,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 22,
+    "h": 22
+   }
+  },
+  "ui_slot_psv_filled.png": {
+   "frame": {
+    "x": 855,
+    "y": 274,
+    "w": 22,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 22,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 22,
+    "h": 22
+   }
+  },
+  "ui_slot_psv_selected.png": {
+   "frame": {
+    "x": 878,
+    "y": 274,
+    "w": 22,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 22,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 22,
+    "h": 22
+   }
+  },
+  "ui_slot_wpn_empty.png": {
+   "frame": {
+    "x": 901,
+    "y": 274,
+    "w": 22,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 22,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 22,
+    "h": 22
+   }
+  },
+  "ui_slot_wpn_filled.png": {
+   "frame": {
+    "x": 924,
+    "y": 274,
+    "w": 22,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 22,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 22,
+    "h": 22
+   }
+  },
+  "ui_slot_wpn_selected.png": {
+   "frame": {
+    "x": 947,
+    "y": 274,
+    "w": 22,
+    "h": 22
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 22,
+    "h": 22
+   },
+   "sourceSize": {
+    "w": 22,
+    "h": 22
+   }
+  }
+ },
+ "meta": {
+  "image": "atlas_main_select.png",
+  "size": {
+   "w": 1005,
+   "h": 365
+  },
+  "scale": "1",
+  "filter": "nearest",
+  "format": "RGBA8888 palette22",
+  "source": "scene_ui/cards P0-C 276×90",
+  "trimmed": false
+ }
+}

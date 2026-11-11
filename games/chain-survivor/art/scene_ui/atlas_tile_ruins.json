@@ -1,0 +1,339 @@
+{
+ "image": "atlas_tile_ruins.png",
+ "tile": 32,
+ "edge_note": "sand_side = 沙地所在方向；side=单边，outer_corner=外角（材质在对角象限）",
+ "frames": {
+  "tile_ruins_sand_00.png": {
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_sand_01.png": {
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_sand_02.png": {
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_sand_03.png": {
+   "x": 96,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_slab_00.png": {
+   "x": 128,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_slab_01.png": {
+   "x": 160,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_metal_00.png": {
+   "x": 0,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_metal_01.png": {
+   "x": 32,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_plate_00.png": {
+   "x": 64,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_crack_00.png": {
+   "x": 96,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_oil_00.png": {
+   "x": 128,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_screws_00.png": {
+   "x": 160,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_grass_00.png": {
+   "x": 0,
+   "y": 64,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_grass_01.png": {
+   "x": 32,
+   "y": 64,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_slabedge_n.png": {
+   "x": 64,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "slab",
+   "sand_side": "n",
+   "kind": "side"
+  },
+  "tile_ruins_slabedge_e.png": {
+   "x": 96,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "slab",
+   "sand_side": "e",
+   "kind": "side"
+  },
+  "tile_ruins_slabedge_s.png": {
+   "x": 128,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "slab",
+   "sand_side": "s",
+   "kind": "side"
+  },
+  "tile_ruins_slabedge_w.png": {
+   "x": 160,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "slab",
+   "sand_side": "w",
+   "kind": "side"
+  },
+  "tile_ruins_slabedge_ne.png": {
+   "x": 0,
+   "y": 96,
+   "w": 32,
+   "h": 32,
+   "material": "slab",
+   "sand_side": "ne",
+   "kind": "outer_corner"
+  },
+  "tile_ruins_slabedge_se.png": {
+   "x": 32,
+   "y": 96,
+   "w": 32,
+   "h": 32,
+   "material": "slab",
+   "sand_side": "se",
+   "kind": "outer_corner"
+  },
+  "tile_ruins_slabedge_sw.png": {
+   "x": 64,
+   "y": 96,
+   "w": 32,
+   "h": 32,
+   "material": "slab",
+   "sand_side": "sw",
+   "kind": "outer_corner"
+  },
+  "tile_ruins_slabedge_nw.png": {
+   "x": 96,
+   "y": 96,
+   "w": 32,
+   "h": 32,
+   "material": "slab",
+   "sand_side": "nw",
+   "kind": "outer_corner"
+  },
+  "tile_ruins_metaledge_n.png": {
+   "x": 128,
+   "y": 96,
+   "w": 32,
+   "h": 32,
+   "material": "metal",
+   "sand_side": "n",
+   "kind": "side"
+  },
+  "tile_ruins_metaledge_e.png": {
+   "x": 160,
+   "y": 96,
+   "w": 32,
+   "h": 32,
+   "material": "metal",
+   "sand_side": "e",
+   "kind": "side"
+  },
+  "tile_ruins_metaledge_s.png": {
+   "x": 0,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "material": "metal",
+   "sand_side": "s",
+   "kind": "side"
+  },
+  "tile_ruins_metaledge_w.png": {
+   "x": 32,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "material": "metal",
+   "sand_side": "w",
+   "kind": "side"
+  },
+  "tile_ruins_metaledge_ne.png": {
+   "x": 64,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "material": "metal",
+   "sand_side": "ne",
+   "kind": "outer_corner"
+  },
+  "tile_ruins_metaledge_se.png": {
+   "x": 96,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "material": "metal",
+   "sand_side": "se",
+   "kind": "outer_corner"
+  },
+  "tile_ruins_metaledge_sw.png": {
+   "x": 128,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "material": "metal",
+   "sand_side": "sw",
+   "kind": "outer_corner"
+  },
+  "tile_ruins_metaledge_nw.png": {
+   "x": 160,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "material": "metal",
+   "sand_side": "nw",
+   "kind": "outer_corner"
+  },
+  "tile_ruins_border_n.png": {
+   "x": 0,
+   "y": 160,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_border_e.png": {
+   "x": 32,
+   "y": 160,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_border_s.png": {
+   "x": 64,
+   "y": 160,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_border_w.png": {
+   "x": 96,
+   "y": 160,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_border_ne.png": {
+   "x": 128,
+   "y": 160,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_border_se.png": {
+   "x": 160,
+   "y": 160,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_border_sw.png": {
+   "x": 0,
+   "y": 192,
+   "w": 32,
+   "h": 32
+  },
+  "tile_ruins_border_nw.png": {
+   "x": 32,
+   "y": 192,
+   "w": 32,
+   "h": 32
+  },
+  "ui_border_ruins_n.png": {
+   "x": 64,
+   "y": 192,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_ruins_s.png": {
+   "x": 80,
+   "y": 192,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_ruins_e.png": {
+   "x": 64,
+   "y": 208,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_ruins_w.png": {
+   "x": 80,
+   "y": 208,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_ruins_ne.png": {
+   "x": 96,
+   "y": 192,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_ruins_nw.png": {
+   "x": 112,
+   "y": 192,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_ruins_se.png": {
+   "x": 96,
+   "y": 208,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_ruins_sw.png": {
+   "x": 112,
+   "y": 208,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_ruins_fill.png": {
+   "x": 128,
+   "y": 192,
+   "w": 16,
+   "h": 16
+  }
+ },
+ "border_note": "border_<方向>：装饰在该格的 <方向> 一侧（n上 e右 s下 w左），四角为外角；地面部分与本段主地块逐像素一致，可直接拼接",
+ "ui_border_note": "ui_border_<方位>：§1A 屏幕信箱边框 16×16，不是地块；边条平铺不拉伸，角块对齐可视区四角，fill 双向平铺（见 border_1a/ui_border_1a.json）"
+}

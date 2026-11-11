@@ -227,7 +227,7 @@ window.QCERA = {
         name: "链子幸存者", kind: "动作 · 割草生存", tagline: "怪潮之中，你的下一步，牵着另一个人的命运",
         desc: "你刚找到一条突围路线，转头却发现，队友还在怪群的另一侧。《链子幸存者》是明亮像素风的俯视竖屏割草生存游戏：骑士和枪手可以由两名玩家被一根链子绑在一起迎战怪潮，也可以单人开局。距离拉开，链子随之伸长；拉到极限，链子绷紧。往前冲还是回身接应，下一步往哪走成了两个人的事。",
         genres: ["俯视竖屏", "像素风", "双人同屏", "割草生存", "升级选卡"],
-        rules: ["WASD 或方向键移动，武器会自动攻击；手机和触屏用浮动摇杆。", "升级时三张卡选一张：按 1 / 2 / 3，或直接点卡片。", "想两人同机玩，在全屏打开的地址后面加上 ?duo=1：左边玩家用 WASD，右边玩家用方向键。", "想选角色，地址后面加上 ?char=knight（骑士）或 ?char=gunner（枪手）。"],
+        rules: ["点「开始游戏」，先选骑士或枪手，再选单人或双人。", "WASD 或方向键移动，武器会自动攻击；手机和触屏用浮动摇杆。", "升级时三张卡选一张：按 1 / 2 / 3，或直接点卡片。", "双人是同一台电脑两人玩：左边玩家用 WASD，右边玩家用方向键。"],
         features: [
           ["一根链子连着两个人", "盯着自己脚下的空地还不够，队友的位置、你们之间的距离同样决定下一步往哪走。链子绷紧时，两人可以打出需要配合的链子攻击。"],
           ["倒地也不松手", "队友倒地后，你能拖着倒地的队友继续移动，在拥挤的战场上找下一处空隙。"],
@@ -236,13 +236,13 @@ window.QCERA = {
           ["三场首领战", "一局里先后遇到齿轮蛛后和腐根古树，最后是最终首领镣王。时间耗尽前没打倒镣王，这一局就算失败。"]
         ],
         platform: "网页版：电脑浏览器用键盘玩，手机和平板用触屏摇杆，无需下载。",
-        note: "现在上线的是浏览器测试版，部分怪物和界面美术还没换上正式版本，上方图片均为概念美术。游戏为简体中文。"
+        note: "现在上线的是浏览器测试版，还在持续更新；上方图片均为概念美术。游戏为简体中文。"
       },
       en: {
         name: "Chain Survivor", kind: "Action · horde survival", tagline: "In the middle of the horde, your next step decides someone else’s fate too",
         desc: "You’ve just found a way out, then you turn and see your partner is still on the other side of the horde. Chain Survivor is a bright pixel-art, top-down, portrait-screen horde survival game. Two players can take the Knight and the Gunner into battle tied together by a chain, or you can start alone. The further apart you move, the longer the chain stretches, until it pulls tight. Charge ahead or turn back to help? Every step is a decision for two.",
         genres: ["Top-down portrait", "Pixel art", "Two players, one screen", "Horde survival", "Level-up cards"],
-        rules: ["Move with WASD or the arrow keys and your weapons attack on their own. On phones and touch screens, use the floating joystick.", "At each level-up, pick one of three cards: press 1 / 2 / 3 or tap the card.", "For two players on one machine, add ?duo=1 to the full-screen address. The left player uses WASD and the right player uses the arrow keys.", "To choose a hero, add ?char=knight (Knight) or ?char=gunner (Gunner) to the address."],
+        rules: ["Press Start, choose the Knight or the Gunner, then choose solo or two players.", "Move with WASD or the arrow keys and your weapons attack on their own. On phones and touch screens, use the floating joystick.", "At each level-up, pick one of three cards: press 1 / 2 / 3 or tap the card.", "Two-player mode is two people on one computer: the left player uses WASD and the right player uses the arrow keys."],
         features: [
           ["One chain, two players", "Watching the ground under your own feet isn’t enough. Where your partner is, and how far apart you are, decide where you go next. When the chain pulls tight, the two of you can land chain attacks that take teamwork."],
           ["Never let go", "When your partner goes down, you can drag them along and keep looking for the next gap in the crowd."],
@@ -251,7 +251,7 @@ window.QCERA = {
           ["Three boss fights", "Each run brings the Gear Spider Queen, then the Rotroot Elder Tree, and finally the Shackle King. If the Shackle King is still standing when time runs out, the run is lost."]
         ],
         platform: "Web version: play with a keyboard in a desktop browser, or with the touch joystick on phones and tablets. No download needed.",
-        note: "This is the browser test build: some enemy and interface art hasn’t been swapped for the final versions yet, and the images above are concept art. The game is in Simplified Chinese."
+        note: "This is the browser test build and it’s still being updated. The images above are concept art. The game is in Simplified Chinese."
       }
     }
   ],

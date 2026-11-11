@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict><key>frames</key><dict>
+<key>ui_result_banner_leave.png</key><dict><key>frame</key><string>{{254,1},{248,52}}</string><key>offset</key><string>{0,0}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{248,52}}</string><key>sourceSize</key><string>{248,52}</string></dict>
+<key>ui_result_banner_lose.png</key><dict><key>frame</key><string>{{1,222},{248,52}}</string><key>offset</key><string>{0,0}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{248,52}}</string><key>sourceSize</key><string>{248,52}</string></dict>
+<key>ui_result_banner_win.png</key><dict><key>frame</key><string>{{250,222},{248,52}}</string><key>offset</key><string>{0,0}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{248,52}}</string><key>sourceSize</key><string>{248,52}</string></dict>
+<key>ui_result_icon_best.png</key><dict><key>frame</key><string>{{1,275},{16,16}}</string><key>offset</key><string>{0,0}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{16,16}}</string><key>sourceSize</key><string>{16,16}</string></dict>
+<key>ui_result_icon_coin.png</key><dict><key>frame</key><string>{{18,275},{16,16}}</string><key>offset</key><string>{0,0}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{16,16}}</string><key>sourceSize</key><string>{16,16}</string></dict>
+<key>ui_result_icon_damage.png</key><dict><key>frame</key><string>{{35,275},{16,16}}</string><key>offset</key><string>{0,0}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{16,16}}</string><key>sourceSize</key><string>{16,16}</string></dict>
+<key>ui_result_icon_kill.png</key><dict><key>frame</key><string>{{52,275},{16,16}}</string><key>offset</key><string>{0,0}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{16,16}}</string><key>sourceSize</key><string>{16,16}</string></dict>
+<key>ui_result_icon_level.png</key><dict><key>frame</key><string>{{69,275},{16,16}}</string><key>offset</key><string>{0,0}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{16,16}}</string><key>sourceSize</key><string>{16,16}</string></dict>
+<key>ui_result_icon_time.png</key><dict><key>frame</key><string>{{86,275},{16,16}}</string><key>offset</key><string>{0,0}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{16,16}}</string><key>sourceSize</key><string>{16,16}</string></dict>
+<key>ui_result_panel.png</key><dict><key>frame</key><string>{{1,1},{252,220}}</string><key>offset</key><string>{0,0}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{252,220}}</string><key>sourceSize</key><string>{252,220}</string></dict>
+</dict><key>metadata</key><dict><key>format</key><integer>2</integer>
+<key>size</key><string>{503,292}</string><key>textureFileName</key><string>atlas_main_result.png</string></dict></dict></plist>
