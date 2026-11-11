@@ -1,0 +1,243 @@
+{
+ "image": "atlas_tile_prison.png",
+ "tile": 32,
+ "edge_note": "base_side = 主地面所在方向；side=单边，outer_corner=外角（次材质在对角象限）；不做内凹角",
+ "frames": {
+  "tile_prison_stone_00.png": {
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_stone_01.png": {
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_stone_02.png": {
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_stone_03.png": {
+   "x": 96,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_straw_00.png": {
+   "x": 128,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_straw_01.png": {
+   "x": 160,
+   "y": 0,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_chainfloor_00.png": {
+   "x": 0,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_stain_00.png": {
+   "x": 32,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_grate_00.png": {
+   "x": 64,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_grate_01.png": {
+   "x": 96,
+   "y": 32,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_grateedge_n.png": {
+   "x": 128,
+   "y": 32,
+   "w": 32,
+   "h": 32,
+   "material": "grate",
+   "base_side": "n",
+   "kind": "side"
+  },
+  "tile_prison_grateedge_e.png": {
+   "x": 160,
+   "y": 32,
+   "w": 32,
+   "h": 32,
+   "material": "grate",
+   "base_side": "e",
+   "kind": "side"
+  },
+  "tile_prison_grateedge_s.png": {
+   "x": 0,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "grate",
+   "base_side": "s",
+   "kind": "side"
+  },
+  "tile_prison_grateedge_w.png": {
+   "x": 32,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "grate",
+   "base_side": "w",
+   "kind": "side"
+  },
+  "tile_prison_grateedge_ne.png": {
+   "x": 64,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "grate",
+   "base_side": "ne",
+   "kind": "outer_corner"
+  },
+  "tile_prison_grateedge_se.png": {
+   "x": 96,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "grate",
+   "base_side": "se",
+   "kind": "outer_corner"
+  },
+  "tile_prison_grateedge_sw.png": {
+   "x": 128,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "grate",
+   "base_side": "sw",
+   "kind": "outer_corner"
+  },
+  "tile_prison_grateedge_nw.png": {
+   "x": 160,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "material": "grate",
+   "base_side": "nw",
+   "kind": "outer_corner"
+  },
+  "tile_prison_border_n.png": {
+   "x": 0,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_border_e.png": {
+   "x": 32,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_border_s.png": {
+   "x": 64,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_border_w.png": {
+   "x": 96,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_border_ne.png": {
+   "x": 128,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_border_se.png": {
+   "x": 160,
+   "y": 96,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_border_sw.png": {
+   "x": 0,
+   "y": 128,
+   "w": 32,
+   "h": 32
+  },
+  "tile_prison_border_nw.png": {
+   "x": 32,
+   "y": 128,
+   "w": 32,
+   "h": 32
+  },
+  "ui_border_prison_n.png": {
+   "x": 64,
+   "y": 128,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_prison_s.png": {
+   "x": 80,
+   "y": 128,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_prison_e.png": {
+   "x": 64,
+   "y": 144,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_prison_w.png": {
+   "x": 80,
+   "y": 144,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_prison_ne.png": {
+   "x": 96,
+   "y": 128,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_prison_nw.png": {
+   "x": 112,
+   "y": 128,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_prison_se.png": {
+   "x": 96,
+   "y": 144,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_prison_sw.png": {
+   "x": 112,
+   "y": 144,
+   "w": 16,
+   "h": 16
+  },
+  "ui_border_prison_fill.png": {
+   "x": 128,
+   "y": 128,
+   "w": 16,
+   "h": 16
+  }
+ },
+ "border_note": "border_<方向>：装饰在该格的 <方向> 一侧（n上 e右 s下 w左），四角为外角；地面部分与本段主地块逐像素一致，可直接拼接",
+ "ui_border_note": "ui_border_<方位>：§1A 屏幕信箱边框 16×16，不是地块；边条平铺不拉伸，角块对齐可视区四角，fill 双向平铺（见 border_1a/ui_border_1a.json）"
+}

@@ -1,0 +1,41 @@
+{
+ "note": "经验球 3 档 x 2 帧，1:1 最近邻；档位按 C-74 定稿；合并球按合并后的 exp 落档，不另画",
+ "fps": 4,
+ "tiers": {
+  "s": {
+   "size": [
+    8,
+    8
+   ],
+   "frames": [
+    "fx_xp_orb_s_00.png",
+    "fx_xp_orb_s_01.png"
+   ],
+   "rule": "exp < 2"
+  },
+  "m": {
+   "size": [
+    12,
+    12
+   ],
+   "frames": [
+    "fx_xp_orb_m_00.png",
+    "fx_xp_orb_m_01.png"
+   ],
+   "rule": "2 <= exp < 10"
+  },
+  "l": {
+   "size": [
+    16,
+    16
+   ],
+   "frames": [
+    "fx_xp_orb_l_00.png",
+    "fx_xp_orb_l_01.png"
+   ],
+   "rule": "exp >= 10"
+  }
+ },
+ "source": "C-74",
+ "merge_rule": "合并球按合并后 exp 落档（通常进 l）"
+}

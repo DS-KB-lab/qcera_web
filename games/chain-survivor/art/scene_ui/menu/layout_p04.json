@@ -1,0 +1,669 @@
+{
+ "version": "P0-4/P0-5 menu UI v2 2026-11-10 21:20（Europe/Amsterdam）",
+ "unit": "逻辑像素；整屏只按整数倍（×2/×3）放大、最近邻（C-48）",
+ "design_resolution": {
+  "w": 320,
+  "h": 570,
+  "source": "client/web/main.ts C-48 LOGIC_W/LOGIC_H = 320×570",
+  "cocos_canvas": "720×1280 是约 2.25 倍画布，像素 UI 仍按 320×570 出图",
+  "margin_lr": 6
+ },
+ "text_render": "中文 Fusion Pixel 12px，主按钮/标题已 ×2 并加描边后烘焙。结算数字用 ui_font_hud ×2 最近邻。",
+ "outline": "UI 框线 #281c1e。标题额外有一层更深的外描边和 3px 暗铜挤出。",
+ "screens": {
+  "menu": {
+   "bg": {
+    "img": "ui_menu_bg.png",
+    "xy": [
+     0,
+     0
+    ],
+    "size": [
+     320,
+     570
+    ]
+   },
+   "title": {
+    "img": "ui_menu_title.png",
+    "xy": [
+     24,
+     64
+    ],
+    "size": [
+     271,
+     64
+    ]
+   },
+   "btn_start": {
+    "img": "ui_btn_main.png",
+    "on": "ui_btn_main_on.png",
+    "xy": [
+     70,
+     336
+    ],
+    "size": [
+     180,
+     40
+    ],
+    "text_baked": true,
+    "text": "开始游戏"
+   },
+   "btn_settings": {
+    "img": "ui_btn_icon_settings.png",
+    "on": "ui_btn_icon_settings_on.png",
+    "xy": [
+     286,
+     6
+    ],
+    "size": [
+     28,
+     28
+    ]
+   }
+  },
+  "select": {
+   "bg": {
+    "img": "ui_menu_bg_plain.png",
+    "xy": [
+     0,
+     0
+    ],
+    "size": [
+     320,
+     570
+    ]
+   },
+   "heading": {
+    "text": "选择角色",
+    "xy": [
+     112,
+     36
+    ],
+    "font": "Fusion Pixel 12px ×2",
+    "color": "#ece0ce"
+   },
+   "cards": {
+    "knight": {
+     "card": "ui_select_card_knight.png",
+     "card_on": "ui_select_card_knight_on.png",
+     "spark": "ui_select_card_spark.png",
+     "xy": [
+      30,
+      80
+     ],
+     "size": [
+      120,
+      150
+     ],
+     "preview": {
+      "src": "main_px/char_frames/char_knight_idle_00.png",
+      "native": [
+       32,
+       32
+      ],
+      "draw_size": [
+       96,
+       96
+      ],
+      "xy_in_card": [
+       12,
+       22
+      ],
+      "filter": "nearest"
+     },
+     "nameplate": {
+      "img": "ui_select_nameplate_knight.png",
+      "xy": [
+       30,
+       234
+      ],
+      "size": [
+       120,
+       32
+      ],
+      "text": "骑士"
+     }
+    },
+    "gunner": {
+     "card": "ui_select_card_gunner.png",
+     "card_on": "ui_select_card_gunner_on.png",
+     "spark": "ui_select_card_spark.png",
+     "xy": [
+      170,
+      80
+     ],
+     "size": [
+      120,
+      150
+     ],
+     "preview": {
+      "src": "main_px/char_frames/char_gunner_idle_00.png",
+      "native": [
+       32,
+       32
+      ],
+      "draw_size": [
+       96,
+       96
+      ],
+      "xy_in_card": [
+       12,
+       22
+      ],
+      "filter": "nearest"
+     },
+     "nameplate": {
+      "img": "ui_select_nameplate_gunner.png",
+      "xy": [
+       170,
+       234
+      ],
+      "size": [
+       120,
+       32
+      ],
+      "text": "枪手"
+     }
+    }
+   },
+   "btn_confirm": {
+    "img": "ui_btn_confirm.png",
+    "on": "ui_btn_confirm_on.png",
+    "xy": [
+     80,
+     280
+    ],
+    "size": [
+     160,
+     36
+    ],
+    "text_baked": true
+   }
+  },
+  "result": {
+   "note": "胜利金铜+星星光芒；失败灰紫+断链；结算离开中性铜色。不展示击杀数。数字与图标均 ×2 显示。按钮在面板内纵向排列以减少留白。",
+   "bg": {
+    "img": "ui_menu_bg_plain.png",
+    "xy": [
+     0,
+     0
+    ],
+    "size": [
+     320,
+     570
+    ]
+   },
+   "banner": {
+    "win": "ui_result_banner_win.png",
+    "lose": "ui_result_banner_lose.png",
+    "leave": "ui_result_banner_leave.png",
+    "xy": [
+     36,
+     52
+    ],
+    "size": [
+     248,
+     52
+    ]
+   },
+   "panel": {
+    "img": "ui_result_panel.png",
+    "xy": [
+     34,
+     112
+    ],
+    "size": [
+     252,
+     220
+    ],
+    "nine": "ui_result_panel"
+   },
+   "stats": [
+    {
+     "key": "time",
+     "icon": "ui_result_icon_time.png",
+     "xy": [
+      56,
+      128
+     ],
+     "draw_size": [
+      32,
+      32
+     ],
+     "value_xy": [
+      98,
+      136
+     ],
+     "sample": "12:34",
+     "font": "ui_font_hud ×2"
+    },
+    {
+     "key": "level",
+     "icon": "ui_result_icon_level.png",
+     "xy": [
+      56,
+      166
+     ],
+     "draw_size": [
+      32,
+      32
+     ],
+     "value_xy": [
+      98,
+      174
+     ],
+     "sample": "Lv18",
+     "font": "ui_font_hud ×2"
+    },
+    {
+     "key": "coin",
+     "icon": "ui_result_icon_coin.png",
+     "xy": [
+      56,
+      204
+     ],
+     "draw_size": [
+      32,
+      32
+     ],
+     "value_xy": [
+      98,
+      212
+     ],
+     "sample": "1280",
+     "font": "ui_font_hud ×2"
+    }
+   ],
+   "btn_again": {
+    "img": "ui_btn_again.png",
+    "on": "ui_btn_again_on.png",
+    "xy": [
+     70,
+     250
+    ],
+    "size": [
+     180,
+     36
+    ],
+    "text_baked": true
+   },
+   "btn_menu": {
+    "img": "ui_btn_menu.png",
+    "on": "ui_btn_menu_on.png",
+    "xy": [
+     70,
+     290
+    ],
+    "size": [
+     180,
+     36
+    ],
+    "text_baked": true
+   }
+  },
+  "settings": {
+   "bg": {
+    "img": "ui_menu_bg_plain.png",
+    "xy": [
+     0,
+     0
+    ],
+    "size": [
+     320,
+     570
+    ]
+   },
+   "panel": {
+    "img": "ui_settings_panel.png",
+    "xy": [
+     50,
+     150
+    ],
+    "size": [
+     220,
+     176
+    ],
+    "nine": "ui_settings_panel"
+   },
+   "music": {
+    "label": "音乐",
+    "label_xy": [
+     70,
+     206
+    ],
+    "toggle_xy": [
+     210,
+     204
+    ],
+    "size": [
+     40,
+     18
+    ]
+   },
+   "sfx": {
+    "label": "音效",
+    "label_xy": [
+     70,
+     238
+    ],
+    "toggle_xy": [
+     210,
+     236
+    ],
+    "size": [
+     40,
+     18
+    ]
+   },
+   "volume": {
+    "label": "音量",
+    "label_xy": [
+     70,
+     274
+    ],
+    "slider_bg": {
+     "img": "ui_slider_bg.png",
+     "xy": [
+      126,
+      276
+     ],
+     "size": [
+      120,
+      12
+     ]
+    },
+    "slider_fill": {
+     "img": "ui_slider_fill.png",
+     "xy": [
+      132,
+      278
+     ],
+     "h": 8,
+     "w_rule": "round(108 * volume)"
+    },
+    "slider_knob": {
+     "img": "ui_slider_knob.png",
+     "size": [
+      14,
+      14
+     ],
+     "xy_rule": "[132 + round(108 * volume) - 7, 275]"
+    }
+   }
+  },
+  "pause": {
+   "mask": {
+    "img": "ui_pause_mask.png",
+    "xy": [
+     0,
+     0
+    ],
+    "size": [
+     320,
+     570
+    ]
+   }
+  }
+ },
+ "src_sizes": {
+  "ui_menu_bg.png": {
+   "img": "ui_menu_bg.png",
+   "size": [
+    320,
+    570
+   ]
+  },
+  "ui_menu_bg_plain.png": {
+   "img": "ui_menu_bg_plain.png",
+   "size": [
+    320,
+    570
+   ]
+  },
+  "ui_menu_title.png": {
+   "img": "ui_menu_title.png",
+   "size": [
+    271,
+    64
+   ]
+  },
+  "ui_btn_main.png": {
+   "img": "ui_btn_main.png",
+   "size": [
+    180,
+    40
+   ]
+  },
+  "ui_btn_main_on.png": {
+   "img": "ui_btn_main_on.png",
+   "size": [
+    180,
+    40
+   ]
+  },
+  "ui_btn_icon_settings.png": {
+   "img": "ui_btn_icon_settings.png",
+   "size": [
+    28,
+    28
+   ]
+  },
+  "ui_btn_icon_settings_on.png": {
+   "img": "ui_btn_icon_settings_on.png",
+   "size": [
+    28,
+    28
+   ]
+  },
+  "ui_select_card_knight.png": {
+   "img": "ui_select_card_knight.png",
+   "size": [
+    120,
+    150
+   ]
+  },
+  "ui_select_card_knight_on.png": {
+   "img": "ui_select_card_knight_on.png",
+   "size": [
+    120,
+    150
+   ]
+  },
+  "ui_select_card_gunner.png": {
+   "img": "ui_select_card_gunner.png",
+   "size": [
+    120,
+    150
+   ]
+  },
+  "ui_select_card_gunner_on.png": {
+   "img": "ui_select_card_gunner_on.png",
+   "size": [
+    120,
+    150
+   ]
+  },
+  "ui_select_card.png": {
+   "img": "ui_select_card.png",
+   "size": [
+    120,
+    150
+   ]
+  },
+  "ui_select_card_on.png": {
+   "img": "ui_select_card_on.png",
+   "size": [
+    120,
+    150
+   ]
+  },
+  "ui_select_card_spark.png": {
+   "img": "ui_select_card_spark.png",
+   "size": [
+    120,
+    150
+   ]
+  },
+  "ui_select_nameplate.png": {
+   "img": "ui_select_nameplate.png",
+   "size": [
+    120,
+    32
+   ]
+  },
+  "ui_select_nameplate_knight.png": {
+   "img": "ui_select_nameplate_knight.png",
+   "size": [
+    120,
+    32
+   ]
+  },
+  "ui_select_nameplate_gunner.png": {
+   "img": "ui_select_nameplate_gunner.png",
+   "size": [
+    120,
+    32
+   ]
+  },
+  "ui_btn_confirm.png": {
+   "img": "ui_btn_confirm.png",
+   "size": [
+    160,
+    36
+   ]
+  },
+  "ui_btn_confirm_on.png": {
+   "img": "ui_btn_confirm_on.png",
+   "size": [
+    160,
+    36
+   ]
+  },
+  "ui_result_banner_win.png": {
+   "img": "ui_result_banner_win.png",
+   "size": [
+    248,
+    52
+   ]
+  },
+  "ui_result_banner_lose.png": {
+   "img": "ui_result_banner_lose.png",
+   "size": [
+    248,
+    52
+   ]
+  },
+  "ui_result_banner_leave.png": {
+   "img": "ui_result_banner_leave.png",
+   "size": [
+    248,
+    52
+   ]
+  },
+  "ui_result_panel.png": {
+   "img": "ui_result_panel.png",
+   "size": [
+    252,
+    220
+   ]
+  },
+  "ui_result_icon_time.png": {
+   "img": "ui_result_icon_time.png",
+   "size": [
+    16,
+    16
+   ]
+  },
+  "ui_result_icon_level.png": {
+   "img": "ui_result_icon_level.png",
+   "size": [
+    16,
+    16
+   ]
+  },
+  "ui_result_icon_coin.png": {
+   "img": "ui_result_icon_coin.png",
+   "size": [
+    16,
+    16
+   ]
+  },
+  "ui_btn_again.png": {
+   "img": "ui_btn_again.png",
+   "size": [
+    180,
+    36
+   ]
+  },
+  "ui_btn_again_on.png": {
+   "img": "ui_btn_again_on.png",
+   "size": [
+    180,
+    36
+   ]
+  },
+  "ui_btn_menu.png": {
+   "img": "ui_btn_menu.png",
+   "size": [
+    180,
+    36
+   ]
+  },
+  "ui_btn_menu_on.png": {
+   "img": "ui_btn_menu_on.png",
+   "size": [
+    180,
+    36
+   ]
+  },
+  "ui_settings_panel.png": {
+   "img": "ui_settings_panel.png",
+   "size": [
+    220,
+    176
+   ]
+  },
+  "ui_toggle_on.png": {
+   "img": "ui_toggle_on.png",
+   "size": [
+    40,
+    18
+   ]
+  },
+  "ui_toggle_off.png": {
+   "img": "ui_toggle_off.png",
+   "size": [
+    40,
+    18
+   ]
+  },
+  "ui_slider_bg.png": {
+   "img": "ui_slider_bg.png",
+   "size": [
+    120,
+    12
+   ]
+  },
+  "ui_slider_fill.png": {
+   "img": "ui_slider_fill.png",
+   "size": [
+    48,
+    8
+   ]
+  },
+  "ui_slider_knob.png": {
+   "img": "ui_slider_knob.png",
+   "size": [
+    14,
+    14
+   ]
+  },
+  "ui_pause_mask.png": {
+   "img": "ui_pause_mask.png",
+   "size": [
+    320,
+    570
+   ]
+  }
+ }
+}

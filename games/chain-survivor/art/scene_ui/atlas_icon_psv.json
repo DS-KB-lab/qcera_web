@@ -1,0 +1,522 @@
+{
+ "frames": {
+  "icon_psv_might.png": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "might",
+   "kind": "passive",
+   "name_zh": "力量",
+   "placeholder": false
+  },
+  "icon_psv_haste.png": {
+   "frame": {
+    "x": 32,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "haste",
+   "kind": "passive",
+   "name_zh": "急速",
+   "placeholder": false
+  },
+  "icon_psv_magazine.png": {
+   "frame": {
+    "x": 64,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "magazine",
+   "kind": "passive",
+   "name_zh": "弹仓",
+   "placeholder": false
+  },
+  "icon_psv_area.png": {
+   "frame": {
+    "x": 96,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "area",
+   "kind": "passive",
+   "name_zh": "扩域",
+   "placeholder": false
+  },
+  "icon_psv_duration.png": {
+   "frame": {
+    "x": 128,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "duration",
+   "kind": "passive",
+   "name_zh": "持续",
+   "placeholder": false
+  },
+  "icon_psv_crit.png": {
+   "frame": {
+    "x": 160,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "crit",
+   "kind": "passive",
+   "name_zh": "暴击",
+   "placeholder": false
+  },
+  "icon_psv_armor.png": {
+   "frame": {
+    "x": 192,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "armor",
+   "kind": "passive",
+   "name_zh": "护甲",
+   "placeholder": false
+  },
+  "icon_psv_vigor.png": {
+   "frame": {
+    "x": 224,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "vigor",
+   "kind": "passive",
+   "name_zh": "体魄",
+   "placeholder": false
+  },
+  "icon_psv_swift.png": {
+   "frame": {
+    "x": 0,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "swift",
+   "kind": "passive",
+   "name_zh": "疾行",
+   "placeholder": false
+  },
+  "icon_psv_magnet.png": {
+   "frame": {
+    "x": 32,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "magnet",
+   "kind": "passive",
+   "name_zh": "磁石",
+   "placeholder": false
+  },
+  "icon_chain_heavy_chain.png": {
+   "frame": {
+    "x": 64,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "heavy_chain",
+   "kind": "chain",
+   "name_zh": "重链",
+   "placeholder": false
+  },
+  "icon_chain_shock_chain.png": {
+   "frame": {
+    "x": 96,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "shock_chain",
+   "kind": "chain",
+   "name_zh": "电链",
+   "placeholder": false
+  },
+  "icon_chain_fire_chain.png": {
+   "frame": {
+    "x": 128,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "fire_chain",
+   "kind": "chain",
+   "name_zh": "火链",
+   "placeholder": false
+  },
+  "icon_chain_ice_chain.png": {
+   "frame": {
+    "x": 160,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "ice_chain",
+   "kind": "chain",
+   "name_zh": "冰链",
+   "placeholder": false
+  },
+  "icon_chain_long_chain.png": {
+   "frame": {
+    "x": 192,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "long_chain",
+   "kind": "chain",
+   "name_zh": "加长链（3 级）",
+   "placeholder": false
+  },
+  "icon_chain_bond.png": {
+   "frame": {
+    "x": 224,
+    "y": 32,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "bond",
+   "kind": "chain",
+   "name_zh": "同心",
+   "placeholder": false
+  },
+  "icon_chain_full_draw.png": {
+   "frame": {
+    "x": 0,
+    "y": 64,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "full_draw",
+   "kind": "chain",
+   "name_zh": "满弦冲击",
+   "placeholder": false
+  },
+  "icon_chain_swap.png": {
+   "frame": {
+    "x": 32,
+    "y": 64,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "swap",
+   "kind": "chain",
+   "name_zh": "换位",
+   "placeholder": false
+  },
+  "icon_card_heal.png": {
+   "frame": {
+    "x": 64,
+    "y": 64,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "heal",
+   "kind": "card",
+   "name_zh": "回复",
+   "placeholder": false
+  },
+  "icon_card_gold.png": {
+   "frame": {
+    "x": 96,
+    "y": 64,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "gold",
+   "kind": "card",
+   "name_zh": "金币",
+   "placeholder": false
+  },
+  "icon_card_atk.png": {
+   "frame": {
+    "x": 128,
+    "y": 64,
+    "w": 32,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 32,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 32,
+    "h": 32
+   },
+   "id": "atk",
+   "kind": "card",
+   "name_zh": "本局攻击",
+   "placeholder": false
+  }
+ },
+ "meta": {
+  "image": "atlas_icon_psv.png",
+  "size": {
+   "w": 256,
+   "h": 96
+  },
+  "scale": "1",
+  "filter": "nearest",
+  "wrap": "clamp",
+  "mipmap": false,
+  "trimmed": false,
+  "source": "scene_ui/icons_psv（美术设计部已复核 2026-11-10）",
+  "format": "RGBA8888 palette50"
+ }
+}
